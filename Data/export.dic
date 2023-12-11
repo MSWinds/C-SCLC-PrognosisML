@@ -1,0 +1,56 @@
+[System]
+Output filename=C:\Users\yuyum\OneDrive\Documents\export.csv
+Matrix filename=Case Listing Session-1 Matrix-2
+Database name=Incidence - SEER Research Data, 17 Registries, Nov 2022 Sub (2000-2020) - Linked To County Attributes - Time Dependent (1990-2021) Income/Rurality, 1969-2021 Counties
+Title1=SEER Lung Cancer Data v3
+
+[Session Options]
+Type=Case Listing
+
+[Export Options]
+GZipped=false
+Variable format=labels
+File format=DOS/Windows
+Field delimiter=comma
+Missing character="NA"
+Fields with delimiter in quotes=true
+Remove thousands separators=true
+Variable names included=true
+Column Variables as Stats=false
+
+[Variables]
+Var1Name=Patient ID
+Var1DisplayType=Formatted
+Var2Name=Marital status at diagnosis
+Var2DisplayType=Formatted
+Var3Name=Age recode with <1 year olds
+Var3DisplayType=Formatted
+Var4Name=Sex
+Var4DisplayType=Formatted
+Var5Name=Race and origin recode (NHW, NHB, NHAIAN, NHAPI, Hispanic)
+Var5DisplayType=Formatted
+Var6Name=Primary Site - labeled
+Var6DisplayType=Formatted
+Var7Name=Derived EOD 2018 T (2018+)
+Var7DisplayType=Formatted
+Var8Name=Derived EOD 2018 N (2018+)
+Var8DisplayType=Formatted
+Var9Name=Derived EOD 2018 M (2018+)
+Var9DisplayType=Formatted
+Var10Name=Derived EOD 2018 Stage Group (2018+)
+Var10DisplayType=Formatted
+Var11Name=Histologic Type ICD-O-3
+Var11DisplayType=Formatted
+Var12Name=Median household income inflation adj to 2021
+Var12DisplayType=Formatted
+Var13Name=Grade Clinical (2018+)
+Var13DisplayType=Formatted
+Var14Name=SEER cause-specific death classification
+Var14DisplayType=Formatted
+Var15Name=SEER other cause of death classification
+Var15DisplayType=Formatted
+Var16Name=Survival months
+Var16DisplayType=Formatted
+Var17Name=Survival months flag
+Var17DisplayType=Formatted
+
