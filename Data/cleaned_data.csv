@@ -1,1275 +1,1045 @@
-Patient ID,Year of diagnosis,"Chemotherapy recode (yes, no/unk)",Radiation recode,Survival months,Age,Marital Status,Sex_is_male,Race,Surgery,T,N,M,Grouped Stage,Tumor Size
-840290,2004,Yes,0,8,70-74 years,Married,0,White,0,T2,N0,M1,IV,25
-960311,2004,Yes,0,53,65-69 years,Single,1,White,0,T3,N1,M0,IV,999
-9035323,2004,No/Unknown,0,6,55-59 years,Single (never married),0,Other,0,T4,N3,M1,IV,999
-9040147,2004,Yes,1,19,75-79 years,Married,0,Other,0,T1,N0,M0,I,30
-16128779,2004,Yes,0,14,65-69 years,Married,0,Other,0,T4,N3,M1,IV,999
-16143672,2004,Yes,0,22,80-84 years,Married,1,White,0,T1,N0,M0,I,20
-16160962,2004,Yes,1,21,55-59 years,Single,0,White,1,T2,N0,M0,I,50
-32742347,2004,Yes,1,21,60-64 years,Married,0,White,0,T4,N2,M0,III,30
-33506060,2004,No/Unknown,0,3,80-84 years,Single,1,White,0,T2,N0,M0,II,999
-34037829,2004,No/Unknown,0,14,75-79 years,Married,1,White,0,T4,N0,M0,III,16
-34173615,2004,Yes,0,7,70-74 years,Married,1,White,0,T4,N2,M0,III,20
-34175867,2004,Yes,1,3,75-79 years,Married,1,White,0,T4,N0,M0,III,999
-34197029,2004,No/Unknown,0,2,60-64 years,Unknown/Other,0,Black,0,T4,N2,M1,IV,50
-34212711,2004,No/Unknown,0,11,65-69 years,Single,1,White,0,T1,N2,M1,IV,991
-34253187,2004,No/Unknown,1,1,35-49 years,Single,1,White,0,T4,N2,M1,IV,65
-34256902,2004,No/Unknown,0,1,85+ years,Married,1,White,0,T4,N2,M0,III,999
-34258333,2004,Yes,1,43,70-74 years,Married,1,White,0,T4,N0,M1,IV,999
-34268289,2004,No/Unknown,0,10,60-64 years,Married,1,White,0,T2,N2,M0,III,130
-34277701,2004,Yes,1,21,70-74 years,Married,0,White,0,T1,N0,M0,I,26
-34305353,2004,No/Unknown,0,9,60-64 years,Single (never married),1,White,0,T2,N0,M0,II,20
-34351541,2004,Yes,1,8,70-74 years,Married,1,White,0,T1,N2,M1,IV,30
-34381991,2004,No/Unknown,1,0,60-64 years,Married,1,White,0,T2,N2,M1,IV,65
-10787179,2004,Yes,0,7,65-69 years,Married,1,Black,1,T1,N1,M0,II,23
-10800789,2004,Yes,0,0,75-79 years,Married,1,White,0,T2,N0,M1,IV,50
-20035265,2004,Yes,1,31,55-59 years,Married,1,White,1,T1,N1,M0,II,18
-5042526,2004,No/Unknown,1,7,85+ years,Married,1,White,0,T4,N2,M1,IV,50
-5152896,2004,No/Unknown,0,22,80-84 years,Single,0,White,0,T1,N1,M0,II,20
-24087297,2004,No/Unknown,0,4,80-84 years,Married,0,White,0,T4,N0,M1,IV,39
-46100946,2004,No/Unknown,1,13,70-74 years,Single,0,White,1,T1,N2,M0,III,30
-46108715,2004,No/Unknown,0,28,65-69 years,Married,1,White,0,T2,N0,M0,I,40
-46358849,2004,Yes,0,8,35-49 years,Single,1,White,0,T2,N2,M1,IV,30
-46360743,2004,Yes,1,28,50-54 years,Married,0,Black,0,T4,N0,M0,IV,135
-46362650,2004,Yes,1,4,70-74 years,Married,1,White,1,T4,N0,M1,IV,60
-46363333,2004,Yes,1,3,65-69 years,Single,0,White,0,T3,N2,M1,IV,83
-46370682,2004,Yes,1,18,50-54 years,Married,1,White,0,T4,N2,M0,III,60
-46371074,2004,Yes,1,35,55-59 years,Single,0,White,0,T2,N2,M0,III,40
-46377756,2004,No/Unknown,0,4,85+ years,Single,0,White,1,T3,N0,M0,II,999
-46389180,2004,No/Unknown,1,1,60-64 years,Married,0,White,0,T1,N1,M1,IV,10
-46393690,2004,Yes,0,14,60-64 years,Married,0,White,0,T2,N2,M1,IV,50
-46396467,2004,Yes,1,5,80-84 years,Married,1,White,1,T1,N2,M0,III,15
-46401687,2004,No/Unknown,0,6,75-79 years,Married,0,White,0,T4,N0,M1,IV,999
-5385781,2004,No/Unknown,0,0,75-79 years,Single,1,Black,0,T4,N0,M1,IV,30
-25855122,2004,Yes,1,6,55-59 years,Married,1,White,0,T2,N2,M1,IV,70
-26716911,2004,No/Unknown,0,2,80-84 years,Single,0,White,0,T2,N0,M0,II,50
-26719992,2004,No/Unknown,0,30,70-74 years,Single,0,White,1,T2,N2,M1,IV,30
-26724463,2004,No/Unknown,0,0,50-54 years,Married,1,White,0,T2,N2,M1,IV,999
-62012497,2004,No/Unknown,0,1,65-69 years,Married,1,White,0,T2,N2,M1,IV,40
-62010191,2004,Yes,1,97,35-49 years,Married,0,White,1,T2,N2,M0,III,40
-53263519,2004,No/Unknown,0,18,70-74 years,Single,1,Black,1,T2,N0,M0,I,40
-62204503,2004,Yes,1,11,55-59 years,Married,1,White,0,T1,N0,M1,IV,19
-62191007,2004,No/Unknown,0,0,70-74 years,Married,1,White,0,T4,N2,M1,IV,85
-62055106,2004,Yes,1,14,35-49 years,Single,0,White,1,T1,N2,M0,III,30
-62209395,2004,No/Unknown,0,22,65-69 years,Married,0,White,1,T1,N2,M0,III,25
-53021566,2004,No/Unknown,0,30,65-69 years,Married,1,White,1,T3,N0,M0,III,40
-49762248,2004,No/Unknown,1,2,60-64 years,Married,1,Black,0,T4,N0,M0,III,999
-49648848,2004,Yes,0,29,70-74 years,Unknown/Other,0,White,0,T1,N2,M1,IV,29
-62220708,2004,No/Unknown,1,4,80-84 years,Married,1,White,0,T3,N2,M0,III,40
-49647773,2004,No/Unknown,0,56,80-84 years,Single,1,White,1,T2,N0,M0,I,48
-49613636,2004,Yes,0,3,70-74 years,Single (never married),0,White,0,T1,N2,M1,IV,30
-49613628,2004,No/Unknown,0,19,70-74 years,Married,0,White,0,T4,N2,M1,IV,999
-62236583,2004,Yes,0,10,70-74 years,Married,1,White,0,T4,N2,M0,III,999
-49613599,2004,Yes,0,11,70-74 years,Married,1,White,0,T4,N2,M1,IV,999
-49390953,2004,No/Unknown,1,11,75-79 years,Single,1,White,0,T4,N2,M0,III,35
-49385134,2004,No/Unknown,0,4,75-79 years,Single,1,White,0,T1,N2,M1,IV,30
-49245754,2004,Yes,1,4,75-79 years,Married,1,White,0,T3,N2,M1,IV,64
-54224950,2004,No/Unknown,1,77,60-64 years,Married,1,White,0,T2,N0,M0,II,999
-54221117,2004,Yes,1,17,60-64 years,Married,0,White,0,T2,N2,M0,III,29
-54218118,2004,Yes,0,12,65-69 years,Married,0,White,0,T4,N0,M0,III,60
-54207748,2004,No/Unknown,0,57,75-79 years,Unknown/Other,0,White,0,T2,N0,M0,I,45
-54199231,2004,No/Unknown,1,3,75-79 years,Single,0,White,0,T4,N2,M0,III,999
-54198252,2004,Yes,1,21,60-64 years,Married,1,White,0,T4,N3,M0,III,50
-54188240,2004,Yes,0,16,65-69 years,Single,1,White,1,T2,N0,M0,I,67
-54181816,2004,Yes,0,7,70-74 years,Single,0,Black,1,T2,N2,M0,III,37
-62297637,2004,Yes,1,19,35-49 years,Married,0,White,1,T1,N0,M0,I,15
-54181427,2004,No/Unknown,1,0,65-69 years,Single,1,Black,0,T4,N1,M0,III,999
-62238079,2004,No/Unknown,0,1,70-74 years,Single,1,White,0,T1,N0,M1,IV,999
-62227187,2004,No/Unknown,0,0,75-79 years,Married,1,White,0,T2,N3,M1,IV,57
-62223320,2004,Yes,1,39,50-54 years,Married,1,White,0,T4,N1,M1,IV,999
-62221052,2004,No/Unknown,0,1,75-79 years,Single,1,White,0,T2,N2,M1,IV,60
-62220596,2004,Yes,0,5,60-64 years,Single,0,Black,0,T1,N0,M0,I,23
-62220245,2004,Yes,1,9,50-54 years,Married,0,White,1,T2,N2,M1,IV,20
-54328301,2005,Yes,1,32,50-54 years,Single,0,White,1,T4,N2,M0,III,55
-62048647,2005,No/Unknown,0,1,65-69 years,Married,0,White,0,T2,N2,M1,IV,999
-54325128,2005,Yes,0,13,80-84 years,Married,0,White,0,T4,N2,M1,IV,999
-54324797,2005,Yes,1,6,70-74 years,Single (never married),0,Black,0,T3,N0,M0,II,55
-62301536,2005,Yes,1,5,55-59 years,Married,1,White,0,T4,N2,M1,IV,25
-54309932,2005,Yes,0,19,60-64 years,Single (never married),0,White,1,T2,N0,M0,I,24
-54296407,2005,No/Unknown,0,12,75-79 years,Married,1,White,0,T4,N0,M0,IV,55
-54287060,2005,Yes,0,22,65-69 years,Married,0,White,1,T1,N0,M0,I,10
-54264188,2005,Yes,1,17,55-59 years,Married,1,White,1,T1,N2,M0,III,20
-54308969,2005,Yes,1,9,60-64 years,Single,0,White,0,T2,N3,M0,III,5
-54264135,2005,No/Unknown,0,0,70-74 years,Married,1,White,0,T4,N2,M1,IV,16
-54413084,2005,Yes,0,46,55-59 years,Married,1,White,0,T2,N2,M1,IV,35
-62327481,2005,No/Unknown,0,0,70-74 years,Married,1,White,0,T2,N0,M0,II,999
-53786224,2005,No/Unknown,0,5,80-84 years,Married,1,White,0,T2,N1,M1,IV,55
-14039766,2005,No/Unknown,0,12,75-79 years,Single,0,White,0,T2,N0,M0,I,40
-5419761,2005,Yes,0,29,60-64 years,Single (never married),0,White,0,T2,N0,M1,IV,32
-16003261,2005,Yes,0,8,80-84 years,Married,1,White,0,T4,N2,M0,III,999
-16159919,2005,Yes,1,9,65-69 years,Married,1,White,0,T2,N0,M0,II,60
-16159571,2005,Yes,1,27,65-69 years,Married,0,White,0,T1,N0,M0,I,999
-16173298,2005,No/Unknown,0,12,70-74 years,Married,1,White,1,T2,N1,M0,II,40
-16185829,2005,No/Unknown,0,7,55-59 years,Married,1,White,0,T2,N2,M1,IV,35
-16183527,2005,Yes,1,89,80-84 years,Married,0,White,1,T2,N0,M0,I,39
-34255714,2005,Yes,1,17,60-64 years,Married,1,White,0,T4,N2,M0,III,40
-34304818,2005,Yes,0,30,75-79 years,Married,1,White,0,T3,N3,M1,IV,42
-34412801,2005,Yes,1,13,60-64 years,Married,0,White,0,T4,N2,M0,III,999
-34469436,2005,No/Unknown,0,0,80-84 years,Married,1,White,0,T4,N0,M1,IV,999
-34495787,2005,No/Unknown,0,19,80-84 years,Single,1,White,1,T2,N0,M0,II,15
-34506190,2005,No/Unknown,1,1,65-69 years,Married,1,White,0,T4,N2,M1,IV,999
-967743,2005,Yes,0,19,65-69 years,Married,0,Other,1,T4,N3,M1,IV,40
-10819570,2005,Yes,1,19,70-74 years,Single,0,White,0,T4,N0,M1,IV,50
-10842185,2005,Yes,0,20,75-79 years,Single,0,White,0,T2,N2,M1,IV,26
-10845368,2005,No/Unknown,0,0,80-84 years,Married,1,White,0,T2,N0,M0,I,40
-4985110,2005,Yes,1,3,70-74 years,Single,0,White,0,T4,N0,M1,IV,45
-20047656,2005,No/Unknown,0,3,80-84 years,Married,1,White,0,T4,N0,M0,III,50
-995928,2005,No/Unknown,1,12,75-79 years,Single,0,White,0,T2,N0,M0,II,30
-21908802,2005,Yes,1,4,75-79 years,Single,1,White,0,T4,N2,M1,IV,49
-21914823,2005,No/Unknown,0,0,65-69 years,Married,0,White,1,T2,N2,M0,III,32
-45998476,2005,Yes,1,12,60-64 years,Married,0,White,1,T3,N1,M0,III,80
-46149740,2005,No/Unknown,0,2,65-69 years,Married,1,White,0,T4,N2,M1,IV,55
-24203387,2005,Yes,0,20,75-79 years,Married,0,White,1,T2,N0,M0,I,56
-46402088,2005,Yes,1,53,50-54 years,Married,1,White,1,T1,N2,M0,III,22
-46405739,2005,No/Unknown,0,8,80-84 years,Single,0,White,0,T2,N1,M1,IV,48
-46405767,2005,Yes,0,7,65-69 years,Married,1,White,0,T4,N2,M1,IV,24
-46407764,2005,Yes,0,17,55-59 years,Unknown/Other,0,White,1,T2,N0,M0,I,15
-46426531,2005,Yes,1,33,50-54 years,Married,1,Black,1,T1,N0,M1,IV,22
-46429077,2005,Yes,1,16,70-74 years,Married,0,White,1,T4,N2,M0,III,20
-46429896,2005,Yes,0,18,50-54 years,Single,1,White,0,T4,N2,M0,III,140
-46432546,2005,Yes,1,7,75-79 years,Single,1,White,0,T2,N2,M0,III,54
-46436656,2005,Yes,1,4,60-64 years,Single,0,White,0,T2,N3,M0,III,34
-46437269,2005,Yes,1,9,60-64 years,Single,1,White,0,T4,N2,M1,IV,50
-49401156,2005,Yes,0,7,55-59 years,Single (never married),0,White,1,T2,N2,M1,IV,80
-49403734,2005,No/Unknown,1,8,55-59 years,Married,1,Black,0,T2,N0,M1,IV,82
-46438938,2005,No/Unknown,0,0,65-69 years,Married,1,White,0,T4,N2,M1,IV,35
-46440124,2005,Yes,1,2,50-54 years,Single (never married),1,White,0,T2,N1,M1,IV,40
-46446749,2005,Yes,0,15,25-29 years,Single (never married),0,Black,1,T2,N0,M0,II,70
-46447046,2005,No/Unknown,0,0,75-79 years,Married,1,Black,0,T2,N3,M1,IV,50
-49505001,2005,Yes,1,49,35-49 years,Single,0,Black,1,T2,N2,M0,III,35
-5399039,2005,Yes,0,1,80-84 years,Unknown/Other,1,White,0,T4,N0,M1,IV,60
-5403876,2005,No/Unknown,0,6,65-69 years,Married,1,White,0,T2,N0,M1,IV,999
-5410168,2005,Yes,0,9,70-74 years,Married,1,White,0,T2,N2,M0,III,80
-26769463,2005,No/Unknown,0,0,70-74 years,Married,1,Black,0,T2,N3,M1,IV,80
-26770525,2005,Yes,1,25,70-74 years,Married,0,Other,0,T2,N2,M0,III,38
-26802911,2005,No/Unknown,0,0,60-64 years,Single (never married),1,White,0,T1,N2,M1,IV,16
-26818888,2005,No/Unknown,0,1,70-74 years,Unknown/Other,0,White,0,T1,N2,M0,III,10
-26825124,2005,Yes,1,7,55-59 years,Single,1,White,0,T4,N2,M1,IV,80
-26837110,2005,No/Unknown,0,2,70-74 years,Married,1,White,0,T4,N2,M1,IV,60
-49665663,2005,No/Unknown,0,12,85+ years,Single,0,White,0,T3,N2,M0,III,999
-5416178,2005,Yes,0,23,75-79 years,Married,1,White,0,T4,N0,M1,IV,40
-49720551,2006,Yes,1,17,60-64 years,Single (never married),1,Black,0,T2,N0,M0,I,60
-49725466,2006,No/Unknown,1,1,70-74 years,Single,1,Black,0,T2,N3,M1,IV,90
-5439091,2006,Yes,1,28,80-84 years,Married,1,White,0,T2,N1,M0,II,62
-49765598,2006,Yes,1,56,35-49 years,Single,0,Black,0,T4,N1,M0,III,40
-49775091,2006,Yes,1,25,70-74 years,Single,0,Black,0,T2,N2,M0,III,70
-1020848,2006,No/Unknown,0,1,60-64 years,Single,0,White,0,T4,N0,M1,IV,6
-5444575,2006,Yes,1,2,35-49 years,Married,1,White,0,T2,N2,M1,IV,85
-14059974,2006,No/Unknown,0,0,70-74 years,Single (never married),0,White,0,T4,N3,M1,IV,999
-5456142,2006,No/Unknown,0,37,60-64 years,Single,1,White,1,T2,N0,M0,I,39
-1021619,2006,No/Unknown,0,0,70-74 years,Married,0,White,0,T4,N3,M1,IV,999
-9060103,2006,Yes,1,5,70-74 years,Married,1,White,1,T2,N3,M0,III,65
-16149250,2006,No/Unknown,0,0,85+ years,Single,1,White,0,T4,N3,M1,IV,999
-16198895,2006,No/Unknown,0,1,85+ years,Married,1,White,0,T4,N0,M0,IV,80
-16207851,2006,Yes,1,8,35-49 years,Married,0,White,1,T2,N2,M1,IV,50
-16229401,2006,No/Unknown,1,1,70-74 years,Married,1,White,0,T2,N1,M1,IV,33
-16237979,2006,Yes,1,7,75-79 years,Single,1,White,0,T2,N1,M0,II,999
-34506264,2006,Yes,1,6,75-79 years,Single,0,White,0,T2,N1,M0,II,30
-34520209,2006,Yes,1,8,65-69 years,Married,1,White,0,T4,N1,M0,IV,26
-34533627,2006,No/Unknown,0,2,85+ years,Single,0,White,0,T4,N0,M0,III,999
-34548930,2006,No/Unknown,0,0,65-69 years,Single (never married),1,White,0,T2,N2,M1,IV,71
-34553885,2006,Yes,1,1,65-69 years,Married,1,White,0,T4,N2,M1,IV,90
-34565511,2006,Yes,1,9,70-74 years,Married,1,White,1,T2,N2,M1,IV,60
-34567400,2006,Yes,1,9,55-59 years,Married,1,White,0,T2,N0,M1,IV,999
-34574815,2006,Yes,0,21,35-49 years,Married,0,White,1,T3,N2,M1,IV,70
-34585400,2006,No/Unknown,0,25,70-74 years,Single,0,White,1,T1,N0,M0,I,9
-34588457,2006,Yes,1,10,75-79 years,Married,1,White,0,T4,N2,M0,III,40
-34602700,2006,No/Unknown,0,4,75-79 years,Married,1,Other,0,T3,N0,M0,III,20
-34613571,2006,No/Unknown,0,0,65-69 years,Single,0,White,1,T2,N1,M0,II,23
-34677211,2006,Yes,0,4,75-79 years,Single,0,White,0,T4,N2,M0,III,30
-34811089,2006,Yes,1,1,70-74 years,Married,1,White,0,T4,N3,M1,IV,121
-10876224,2006,Yes,1,7,65-69 years,Married,1,White,0,T4,N0,M1,IV,60
-10889990,2006,No/Unknown,1,16,70-74 years,Married,0,White,0,T3,N0,M0,II,38
-20060104,2006,No/Unknown,0,1,65-69 years,Married,1,White,0,T4,N2,M1,IV,999
-20128053,2006,No/Unknown,0,16,65-69 years,Married,0,White,1,T1,N0,M0,I,25
-21916457,2006,Yes,1,6,55-59 years,Married,0,Black,0,T4,N2,M0,III,40
-21965109,2006,Yes,0,20,50-54 years,Married,1,Black,0,T2,N0,M1,IV,999
-24219213,2006,Yes,1,39,75-79 years,Married,0,White,0,T4,N2,M0,III,39
-993921,2006,No/Unknown,1,0,65-69 years,Married,1,White,0,T4,N2,M1,IV,140
-24230846,2006,Yes,1,28,65-69 years,Married,1,White,1,T2,N0,M0,I,46
-46408932,2006,No/Unknown,0,1,80-84 years,Single,1,White,0,T4,N0,M1,IV,12
-46444589,2006,Yes,1,9,65-69 years,Single (never married),0,White,0,T4,N2,M1,IV,999
-46456530,2006,No/Unknown,0,1,75-79 years,Married,1,White,0,T4,N2,M1,IV,999
-46458036,2006,No/Unknown,0,1,75-79 years,Single (never married),1,White,0,T2,N2,M0,III,55
-46460871,2006,No/Unknown,0,1,50-54 years,Single (never married),1,White,0,T4,N2,M1,IV,999
-46463300,2006,Yes,1,6,80-84 years,Married,0,White,0,T4,N2,M1,IV,46
-46463930,2006,Yes,0,12,70-74 years,Single,0,White,0,T4,N2,M1,IV,109
-49415377,2006,Yes,0,21,70-74 years,Married,0,White,1,T4,N2,M0,III,65
-49414241,2006,Yes,1,12,80-84 years,Married,0,White,0,T2,N2,M0,III,61
-46476607,2006,Yes,1,3,65-69 years,Single,0,White,1,T2,N2,M0,III,994
-46476642,2006,No/Unknown,0,0,80-84 years,Single,1,White,0,T4,N3,M0,III,999
-46477840,2006,Yes,0,3,70-74 years,Single (never married),1,White,0,T2,N0,M1,IV,999
-46481735,2006,No/Unknown,0,1,75-79 years,Married,1,White,0,T4,N2,M1,IV,999
-49514161,2006,Yes,1,91,50-54 years,Single,0,White,0,T3,N0,M0,III,75
-26250515,2006,Yes,0,2,70-74 years,Married,0,Other,1,T3,N1,M0,II,999
-26373020,2006,Yes,0,3,80-84 years,Married,1,Black,0,T2,N0,M0,I,40
-1004804,2006,Yes,0,2,50-54 years,Single (never married),1,White,0,T2,N2,M0,III,50
-26871049,2006,No/Unknown,0,3,75-79 years,Married,0,White,0,T1,N0,M0,I,27
-26877371,2006,No/Unknown,1,1,60-64 years,Single,0,White,0,T2,N2,M1,IV,40
-62313404,2006,No/Unknown,0,15,75-79 years,Married,0,White,0,T4,N0,M0,III,16
-62062867,2006,Yes,1,10,70-74 years,Single,0,White,1,T1,N2,M0,III,10
-54373953,2006,No/Unknown,1,17,80-84 years,Single,0,White,0,T2,N0,M0,I,39
-53023039,2006,Yes,0,41,55-59 years,Married,1,White,1,T1,N0,M0,I,11
-54383502,2006,Yes,0,9,35-49 years,Single (never married),0,Black,0,T2,N0,M1,IV,42
-53120575,2006,No/Unknown,0,41,65-69 years,Single,0,White,1,T1,N1,M0,II,19
-53696358,2006,Yes,1,11,70-74 years,Married,1,White,1,T1,N2,M0,IV,12
-54368576,2006,Yes,1,10,75-79 years,Married,1,White,0,T2,N3,M0,III,18
-62300200,2006,Yes,0,12,65-69 years,Single,1,White,0,T3,N2,M1,IV,999
-54386087,2006,No/Unknown,0,0,80-84 years,Married,0,White,0,T4,N2,M1,IV,999
-54380102,2006,Yes,0,14,70-74 years,Married,1,White,0,T1,N2,M1,IV,12
-53798215,2006,No/Unknown,1,3,70-74 years,Single,0,White,0,T3,N2,M1,IV,999
-54417366,2006,Yes,0,3,55-59 years,Single (never married),1,White,0,T4,N2,M1,IV,10
-62310436,2006,Yes,0,18,75-79 years,Unknown/Other,0,White,0,T4,N0,M0,III,57
-62310248,2006,Yes,0,5,70-74 years,Married,1,White,0,T4,N3,M1,IV,90
-62360471,2006,Yes,1,22,35-49 years,Single,0,Black,1,T4,N2,M1,IV,999
-62047304,2006,Yes,1,20,70-74 years,Single,0,White,0,T4,N2,M0,III,125
-54408337,2006,Yes,1,5,75-79 years,Single,0,Black,1,T1,N2,M1,IV,15
-54408059,2006,No/Unknown,1,1,70-74 years,Married,1,White,0,T4,N2,M1,IV,90
-62391553,2006,No/Unknown,0,7,50-54 years,Married,1,White,1,T4,N2,M1,IV,25
-62315325,2006,Yes,0,14,70-74 years,Single,1,White,1,T2,N2,M0,III,23
-62358131,2006,Yes,0,11,70-74 years,Married,1,White,0,T4,N2,M1,IV,90
-62327854,2006,No/Unknown,0,5,70-74 years,Married,0,White,0,T4,N0,M0,IV,999
-54398245,2006,Yes,1,49,70-74 years,Married,1,White,0,T4,N2,M1,IV,18
-62391561,2006,No/Unknown,0,4,75-79 years,Married,1,White,1,T2,N2,M0,III,90
-54465641,2007,Yes,1,13,60-64 years,Married,0,White,0,T2,N0,M1,IV,78
-54606783,2007,Yes,0,21,75-79 years,Married,1,White,1,T1,N1,M0,II,14
-54475404,2007,No/Unknown,0,6,60-64 years,Single (never married),1,White,0,T2,N3,M0,III,62
-54489116,2007,Yes,0,44,60-64 years,Married,1,White,1,T2,N0,M0,I,32
-54497828,2007,Yes,0,96,35-49 years,Single (never married),1,Black,0,T2,N1,M1,IV,60
-62053002,2007,No/Unknown,0,14,75-79 years,Single,0,Black,0,T4,N2,M1,IV,62
-54541378,2007,Yes,1,11,35-49 years,Married,1,White,0,T4,N0,M0,III,999
-62042977,2007,No/Unknown,1,7,85+ years,Single,1,White,0,T2,N3,M0,III,42
-54482492,2007,No/Unknown,0,78,80-84 years,Married,1,White,1,T1,N0,M0,I,7
-54475178,2007,Yes,1,7,60-64 years,Married,1,White,0,T1,N0,M1,IV,17
-54542217,2007,Yes,1,16,60-64 years,Single,0,White,1,T1,N2,M0,III,24
-62440406,2007,Yes,1,9,55-59 years,Married,1,Black,0,T4,N0,M0,III,106
-54465688,2007,Yes,0,7,70-74 years,Married,0,White,0,T1,N2,M0,III,20
-54526320,2007,No/Unknown,1,10,50-54 years,Single,0,White,0,T2,N2,M0,III,44
-54457730,2007,No/Unknown,0,20,80-84 years,Married,1,White,0,T4,N1,M1,IV,999
-54619840,2007,No/Unknown,0,0,55-59 years,Single (never married),1,White,0,T4,N1,M1,IV,50
-54523295,2007,No/Unknown,1,11,30-34 years,Single (never married),0,Black,0,T2,N0,M0,II,999
-62349706,2007,Yes,1,17,50-54 years,Single,1,Black,0,T4,N2,M1,IV,70
-54516404,2007,Yes,0,21,60-64 years,Married,0,White,0,T4,N0,M1,IV,22
-54501212,2007,Yes,1,22,75-79 years,Single,0,White,0,T2,N0,M0,I,41
-62357244,2007,No/Unknown,1,1,50-54 years,Married,1,White,0,T4,N2,M1,IV,64
-54533774,2007,Yes,1,44,35-49 years,Married,0,White,1,T2,N0,M1,IV,60
-62423616,2007,Yes,0,13,50-54 years,Married,0,White,0,T2,N2,M1,IV,58
-49777148,2007,No/Unknown,0,76,70-74 years,Married,0,White,1,T1,N0,M0,I,14
-49775121,2007,No/Unknown,0,15,70-74 years,Single,1,White,0,T2,N0,M0,I,80
-226863,2007,No/Unknown,0,1,80-84 years,Single,0,White,0,T2,N1,M1,IV,29
-5472134,2007,No/Unknown,0,66,85+ years,Single,0,White,1,T2,N0,M0,I,45
-5474941,2007,No/Unknown,0,4,80-84 years,Unknown/Other,1,White,1,T1,N0,M0,I,25
-15966918,2007,Yes,1,4,70-74 years,Married,1,White,1,T4,N2,M0,III,40
-9072389,2007,Yes,1,24,60-64 years,Married,1,White,1,T1,N3,M0,III,1
-32306977,2007,Yes,1,31,70-74 years,Married,0,White,0,T3,N0,M0,II,999
-5492224,2007,No/Unknown,0,18,80-84 years,Married,1,White,1,T1,N0,M0,I,29
-16227338,2007,Yes,0,18,65-69 years,Married,0,White,1,T3,N0,M0,II,12
-34179731,2007,No/Unknown,0,0,85+ years,Single,0,White,0,T4,N2,M1,IV,999
-16246319,2007,No/Unknown,0,5,80-84 years,Single,1,White,0,T2,N0,M0,II,40
-16238231,2007,Yes,0,3,70-74 years,Single,0,White,1,T4,N2,M0,III,30
-16271988,2007,Yes,1,9,55-59 years,Married,1,White,0,T4,N2,M1,IV,80
-34645735,2007,Yes,0,11,35-49 years,Married,0,White,0,T2,N2,M1,IV,73
-34676070,2007,Yes,1,6,75-79 years,Married,0,White,1,T1,N2,M1,IV,10
-34694247,2007,Yes,0,14,80-84 years,Single,1,White,0,T1,N1,M0,II,27
-34716747,2007,Yes,1,8,60-64 years,Single,1,White,1,T4,N3,M1,IV,18
-34721967,2007,Yes,0,8,60-64 years,Married,1,White,0,T2,N2,M1,IV,90
-34722697,2007,Yes,0,9,75-79 years,Married,1,White,0,T4,N3,M1,IV,80
-53365559,2007,Yes,0,1,75-79 years,Married,0,White,0,T4,N3,M1,IV,126
-34765114,2007,Yes,1,102,60-64 years,Married,0,White,1,T1,N2,M0,III,20
-34785288,2007,Yes,0,10,75-79 years,Married,1,White,0,T4,N2,M0,III,50
-34798076,2007,Yes,0,4,80-84 years,Single,1,White,0,T2,N2,M0,III,39
-34767019,2007,No/Unknown,0,0,60-64 years,Married,1,White,0,T4,N2,M1,IV,999
-10889824,2007,Yes,1,139,35-49 years,Single,0,White,0,T2,N2,M0,III,999
-10893055,2007,Yes,1,53,75-79 years,Married,0,White,0,T2,N3,M0,III,45
-10910568,2007,Yes,1,29,80-84 years,Married,1,White,1,T2,N2,M0,III,30
-10911224,2007,Yes,1,5,60-64 years,Married,1,White,0,T2,N0,M1,IV,10
-10911263,2007,No/Unknown,0,12,70-74 years,Single,1,White,1,T3,N1,M0,III,65
-10916900,2007,Yes,1,8,75-79 years,Single (never married),1,White,0,T2,N2,M0,III,67
-20121839,2007,Yes,1,4,75-79 years,Married,1,White,0,T1,N2,M1,IV,9
-10919045,2007,No/Unknown,1,1,55-59 years,Married,1,White,0,T2,N2,M1,IV,999
-10931551,2007,Yes,1,11,50-54 years,Married,1,White,0,T2,N3,M0,III,999
-20141343,2007,No/Unknown,0,8,60-64 years,Married,1,White,1,T2,N2,M0,III,41
-21737787,2007,Yes,1,11,65-69 years,Married,1,White,1,T4,N2,M1,IV,44
-54112234,2007,No/Unknown,0,2,70-74 years,Married,0,White,1,T3,N0,M0,II,28
-21838308,2007,Yes,1,13,60-64 years,Single (never married),0,White,0,T2,N0,M1,IV,70
-24090748,2007,Yes,0,8,70-74 years,Single,0,White,0,T1,N2,M0,III,30
-24233721,2007,No/Unknown,1,5,60-64 years,Single (never married),1,Black,0,T1,N0,M0,I,20
-49515519,2007,Yes,1,2,50-54 years,Single (never married),0,White,0,T2,N2,M1,IV,60
-46455352,2007,Yes,0,27,60-64 years,Married,0,White,1,T2,N2,M0,III,35
-46491870,2007,No/Unknown,1,0,70-74 years,Married,0,White,0,T2,N2,M1,IV,63
-46493683,2007,Yes,1,8,60-64 years,Married,1,White,0,T4,N0,M0,III,999
-46494164,2007,Yes,1,7,50-54 years,Married,0,White,0,T4,N2,M1,IV,59
-46500577,2007,Yes,1,3,35-49 years,Married,1,White,0,T2,N2,M1,IV,120
-46504753,2007,No/Unknown,1,0,55-59 years,Married,1,White,0,T2,N2,M1,IV,60
-46506606,2007,Yes,0,4,85+ years,Married,1,White,0,T4,N2,M1,IV,28
-46511634,2007,Yes,1,6,55-59 years,Married,0,White,0,T4,N2,M1,IV,40
-46511834,2007,No/Unknown,0,7,65-69 years,Married,1,White,1,T3,N2,M0,IV,60
-46515884,2007,Yes,0,11,35-49 years,Married,1,Black,0,T4,N2,M1,IV,999
-46517314,2007,Yes,1,11,35-49 years,Married,0,White,0,T4,N2,M1,IV,70
-26454246,2007,Yes,1,24,65-69 years,Single,1,White,1,T1,N0,M0,I,20
-46517962,2007,No/Unknown,0,0,70-74 years,Unknown/Other,0,White,1,T4,N2,M0,III,999
-46519956,2007,No/Unknown,0,119,75-79 years,Single,0,White,1,T2,N0,M0,I,40
-46523964,2007,Yes,0,0,70-74 years,Single,1,White,0,T2,N2,M0,III,47
-46525256,2007,Yes,0,13,75-79 years,Married,1,White,0,T4,N2,M1,IV,67
-46525390,2007,Yes,1,79,50-54 years,Married,1,White,0,T4,N2,M0,III,57
-46527576,2007,Yes,0,10,70-74 years,Married,1,White,0,T4,N2,M0,III,999
-46527910,2007,No/Unknown,1,2,50-54 years,Single (never married),1,White,0,T4,N0,M1,IV,59
-46531744,2007,Yes,1,1,70-74 years,Married,0,White,0,T2,N2,M0,III,54
-46533450,2007,No/Unknown,0,0,70-74 years,Married,1,White,0,T4,N2,M1,IV,999
-46541043,2007,No/Unknown,0,3,65-69 years,Unknown/Other,1,White,1,T1,N0,M0,I,15
-46569354,2007,Yes,1,11,65-69 years,Married,1,White,0,T2,N2,M1,IV,102
-49589622,2007,Yes,0,0,80-84 years,Single,0,White,0,T4,N2,M0,III,53
-26858868,2007,Yes,1,27,70-74 years,Single (never married),1,White,1,T1,N0,M0,I,15
-26940200,2007,Yes,1,74,65-69 years,Married,0,White,0,T1,N2,M0,III,10
-26941762,2007,Yes,0,7,55-59 years,Unknown/Other,1,Black,1,T4,N2,M1,IV,52
-26961247,2007,No/Unknown,0,0,60-64 years,Single,0,Black,0,T4,N2,M1,IV,999
-26965206,2007,Yes,1,45,60-64 years,Married,1,White,0,T2,N0,M1,IV,40
-26978041,2007,Yes,1,7,50-54 years,Married,1,Other,0,T4,N2,M1,IV,70
-27009550,2008,No/Unknown,0,1,50-54 years,Married,1,White,0,T4,N1,M1,IV,999
-54474892,2008,Yes,0,14,80-84 years,Married,1,White,1,T2,N1,M1,IV,25
-27056301,2008,Yes,1,14,50-54 years,Married,0,White,1,T2,N1,M0,III,52
-49782915,2008,No/Unknown,1,7,70-74 years,Single,0,White,0,T4,N2,M0,III,999
-14093558,2008,No/Unknown,0,0,65-69 years,Married,0,White,0,T4,N3,M1,IV,999
-54496607,2008,No/Unknown,0,7,80-84 years,Married,1,White,1,T2,N0,M0,I,24
-14101744,2008,Yes,0,7,75-79 years,Single,0,White,0,T2,N0,M1,IV,41
-49783616,2008,Yes,0,6,65-69 years,Married,1,White,0,T4,N2,M1,IV,90
-49810607,2008,Yes,1,13,80-84 years,Single,0,Black,0,T2,N0,M1,IV,84
-16016070,2008,Yes,1,1,65-69 years,Married,1,White,0,T4,N2,M1,IV,999
-31967754,2008,Yes,1,8,65-69 years,Single,0,White,1,T2,N0,M1,IV,35
-49803342,2008,No/Unknown,0,0,60-64 years,Single,0,White,1,T2,N0,M0,I,40
-54536896,2008,No/Unknown,0,1,70-74 years,Single,1,White,0,T2,N2,M0,III,59
-54538917,2008,No/Unknown,0,12,65-69 years,Married,0,White,1,T1,N1,M0,II,9
-9090563,2008,Yes,0,13,75-79 years,Married,1,White,0,T2,N2,M0,III,70
-32647972,2008,No/Unknown,0,1,65-69 years,Married,1,White,0,T4,N2,M0,III,22
-54548202,2008,No/Unknown,0,31,75-79 years,Married,0,White,1,T1,N0,M1,IV,20
-54556944,2008,No/Unknown,0,16,70-74 years,Married,1,White,0,T2,N0,M0,I,15
-54578467,2008,No/Unknown,0,1,35-49 years,Single (never married),1,White,1,T3,N2,M1,IV,80
-54581661,2008,Yes,1,8,50-54 years,Married,1,White,0,T1,N0,M1,IV,7
-5511314,2008,Yes,0,4,75-79 years,Married,0,White,0,T4,N0,M1,IV,80
-54594311,2008,Yes,0,7,65-69 years,Married,1,White,0,T2,N2,M0,III,28
-54600156,2008,Yes,1,24,60-64 years,Single,0,White,1,T2,N2,M0,III,15
-54600515,2008,Yes,0,7,35-49 years,Single (never married),0,White,0,T4,N3,M1,IV,86
-32991097,2008,No/Unknown,0,1,65-69 years,Married,0,White,0,T4,N3,M1,IV,999
-54609691,2008,Yes,1,7,65-69 years,Single,0,White,0,T1,N2,M0,III,15
-54615658,2008,Yes,0,21,70-74 years,Single,1,White,0,T4,N0,M0,III,22
-33986878,2008,No/Unknown,0,0,80-84 years,Single (never married),1,White,0,T4,N1,M1,IV,25
-5520618,2008,Yes,1,2,70-74 years,Married,1,White,0,T4,N2,M1,IV,121
-5541292,2008,Yes,0,16,65-69 years,Single,0,White,0,T2,N3,M1,IV,999
-10515887,2008,No/Unknown,0,13,75-79 years,Married,1,White,0,T2,N0,M0,II,999
-1096881,2008,Yes,1,12,50-54 years,Single (never married),1,Black,0,T4,N2,M1,IV,39
-34818904,2008,No/Unknown,0,7,55-59 years,Single,1,White,0,T4,N1,M0,III,15
-34841305,2008,Yes,1,9,80-84 years,Single,1,White,0,T4,N2,M1,IV,37
-34845059,2008,No/Unknown,0,5,80-84 years,Married,1,White,0,T2,N0,M0,I,55
-34863687,2008,No/Unknown,0,1,55-59 years,Married,1,White,0,T2,N2,M1,IV,90
-34887276,2008,Yes,1,41,50-54 years,Married,0,White,0,T4,N2,M0,III,40
-34902053,2008,No/Unknown,0,0,75-79 years,Married,1,White,0,T2,N2,M1,IV,999
-34904867,2008,Yes,1,24,70-74 years,Single (never married),0,White,0,T4,N2,M0,III,999
-34910007,2008,Yes,0,5,80-84 years,Married,1,White,0,T4,N2,M0,III,999
-34925189,2008,Yes,1,4,50-54 years,Married,0,White,0,T4,N2,M1,IV,999
-34963383,2008,Yes,0,15,65-69 years,Married,1,White,0,T2,N2,M0,III,47
-35049722,2008,No/Unknown,1,1,65-69 years,Married,1,Other,0,T4,N3,M1,IV,70
-1107360,2008,Yes,1,11,55-59 years,Married,0,Black,0,T2,N0,M1,IV,36
-10887437,2008,Yes,1,8,70-74 years,Married,1,Black,1,T2,N1,M0,II,33
-20154762,2008,Yes,1,4,65-69 years,Single (never married),1,White,0,T2,N2,M1,IV,994
-10946190,2008,No/Unknown,0,0,85+ years,Single,1,White,0,T4,N2,M0,III,999
-10951690,2008,Yes,1,21,55-59 years,Single,0,White,1,T4,N2,M0,III,999
-10954877,2008,No/Unknown,0,130,50-54 years,Single (never married),1,Black,1,T2,N0,M0,I,44
-10934120,2008,No/Unknown,0,0,75-79 years,Married,0,White,0,T4,N2,M1,IV,30
-21963240,2008,Yes,0,3,80-84 years,Single,0,White,0,T4,N2,M1,IV,999
-21979767,2008,Yes,1,10,60-64 years,Single,1,Black,0,T2,N2,M1,IV,73
-21993920,2008,Yes,1,14,60-64 years,Married,1,White,0,T4,N1,M1,IV,52
-45999525,2008,No/Unknown,0,0,75-79 years,Married,1,White,0,T4,N2,M1,IV,999
-46228511,2008,No/Unknown,0,10,65-69 years,Single,0,White,1,T1,N0,M0,I,23
-23870346,2008,Yes,1,34,65-69 years,Married,0,Other,1,T1,N0,M0,I,21
-46441802,2008,Yes,0,51,75-79 years,Married,1,White,1,T2,N0,M0,I,38
-46497985,2008,Yes,0,6,55-59 years,Unknown/Other,1,White,0,T4,N0,M1,IV,999
-54288946,2008,Yes,1,7,70-74 years,Married,0,White,0,T1,N2,M0,III,23
-46532393,2008,Yes,0,14,60-64 years,Married,1,White,0,T2,N0,M1,IV,62
-46540006,2008,No/Unknown,0,1,35-49 years,Single (never married),0,White,1,T3,N1,M0,III,999
-46545650,2008,Yes,0,52,60-64 years,Married,1,White,0,T2,N1,M0,II,56
-46546517,2008,Yes,1,12,60-64 years,Single,0,White,0,T2,N1,M0,II,60
-46557147,2008,No/Unknown,0,0,75-79 years,Married,0,White,0,T4,N2,M0,III,96
-46561912,2008,No/Unknown,0,2,75-79 years,Married,1,White,0,T4,N0,M1,IV,25
-46562035,2008,No/Unknown,0,3,75-79 years,Married,1,White,0,T4,N3,M1,IV,999
-46567887,2008,Yes,0,20,50-54 years,Single (never married),1,White,1,T2,N1,M0,II,20
-46574524,2008,Yes,1,1,50-54 years,Married,1,White,0,T4,N3,M1,IV,140
-46576142,2008,Yes,0,70,65-69 years,Married,0,White,1,T2,N0,M0,I,18
-46583869,2008,No/Unknown,0,22,85+ years,Single,0,White,0,T1,N0,M0,I,999
-46591286,2008,Yes,0,4,60-64 years,Single,1,White,0,T2,N1,M1,IV,999
-46598338,2008,Yes,0,7,65-69 years,Married,1,White,0,T4,N1,M1,IV,999
-62526736,2008,Yes,0,37,65-69 years,Married,1,White,1,T2,N1,M0,II,50
-62421132,2008,No/Unknown,0,1,65-69 years,Married,1,White,0,T4,N3,M1,IV,30
-62396030,2008,No/Unknown,0,4,80-84 years,Single,1,White,1,T2,N1,M0,II,10
-62526269,2008,Yes,1,2,65-69 years,Single (never married),1,White,0,T1,N3,M1,IV,25
-62887180,2008,Yes,1,34,55-59 years,Single (never married),1,White,1,T2,N0,M0,I,42
-62436725,2008,Yes,0,9,60-64 years,Married,0,White,0,T4,N0,M0,III,78
-62474679,2008,No/Unknown,1,21,60-64 years,Married,0,White,0,T1,N0,M0,I,25
-62418083,2008,Yes,0,39,70-74 years,Married,0,White,1,T1,N2,M0,III,16
-62406020,2008,No/Unknown,0,1,70-74 years,Single (never married),1,Black,0,T4,N0,M0,III,115
-62494321,2009,No/Unknown,1,1,50-54 years,Single (never married),0,White,0,T4,N3,M1,IV,120
-62488128,2009,No/Unknown,1,10,60-64 years,Single,0,White,0,T2,N0,M0,II,999
-62493419,2009,No/Unknown,0,2,75-79 years,Single,0,White,0,T3,N0,M1,IV,999
-62625375,2009,Yes,1,13,35-49 years,Single (never married),0,Black,0,T3,N2,M1,IV,66
-62484011,2009,Yes,1,18,70-74 years,Married,1,White,0,T4,N2,M1,IV,56
-62468517,2009,Yes,1,5,55-59 years,Single,0,White,0,T4,N2,M1,IV,999
-62495778,2009,No/Unknown,0,1,75-79 years,Single,0,White,0,T3,N1,M1,IV,200
-54625405,2009,No/Unknown,0,59,80-84 years,Single,1,White,1,T1,N0,M0,I,13
-27058943,2009,Yes,1,31,35-49 years,Married,0,White,0,T3,N1,M0,II,10
-27082292,2009,Yes,1,42,65-69 years,Married,0,White,0,T4,N2,M0,III,78
-27088590,2009,Yes,0,6,65-69 years,Married,1,White,0,T4,N2,M0,III,23
-27103038,2009,No/Unknown,0,8,55-59 years,Married,0,Other,1,T1,N2,M1,IV,28
-27106310,2009,No/Unknown,1,21,80-84 years,Single,0,Black,0,T4,N2,M0,III,50
-27126238,2009,Yes,1,23,60-64 years,Married,0,White,0,T1,N2,M0,III,29
-27173157,2009,No/Unknown,0,0,70-74 years,Married,1,White,0,T4,N3,M1,IV,35
-14100161,2009,Yes,1,8,65-69 years,Single,0,White,1,T1,N3,M0,III,20
-49785930,2009,Yes,0,10,50-54 years,Married,1,White,0,T2,N2,M0,III,32
-5450363,2009,Yes,0,2,75-79 years,Single,1,White,0,T4,N2,M1,IV,999
-15889335,2009,Yes,1,4,70-74 years,Married,1,White,0,T4,N2,M1,IV,999
-9095488,2009,Yes,0,11,60-64 years,Married,0,White,1,T1,N1,M0,II,21
-49849767,2009,No/Unknown,0,36,70-74 years,Single,0,White,1,T1,N0,M0,I,12
-49852902,2009,No/Unknown,0,0,65-69 years,Unknown/Other,1,White,0,T2,N0,M1,IV,90
-49826180,2009,Yes,1,1,70-74 years,Single (never married),1,Black,0,T4,N2,M1,IV,999
-49823543,2009,No/Unknown,1,1,75-79 years,Married,1,Black,0,T4,N3,M1,IV,127
-16362551,2009,Yes,1,8,65-69 years,Married,0,White,1,T1,N1,M0,II,28
-5554428,2009,Yes,0,23,70-74 years,Single,0,White,0,T2,N0,M0,I,27
-16364505,2009,No/Unknown,0,0,75-79 years,Single (never married),1,Other,1,T4,N3,M1,IV,999
-16369033,2009,No/Unknown,0,0,85+ years,Married,1,White,1,T4,N2,M1,IV,91
-10537265,2009,Yes,0,10,70-74 years,Married,1,White,1,T4,N2,M1,IV,999
-34539636,2009,Yes,0,7,50-54 years,Single,1,White,0,T4,N2,M1,IV,999
-5568713,2009,No/Unknown,1,4,65-69 years,Single,1,White,0,T1,N2,M1,IV,17
-5574915,2009,Yes,0,2,80-84 years,Unknown/Other,0,White,0,T2,N3,M0,III,35
-54638936,2009,Yes,1,3,55-59 years,Married,1,White,0,T4,N0,M1,IV,44
-54632479,2009,Yes,1,51,65-69 years,Married,1,White,1,T1,N2,M0,III,20
-53382243,2009,Yes,1,21,65-69 years,Single (never married),0,White,0,T4,N2,M1,IV,94
-54676409,2009,No/Unknown,0,11,50-54 years,Single (never married),0,White,0,T1,N1,M1,IV,15
-54646301,2009,Yes,1,16,65-69 years,Married,0,White,0,T4,N3,M0,III,11
-54664696,2009,No/Unknown,0,2,75-79 years,Single,1,White,0,T4,N2,M1,IV,56
-54683438,2009,No/Unknown,1,10,70-74 years,Married,1,White,1,T2,N0,M1,IV,12
-54692100,2009,Yes,1,12,85+ years,Single (never married),1,White,1,T2,N2,M0,III,30
-34957652,2009,No/Unknown,0,0,65-69 years,Married,1,White,0,T4,N3,M1,IV,30
-34987677,2009,Yes,1,9,70-74 years,Married,1,White,0,T4,N0,M1,IV,90
-34999741,2009,Yes,0,18,65-69 years,Married,0,White,0,T1,N1,M1,IV,13
-35057241,2009,Yes,1,8,35-49 years,Single (never married),0,White,0,T3,N2,M1,IV,23
-35068097,2009,Yes,1,10,60-64 years,Married,1,White,0,T2,N0,M1,IV,60
-35091336,2009,Yes,0,3,75-79 years,Married,1,White,0,T4,N1,M1,IV,44
-35102890,2009,Yes,0,89,65-69 years,Married,1,White,0,T2,N0,M0,I,10
-35128852,2009,No/Unknown,0,5,80-84 years,Married,1,White,1,T2,N0,M0,I,40
-35145610,2009,Yes,1,65,65-69 years,Single,0,White,0,T1,N3,M0,III,18
-35146301,2009,Yes,0,11,65-69 years,Married,1,White,1,T3,N0,M0,II,45
-35154967,2009,Yes,0,2,35-49 years,Single (never married),1,White,1,T4,N2,M1,IV,90
-35196296,2009,No/Unknown,0,10,80-84 years,Single,1,White,1,T1,N0,M0,I,25
-20159458,2009,Yes,0,11,65-69 years,Married,1,White,0,T4,N2,M0,III,46
-1115215,2009,Yes,0,9,65-69 years,Married,1,White,1,T2,N0,M0,I,25
-1126184,2009,Yes,0,13,50-54 years,Single (never married),0,Black,1,T4,N2,M1,IV,68
-54809099,2009,No/Unknown,0,19,85+ years,Single,0,White,0,T1,N0,M0,I,13
-5029657,2009,Yes,0,23,65-69 years,Single,1,White,0,T4,N2,M1,IV,999
-10962744,2009,No/Unknown,1,37,70-74 years,Married,0,White,1,T4,N2,M0,III,25
-10963913,2009,Yes,0,14,70-74 years,Married,1,White,1,T2,N3,M0,III,50
-10976242,2009,Yes,0,7,65-69 years,Married,0,White,1,T1,N1,M0,III,80
-10978036,2009,Yes,0,2,55-59 years,Married,1,White,0,T4,N3,M1,IV,67
-10979786,2009,No/Unknown,1,4,65-69 years,Married,0,White,0,T1,N2,M1,IV,24
-10982959,2009,Yes,1,4,60-64 years,Married,1,Black,0,T4,N3,M1,IV,40
-21981504,2009,Yes,0,28,75-79 years,Married,0,White,0,T4,N0,M0,III,27
-22004928,2009,No/Unknown,0,0,85+ years,Married,1,White,0,T4,N2,M0,III,999
-5353792,2009,No/Unknown,0,6,85+ years,Single,1,White,0,T2,N0,M1,IV,70
-46150561,2009,No/Unknown,0,4,65-69 years,Married,1,White,0,T4,N0,M1,IV,999
-25830562,2009,Yes,0,15,75-79 years,Single (never married),1,Black,0,T1,N1,M1,IV,999
-26691045,2009,Yes,1,5,75-79 years,Married,1,White,0,T4,N1,M1,IV,68
-46575619,2009,No/Unknown,1,1,65-69 years,Single,0,White,0,T1,N2,M1,IV,14
-46589568,2009,Yes,1,14,70-74 years,Single,1,White,1,T3,N2,M0,III,32
-46593907,2009,No/Unknown,0,1,75-79 years,Married,0,White,0,T4,N1,M1,IV,999
-46608655,2009,Yes,0,9,60-64 years,Single,1,White,0,T2,N2,M1,IV,50
-46615239,2009,Yes,1,3,75-79 years,Single,1,White,0,T4,N0,M1,IV,72
-46616907,2009,No/Unknown,1,1,70-74 years,Single,0,White,0,T4,N2,M1,IV,54
-46631377,2009,Yes,0,4,35-49 years,Single (never married),0,White,1,T4,N2,M0,III,62
-49876809,2010,No/Unknown,1,1,35-49 years,Single (never married),0,White,1,T3,N3,M1,IV,999
-27132395,2010,Yes,1,2,60-64 years,Married,1,White,0,T3,N2,M1,IV,999
-27137101,2010,No/Unknown,0,0,85+ years,Married,1,White,0,T3,N2,M0,III,30
-27138422,2010,Yes,1,15,50-54 years,Single (never married),1,White,0,T4,N3,M1,IV,32
-27155859,2010,No/Unknown,0,0,60-64 years,Single,1,White,0,T4,N2,M1,IV,115
-27196619,2010,Yes,1,7,60-64 years,Married,0,White,0,T3,N0,M0,II,999
-14128117,2010,Yes,1,4,80-84 years,Single,0,White,0,T1,N3,M0,III,30
-14138069,2010,Yes,0,0,70-74 years,Married,1,White,0,T4,N2,M1,IV,999
-8885495,2010,No/Unknown,0,5,80-84 years,Married,0,White,0,T3,N0,M0,II,23
-32620487,2010,No/Unknown,0,0,75-79 years,Single,0,White,0,T4,N2,M1,IV,100
-54622226,2010,No/Unknown,0,14,55-59 years,Single (never married),1,White,0,T1,N0,M0,I,13
-33295746,2010,Yes,0,7,65-69 years,Single,1,White,0,T2,N0,M1,IV,32
-1045424,2010,Yes,1,16,70-74 years,Single,0,Other,1,T3,N1,M0,III,41
-5521799,2010,Yes,1,84,75-79 years,Married,1,White,1,T1,N2,M0,III,9
-10105183,2010,No/Unknown,0,2,75-79 years,Single,0,White,0,T3,N3,M1,IV,999
-49898444,2010,Yes,0,11,70-74 years,Single,1,White,1,T2,N1,M0,II,25
-54782316,2010,Yes,0,63,35-49 years,Married,1,White,1,T3,N0,M0,III,999
-16381968,2010,No/Unknown,0,0,75-79 years,Married,0,White,0,T3,N2,M1,IV,135
-49912080,2010,No/Unknown,0,2,75-79 years,Single (never married),0,Black,0,T4,N1,M1,IV,65
-34712550,2010,Yes,0,8,55-59 years,Married,1,White,0,T2,N2,M1,IV,31
-5596697,2010,Yes,0,25,65-69 years,Married,1,White,1,T2,N2,M0,III,13
-5599330,2010,Yes,1,6,65-69 years,Single,0,White,1,T4,N0,M0,III,105
-54719322,2010,Yes,0,15,60-64 years,Unknown/Other,0,Black,0,T1,N2,M1,IV,18
-34912957,2010,No/Unknown,0,6,85+ years,Single (never married),0,White,0,T3,N2,M0,III,31
-5601801,2010,No/Unknown,0,2,85+ years,Married,1,White,0,T3,N0,M1,IV,40
-5603332,2010,No/Unknown,0,23,80-84 years,Married,0,White,1,T1,N0,M0,I,12
-54725337,2010,Yes,0,23,55-59 years,Single,0,White,1,T1,N0,M0,I,28
-55477962,2010,No/Unknown,0,112,60-64 years,Single (never married),1,White,1,T2,N1,M0,II,14
-62518326,2010,Yes,1,103,65-69 years,Single (never married),1,Black,0,T1,N3,M1,IV,19
-54758819,2010,Yes,1,47,75-79 years,Single (never married),1,White,0,T2,N0,M0,II,25
-5605848,2010,Yes,1,5,50-54 years,Married,1,White,0,T1,N2,M1,IV,18
-62530119,2010,Yes,1,4,65-69 years,Single,1,White,0,T3,N3,M1,IV,47
-53994298,2010,Yes,1,7,70-74 years,Single,1,White,0,T3,N0,M1,IV,30
-62531388,2010,No/Unknown,1,4,60-64 years,Married,0,White,0,T3,N2,M0,IV,33
-62535107,2010,Yes,1,0,80-84 years,Single,0,Black,0,T4,N2,M1,IV,999
-10884593,2010,No/Unknown,1,4,70-74 years,Single,1,White,0,T2,N2,M1,IV,999
-62540753,2010,No/Unknown,0,11,85+ years,Single,0,White,0,T1,N0,M0,I,30
-62546395,2010,No/Unknown,0,0,70-74 years,Married,1,White,1,T2,N1,M1,IV,20
-62551543,2010,Yes,0,18,70-74 years,Married,0,White,1,T2,N2,M1,IV,35
-62556679,2010,No/Unknown,0,0,70-74 years,Married,1,Black,1,T1,N0,M0,I,11
-62566269,2010,Yes,1,11,60-64 years,Married,0,White,1,T2,N3,M0,III,45
-62566484,2010,Yes,0,14,70-74 years,Married,1,Black,0,T3,N3,M1,IV,80
-35182191,2010,Yes,1,36,65-69 years,Single (never married),0,Other,0,T4,N2,M0,III,102
-62573034,2010,Yes,1,16,50-54 years,Single,0,White,0,T1,N2,M0,III,28
-35185502,2010,No/Unknown,0,2,70-74 years,Married,0,White,0,T1,N0,M0,I,13
-5623150,2010,No/Unknown,0,47,70-74 years,Unknown/Other,0,White,1,T2,N0,M0,I,32
-35235278,2010,Yes,0,26,65-69 years,Single,0,White,1,T2,N2,M0,III,24
-35240092,2010,Yes,0,9,75-79 years,Married,0,White,0,T2,N0,M1,IV,55
-35293303,2010,Yes,0,1,65-69 years,Married,1,White,0,T3,N2,M1,IV,19
-35386936,2010,No/Unknown,0,41,55-59 years,Single (never married),1,White,0,T1,N0,M0,II,999
-54740638,2010,No/Unknown,1,7,75-79 years,Married,1,White,1,T1,N2,M0,III,25
-54748132,2010,Yes,0,12,60-64 years,Married,0,White,0,T4,N2,M1,IV,63
-62265354,2010,Yes,1,10,65-69 years,Single,1,White,1,T1,N2,M1,IV,28
-21736340,2010,No/Unknown,0,18,65-69 years,Married,0,White,1,T1,N0,M0,I,8
-10990854,2010,No/Unknown,1,2,65-69 years,Married,0,White,0,T2,N0,M1,IV,66
-54825010,2010,Yes,1,20,65-69 years,Married,0,White,1,T3,N2,M0,III,72
-54821192,2010,Yes,0,19,60-64 years,Single (never married),0,Black,1,T1,N2,M0,III,26
-10992623,2010,No/Unknown,0,7,70-74 years,Married,0,White,0,T2,N0,M0,I,45
-22015804,2010,No/Unknown,1,12,80-84 years,Married,0,White,1,T1,N0,M0,I,17
-10993541,2010,Yes,0,9,70-74 years,Single,0,White,0,T1,N2,M1,IV,8
-10994051,2010,Yes,1,8,60-64 years,Single (never married),1,White,0,T4,N0,M1,IV,46
-11003516,2010,No/Unknown,0,0,75-79 years,Single,1,White,0,T3,N2,M1,IV,999
-11006123,2010,Yes,0,15,60-64 years,Married,1,White,1,T4,N3,M1,IV,999
-54863226,2010,Yes,1,19,75-79 years,Single,0,White,1,T4,N0,M0,III,24
-46401616,2010,Yes,1,11,55-59 years,Married,1,White,0,T1,N0,M1,IV,29
-24300276,2010,Yes,1,27,80-84 years,Single,0,White,1,T3,N3,M1,IV,17
-46429044,2010,Yes,1,20,75-79 years,Married,1,White,1,T1,N1,M0,II,15
-49458597,2010,Yes,1,2,55-59 years,Single,1,White,0,T4,N0,M1,IV,999
-46649163,2010,Yes,0,17,75-79 years,Married,1,White,1,T4,N0,M1,IV,118
-46628814,2010,No/Unknown,0,2,65-69 years,Single,0,White,0,T4,N2,M1,IV,59
-46641885,2010,Yes,1,2,50-54 years,Married,0,White,0,T4,N3,M1,IV,90
-49615651,2010,Yes,1,36,70-74 years,Married,1,White,0,T2,N2,M1,IV,31
-46648985,2010,Yes,1,5,75-79 years,Married,1,White,0,T4,N2,M0,III,999
-26851497,2010,Yes,1,13,70-74 years,Married,1,Black,0,T2,N0,M0,I,30
-46651084,2010,No/Unknown,1,4,70-74 years,Married,1,Black,0,T4,N2,M0,III,53
-46652310,2010,Yes,1,13,50-54 years,Single (never married),0,White,1,T2,N1,M0,II,23
-46666871,2010,Yes,0,4,65-69 years,Married,1,White,0,T3,N2,M1,IV,71
-46670559,2010,Yes,1,9,55-59 years,Single,0,White,0,T2,N3,M1,IV,15
-5417004,2010,No/Unknown,0,8,80-84 years,Married,1,Black,0,T3,N0,M0,III,24
-46762385,2010,Yes,0,7,70-74 years,Single,0,White,1,T2,N3,M1,IV,56
-46629033,2010,Yes,1,22,60-64 years,Married,0,White,0,T2,N0,M0,II,20
-54793660,2011,No/Unknown,0,4,75-79 years,Married,1,White,0,T3,N2,M0,III,87
-27258521,2011,Yes,0,94,55-59 years,Married,0,White,0,T3,N0,M1,IV,999
-27259089,2011,Yes,0,20,70-74 years,Married,1,White,1,T1,N1,M0,II,30
-27273051,2011,Yes,1,13,70-74 years,Married,0,White,0,T2,N0,M0,I,49
-27276079,2011,Yes,0,50,55-59 years,Married,1,Black,0,T1,N3,M0,III,2
-16049628,2011,Yes,1,38,80-84 years,Married,1,White,0,T4,N2,M0,III,999
-32364278,2011,No/Unknown,0,13,60-64 years,Married,1,White,1,T1,N1,M0,II,28
-32774449,2011,No/Unknown,0,0,75-79 years,Single (never married),1,White,0,T4,N3,M1,IV,17
-9121957,2011,Yes,1,3,80-84 years,Married,1,Other,0,T4,N2,M1,IV,43
-33312921,2011,Yes,1,13,55-59 years,Married,1,White,0,T1,N2,M0,III,30
-10042591,2011,Yes,0,11,75-79 years,Single,0,White,0,T1,N1,M0,II,30
-53479898,2011,No/Unknown,0,14,80-84 years,Single (never married),0,White,0,T3,N2,M1,IV,999
-49896383,2011,No/Unknown,0,7,70-74 years,Married,0,White,1,T4,N2,M0,III,21
-49935748,2011,Yes,1,39,70-74 years,Married,1,White,1,T1,N2,M0,III,10
-16417531,2011,Yes,0,20,65-69 years,Single,0,White,0,T1,N1,M1,IV,26
-16443335,2011,No/Unknown,0,1,80-84 years,Married,1,White,0,T3,N3,M1,IV,999
-49959402,2011,No/Unknown,1,71,80-84 years,Single,0,White,0,T1,N0,M0,I,20
-49942785,2011,Yes,1,7,65-69 years,Married,1,White,0,T2,N0,M1,IV,37
-35090673,2011,Yes,1,6,70-74 years,Unknown/Other,0,White,0,T3,N1,M0,III,25
-62597753,2011,Yes,0,59,70-74 years,Married,0,White,1,T1,N0,M0,I,20
-35137116,2011,Yes,1,11,70-74 years,Married,1,White,0,T2,N2,M0,III,15
-62569366,2011,No/Unknown,0,0,65-69 years,Married,1,White,1,T2,N0,M0,I,40
-62635515,2011,No/Unknown,0,2,60-64 years,Single,0,White,1,T3,N0,M1,IV,50
-5624315,2011,No/Unknown,1,0,75-79 years,Single (never married),0,White,0,T4,N2,M1,IV,999
-35286091,2011,No/Unknown,0,3,65-69 years,Married,1,White,1,T3,N2,M0,III,113
-35290007,2011,No/Unknown,0,1,65-69 years,Single (never married),1,White,0,T4,N3,M1,IV,999
-4661874,2011,Yes,1,8,65-69 years,Single,0,White,0,T3,N2,M0,III,75
-35304583,2011,Yes,1,3,75-79 years,Married,1,White,0,T4,N2,M1,IV,83
-35363722,2011,Yes,0,6,70-74 years,Single (never married),1,White,0,T4,N2,M1,IV,80
-35384593,2011,No/Unknown,0,6,75-79 years,Single,0,White,0,T1,N1,M1,IV,25
-5628393,2011,Yes,1,23,65-69 years,Married,0,White,1,T2,N0,M0,I,35
-35384656,2011,No/Unknown,0,1,75-79 years,Single,1,White,0,T1,N0,M0,I,30
-35394939,2011,No/Unknown,0,0,55-59 years,Single (never married),1,White,0,T3,N3,M1,IV,100
-35421551,2011,No/Unknown,0,11,60-64 years,Single,0,White,0,T1,N0,M0,I,13
-35440476,2011,No/Unknown,0,1,80-84 years,Single (never married),1,White,0,T4,N2,M0,III,100
-35455800,2011,Yes,0,7,60-64 years,Married,0,White,0,T3,N0,M1,IV,76
-35502696,2011,Yes,1,6,65-69 years,Married,1,White,0,T3,N2,M0,III,50
-35509304,2011,No/Unknown,0,9,70-74 years,Married,1,White,0,T3,N0,M0,III,30
-5630561,2011,Yes,1,37,50-54 years,Married,1,White,1,T2,N1,M1,IV,20
-35554992,2011,No/Unknown,0,1,70-74 years,Married,0,White,0,T3,N2,M1,IV,35
-35642740,2011,No/Unknown,0,5,65-69 years,Married,1,White,0,T4,N2,M0,III,103
-5643878,2011,No/Unknown,0,1,75-79 years,Married,0,White,0,T2,N1,M1,IV,68
-5644473,2011,No/Unknown,0,0,65-69 years,Single,0,White,1,T4,N2,M1,IV,62
-35748641,2011,Yes,1,18,55-59 years,Single,1,White,0,T4,N1,M1,IV,111
-54841313,2011,No/Unknown,1,2,75-79 years,Single,1,White,0,T4,N2,M1,IV,999
-835073,2011,Yes,1,16,75-79 years,Married,1,White,0,T3,N0,M0,III,42
-22044423,2011,Yes,0,25,70-74 years,Married,1,White,1,T1,N0,M0,I,21
-62673531,2011,Yes,1,2,65-69 years,Single,1,White,1,T4,N2,M1,IV,104
-22048304,2011,Yes,0,8,60-64 years,Single,0,White,1,T4,N3,M1,IV,76
-11021002,2011,Yes,0,2,65-69 years,Married,0,White,1,T3,N2,M1,IV,110
-11022187,2011,No/Unknown,0,1,85+ years,Single,0,Other,0,T2,N2,M1,IV,42
-11036840,2011,Yes,0,8,60-64 years,Single,0,White,1,T3,N3,M1,IV,84
-11036880,2011,Yes,0,6,80-84 years,Single,1,White,0,T1,N0,M1,IV,999
-46195686,2011,No/Unknown,1,33,70-74 years,Married,1,White,1,T2,N1,M0,II,15
-11038653,2011,Yes,1,7,55-59 years,Single,1,White,1,T2,N3,M1,IV,58
-46226261,2011,No/Unknown,0,0,80-84 years,Married,1,White,0,T2,N0,M0,II,999
-23874721,2011,Yes,1,12,60-64 years,Married,1,Other,0,T1,N2,M0,III,20
-11038326,2011,Yes,1,7,65-69 years,Single,0,White,0,T4,N1,M0,III,44
-11041240,2011,Yes,1,15,60-64 years,Married,1,Other,0,T1,N2,M0,III,25
-11042136,2011,No/Unknown,1,0,55-59 years,Single,1,White,1,T4,N3,M1,IV,110
-54853870,2011,Yes,0,4,55-59 years,Single (never married),1,Black,0,T4,N2,M1,IV,999
-11044706,2011,Yes,1,2,65-69 years,Single,0,White,0,T2,N2,M1,IV,999
-25713169,2011,Yes,0,9,75-79 years,Married,1,Black,1,T3,N0,M1,IV,21
-46722443,2011,Yes,0,9,70-74 years,Married,1,White,1,T4,N3,M1,IV,90
-46692067,2011,No/Unknown,0,2,55-59 years,Single,1,Black,0,T4,N2,M0,III,65
-46711302,2011,Yes,0,56,70-74 years,Single,0,White,1,T1,N0,M0,I,30
-54877529,2011,Yes,1,22,55-59 years,Married,1,White,0,T2,N0,M1,IV,999
-26600201,2011,Yes,0,5,70-74 years,Single,0,White,0,T3,N2,M1,IV,27
-54964352,2011,Yes,0,15,55-59 years,Single,1,White,0,T3,N0,M1,IV,91
-26806332,2011,No/Unknown,0,0,80-84 years,Married,1,White,0,T4,N2,M1,IV,999
-46675992,2011,No/Unknown,0,3,80-84 years,Single,0,White,0,T1,N0,M0,I,24
-46696964,2011,Yes,1,23,55-59 years,Unknown/Other,1,White,0,T4,N3,M1,IV,80
-46706487,2011,No/Unknown,0,2,60-64 years,Married,1,White,0,T1,N2,M1,IV,25
-46708154,2011,No/Unknown,0,2,55-59 years,Married,0,White,0,T4,N2,M1,IV,46
-46715785,2011,Yes,0,20,65-69 years,Married,1,White,1,T3,N1,M0,III,35
-46716500,2011,No/Unknown,1,4,60-64 years,Married,1,White,0,T4,N0,M1,IV,87
-46722090,2011,No/Unknown,0,20,80-84 years,Single,0,White,0,T4,N0,M1,IV,23
-46750658,2011,No/Unknown,0,42,60-64 years,Single,1,White,1,T3,N1,M0,III,30
-62666299,2012,Yes,1,10,55-59 years,Married,0,White,1,T2,N2,M0,III,65
-27319658,2012,Yes,0,3,70-74 years,Single,0,White,0,T3,N3,M0,III,85
-14163310,2012,Yes,0,46,70-74 years,Married,1,White,1,T2,N3,M0,III,23
-8968823,2012,Yes,0,8,75-79 years,Married,0,Other,0,T2,N2,M1,IV,37
-32606161,2012,Yes,0,0,70-74 years,Married,1,White,0,T4,N2,M1,IV,999
-9135189,2012,Yes,1,47,60-64 years,Married,1,Other,1,T3,N2,M0,III,96
-16282348,2012,No/Unknown,1,12,80-84 years,Single,1,White,0,T3,N0,M0,III,44
-49989698,2012,Yes,1,26,75-79 years,Single (never married),1,Black,0,T3,N2,M0,III,57
-62657728,2012,Yes,0,18,75-79 years,Married,1,White,0,T1,N0,M0,I,28
-46750152,2012,Yes,1,20,55-59 years,Single (never married),1,White,1,T3,N3,M1,IV,42
-16491454,2012,Yes,0,1,85+ years,Single,0,White,0,T1,N2,M1,IV,25
-49953284,2012,Yes,0,13,65-69 years,Single,1,Black,0,T2,N2,M1,IV,33
-49993692,2012,Yes,0,7,35-49 years,Married,0,White,1,T3,N1,M0,III,105
-49980583,2012,No/Unknown,1,4,60-64 years,Married,1,White,0,T4,N2,M1,IV,999
-34645108,2012,No/Unknown,0,0,80-84 years,Married,1,White,0,T3,N2,M1,IV,999
-46753997,2012,Yes,1,97,50-54 years,Single,0,White,1,T2,N0,M0,I,35
-52834527,2012,Yes,0,54,75-79 years,Single,0,White,1,T1,N0,M0,I,12
-49992799,2012,Yes,0,1,70-74 years,Single,1,Black,0,T3,N2,M0,III,98
-53442111,2012,Yes,1,9,65-69 years,Unknown/Other,0,White,0,T1,N2,M0,III,18
-54641923,2012,Yes,0,24,65-69 years,Married,0,White,1,T1,N0,M0,I,20
-62644575,2012,Yes,1,63,70-74 years,Single (never married),0,White,1,T2,N1,M0,II,30
-62651090,2012,Yes,1,1,65-69 years,Single (never married),1,White,1,T3,N2,M1,IV,999
-35472495,2012,Yes,1,42,65-69 years,Single,0,Black,0,T2,N3,M1,IV,60
-35489159,2012,Yes,1,55,60-64 years,Single (never married),0,White,1,T4,N0,M0,III,40
-35539845,2012,Yes,1,12,75-79 years,Married,1,White,0,T3,N0,M0,III,999
-62647978,2012,Yes,1,16,65-69 years,Married,1,White,1,T4,N2,M0,III,37
-35556431,2012,Yes,0,20,55-59 years,Unknown/Other,1,White,1,T2,N0,M0,I,29
-35559540,2012,Yes,1,6,80-84 years,Married,0,White,0,T3,N0,M1,IV,45
-35562770,2012,Yes,0,76,65-69 years,Married,1,White,1,T2,N1,M0,IV,999
-35596095,2012,No/Unknown,0,7,75-79 years,Married,0,White,0,T1,N2,M0,III,74
-35600687,2012,Yes,0,12,70-74 years,Married,1,White,1,T4,N1,M0,IV,999
-62646664,2012,No/Unknown,1,0,60-64 years,Single,1,White,0,T4,N2,M1,IV,25
-35607874,2012,Yes,0,10,75-79 years,Single,0,White,1,T2,N0,M0,I,35
-35644388,2012,Yes,1,30,55-59 years,Married,1,White,1,T2,N1,M1,IV,50
-35663107,2012,No/Unknown,0,4,35-49 years,Single (never married),0,Black,0,T4,N3,M1,IV,80
-10921530,2012,Yes,1,2,75-79 years,Married,1,White,0,T3,N2,M0,III,40
-35684846,2012,No/Unknown,0,2,80-84 years,Married,0,White,0,T2,N2,M0,III,20
-20149265,2012,Yes,0,56,75-79 years,Married,1,White,1,T4,N0,M0,III,16
-53852845,2012,Yes,0,7,60-64 years,Married,0,White,0,T2,N0,M1,IV,999
-35732017,2012,No/Unknown,1,5,60-64 years,Married,0,Other,0,T2,N3,M1,IV,34
-20222127,2012,No/Unknown,0,18,65-69 years,Married,1,White,1,T1,N0,M0,I,50
-20244815,2012,Yes,1,22,55-59 years,Married,1,White,0,T3,N0,M1,IV,999
-5657898,2012,Yes,0,5,50-54 years,Married,0,White,0,T3,N2,M0,III,40
-5661197,2012,Yes,1,45,70-74 years,Single,1,White,0,T1,N3,M1,IV,19
-5671609,2012,Yes,1,10,35-49 years,Single (never married),1,White,1,T2,N2,M0,III,60
-5675734,2012,Yes,0,21,65-69 years,Married,0,White,0,T3,N2,M1,IV,14
-62667750,2012,Yes,1,10,50-54 years,Single,0,Black,1,T3,N3,M1,IV,999
-5678524,2012,Yes,1,15,65-69 years,Married,1,White,0,T2,N0,M1,IV,60
-1262375,2012,No/Unknown,1,1,70-74 years,Married,1,White,0,T4,N2,M1,IV,94
-5680058,2012,Yes,0,14,80-84 years,Married,1,White,1,T2,N2,M0,III,30
-62672934,2012,Yes,1,24,35-49 years,Single (never married),1,Black,0,T3,N2,M0,III,55
-22072661,2012,Yes,1,5,65-69 years,Single (never married),1,Black,1,T3,N3,M1,IV,60
-22074453,2012,Yes,1,1,80-84 years,Married,1,White,0,T2,N2,M1,IV,43
-22087313,2012,No/Unknown,0,1,65-69 years,Single,1,White,0,T2,N3,M1,IV,39
-5683337,2012,Yes,1,52,55-59 years,Married,1,White,1,T2,N0,M0,II,55
-5693544,2012,No/Unknown,0,1,70-74 years,Single,1,White,0,T2,N2,M1,IV,40
-46257534,2012,No/Unknown,0,14,75-79 years,Single,0,White,1,T1,N0,M0,I,11
-5370118,2012,Yes,1,5,80-84 years,Single,0,White,0,T3,N0,M0,II,999
-23875474,2012,No/Unknown,1,0,75-79 years,Married,1,Other,0,T2,N3,M1,IV,39
-11068149,2012,No/Unknown,1,3,60-64 years,Married,1,White,1,T2,N3,M0,III,999
-11078494,2012,No/Unknown,0,5,70-74 years,Married,1,White,0,T2,N2,M1,IV,40
-11085858,2012,No/Unknown,0,58,65-69 years,Married,1,White,0,T4,N0,M1,IV,999
-11087658,2012,Yes,1,14,80-84 years,Married,1,White,0,T2,N0,M0,I,32
-26329823,2012,No/Unknown,0,1,85+ years,Single,0,White,0,T4,N3,M1,IV,60
-46515898,2012,Yes,0,31,55-59 years,Single,0,White,0,T1,N0,M0,I,15
-54951295,2012,No/Unknown,0,15,70-74 years,Single (never married),0,White,0,T4,N3,M0,III,999
-54929991,2012,Yes,0,3,80-84 years,Married,1,White,0,T3,N3,M1,IV,999
-54929350,2012,Yes,1,37,50-54 years,Single,0,White,1,T4,N2,M0,III,90
-54918632,2012,Yes,1,6,65-69 years,Married,1,White,1,T3,N1,M1,IV,39
-46773081,2012,Yes,0,18,35-49 years,Married,1,White,0,T4,N1,M1,IV,999
-54970752,2012,No/Unknown,0,1,70-74 years,Married,1,White,0,T2,N0,M1,IV,999
-46723723,2012,Yes,0,10,80-84 years,Single (never married),0,White,1,T2,N0,M1,IV,40
-46731752,2012,No/Unknown,1,1,65-69 years,Single,0,Black,0,T4,N2,M1,IV,63
-46738948,2012,Yes,0,3,70-74 years,Married,1,White,0,T4,N2,M1,IV,18
-46740179,2012,Yes,1,8,65-69 years,Single,0,White,1,T2,N2,M1,IV,25
-46746589,2012,Yes,1,69,60-64 years,Married,1,White,0,T2,N3,M0,III,50
-46780395,2012,Yes,1,11,60-64 years,Single (never married),1,Black,1,T2,N0,M1,IV,39
-55047035,2013,Yes,1,30,55-59 years,Married,1,White,0,T1,N0,M1,IV,15
-46794301,2013,No/Unknown,0,0,65-69 years,Single (never married),1,White,0,T2,N2,M0,III,999
-46795357,2013,No/Unknown,0,3,65-69 years,Married,1,White,1,T2,N2,M1,IV,25
-55086215,2013,No/Unknown,0,1,70-74 years,Unknown/Other,1,White,0,T4,N2,M0,III,999
-55042887,2013,Yes,0,16,60-64 years,Married,1,White,1,T4,N0,M0,III,6
-55037495,2013,No/Unknown,0,0,65-69 years,Married,1,White,0,T4,N1,M1,IV,60
-55037189,2013,Yes,0,41,80-84 years,Married,1,White,1,T1,N0,M0,I,22
-55058647,2013,Yes,1,18,65-69 years,Married,1,White,0,T4,N1,M0,III,60
-55075664,2013,Yes,0,24,75-79 years,Married,1,White,1,T1,N1,M1,IV,26
-49780763,2013,No/Unknown,0,0,70-74 years,Married,1,White,1,T3,N3,M1,IV,75
-27378125,2013,No/Unknown,0,1,85+ years,Single (never married),1,White,0,T4,N2,M1,IV,36
-27379227,2013,No/Unknown,0,3,85+ years,Single,0,White,0,T2,N0,M0,I,34
-27395712,2013,No/Unknown,0,14,70-74 years,Single (never married),0,Other,1,T2,N1,M1,IV,75
-55088067,2013,Yes,0,32,70-74 years,Unknown/Other,0,White,0,T4,N0,M0,III,31
-14173776,2013,Yes,1,16,80-84 years,Married,0,White,1,T1,N1,M0,III,9
-50032148,2013,Yes,0,0,55-59 years,Single (never married),1,White,0,T4,N2,M1,IV,999
-46796710,2013,Yes,0,9,55-59 years,Married,1,White,0,T3,N2,M1,IV,999
-46798127,2013,Yes,1,0,65-69 years,Single,1,White,0,T3,N2,M1,IV,75
-46803142,2013,Yes,1,25,60-64 years,Married,1,White,0,T1,N1,M0,II,20
-46800768,2013,Yes,1,14,55-59 years,Married,0,White,1,T1,N3,M0,III,12
-46802784,2013,Yes,0,6,75-79 years,Married,1,White,1,T2,N2,M0,III,64
-46800208,2013,No/Unknown,1,7,85+ years,Single (never married),0,White,0,T3,N0,M0,III,50
-33258679,2013,Yes,0,12,65-69 years,Single (never married),0,White,0,T3,N2,M1,IV,999
-33493379,2013,Yes,0,5,75-79 years,Single (never married),0,White,0,T3,N2,M1,IV,17
-46834452,2013,Yes,0,7,75-79 years,Single,0,White,0,T4,N0,M1,IV,52
-9142884,2013,No/Unknown,0,1,55-59 years,Married,1,Other,1,T3,N2,M1,IV,78
-9151977,2013,Yes,0,4,75-79 years,Married,1,Other,0,T2,N2,M1,IV,40
-46819079,2013,Yes,0,3,70-74 years,Married,0,White,1,T3,N3,M1,IV,35
-54586913,2013,Yes,0,7,65-69 years,Single (never married),1,White,0,T4,N3,M1,IV,64
-49978759,2013,Yes,0,21,70-74 years,Married,0,White,1,T1,N0,M0,I,28
-34642565,2013,No/Unknown,1,7,65-69 years,Single,0,White,0,T4,N2,M1,IV,29
-49981384,2013,No/Unknown,0,2,75-79 years,Married,0,White,0,T2,N3,M0,III,38
-16538819,2013,No/Unknown,0,35,60-64 years,Married,1,White,1,T1,N0,M0,I,18
-34662888,2013,No/Unknown,0,10,75-79 years,Single,0,White,1,T2,N2,M0,III,31
-16546803,2013,Yes,1,31,65-69 years,Married,0,White,0,T1,N3,M0,III,23
-16549502,2013,No/Unknown,0,9,35-49 years,Married,1,Black,0,T2,N0,M0,II,999
-10819321,2013,Yes,1,28,70-74 years,Married,1,White,1,T3,N2,M0,III,11
-50005962,2013,Yes,0,11,60-64 years,Single,1,Black,0,T1,N0,M1,IV,30
-50025730,2013,Yes,0,16,70-74 years,Single,0,White,1,T2,N1,M0,II,32
-50018001,2013,Yes,0,9,70-74 years,Single,0,White,1,T4,N3,M1,IV,55
-50007506,2013,Yes,1,28,60-64 years,Married,1,Black,0,T3,N2,M0,III,92
-35670582,2013,Yes,1,3,65-69 years,Married,1,White,0,T3,N0,M1,IV,77
-50009955,2013,Yes,1,2,70-74 years,Married,1,White,0,T4,N3,M1,IV,73
-35855124,2013,No/Unknown,0,0,60-64 years,Married,1,White,0,T1,N2,M1,IV,21
-35727999,2013,Yes,1,3,35-49 years,Single (never married),0,White,0,T2,N2,M0,III,999
-35730782,2013,No/Unknown,0,0,75-79 years,Single (never married),1,White,0,T4,N2,M1,IV,999
-62015749,2013,Yes,0,14,75-79 years,Single,0,White,0,T4,N3,M1,IV,35
-35764064,2013,No/Unknown,0,1,60-64 years,Married,1,White,0,T4,N2,M1,IV,999
-35779666,2013,No/Unknown,0,15,75-79 years,Married,1,White,1,T2,N1,M0,II,38
-62715732,2013,Yes,1,5,65-69 years,Single,1,White,1,T1,N2,M1,IV,14
-35810215,2013,No/Unknown,0,1,80-84 years,Single (never married),1,White,0,T2,N0,M1,IV,31
-20246588,2013,Yes,1,11,65-69 years,Married,1,White,1,T1,N2,M0,III,23
-20246658,2013,Yes,0,29,60-64 years,Single (never married),0,White,0,T1,N0,M0,I,15
-20254855,2013,No/Unknown,0,0,65-69 years,Married,0,White,0,T4,N0,M0,III,70
-55006867,2013,Yes,1,14,65-69 years,Married,1,White,0,T1,N2,M0,III,28
-54873988,2013,Yes,1,25,80-84 years,Married,0,White,1,T2,N2,M0,III,60
-35800185,2013,No/Unknown,0,0,65-69 years,Married,1,White,0,T4,N1,M0,III,999
-62703271,2013,Yes,1,9,75-79 years,Married,1,White,1,T2,N1,M0,II,15
-62724428,2013,Yes,1,13,60-64 years,Unknown/Other,0,White,0,T4,N3,M1,IV,81
-62206901,2013,Yes,1,1,60-64 years,Married,0,White,0,T2,N2,M1,IV,49
-62725777,2013,Yes,1,3,75-79 years,Married,0,White,0,T4,N2,M1,IV,77
-1275557,2013,Yes,1,26,75-79 years,Married,1,White,1,T4,N2,M0,III,43
-5708839,2013,No/Unknown,0,0,70-74 years,Single,1,White,0,T2,N3,M1,IV,992
-5708961,2013,Yes,0,22,60-64 years,Married,1,White,1,T3,N1,M0,III,130
-5712293,2013,Yes,0,2,70-74 years,Married,1,White,0,T1,N2,M1,IV,24
-62736549,2013,Yes,0,2,60-64 years,Single,0,White,0,T2,N2,M0,III,37
-5714050,2013,Yes,0,15,65-69 years,Married,1,White,0,T3,N2,M1,IV,61
-11053948,2013,Yes,0,13,65-69 years,Married,1,White,1,T2,N0,M0,I,40
-62729099,2013,No/Unknown,0,10,60-64 years,Married,0,White,1,T2,N2,M1,IV,40
-50037050,2013,Yes,0,10,35-49 years,Single,0,White,1,T4,N2,M1,IV,60
-5722010,2013,No/Unknown,0,22,75-79 years,Single (never married),0,Black,1,T3,N2,M0,IV,35
-50040005,2013,Yes,0,2,65-69 years,Unknown/Other,0,White,0,T4,N2,M1,IV,999
-5727354,2013,No/Unknown,0,7,80-84 years,Single,0,White,1,T3,N0,M0,II,55
-46783203,2013,No/Unknown,0,6,65-69 years,Single (never married),0,White,1,T1,N1,M0,II,28
-49393763,2013,No/Unknown,0,2,75-79 years,Married,1,White,0,T1,N0,M0,I,25
-46789406,2013,Yes,0,29,70-74 years,Single,0,White,1,T1,N1,M0,II,22
-11089716,2013,Yes,1,5,80-84 years,Married,1,White,0,T1,N1,M1,IV,999
-25737908,2013,Yes,1,8,80-84 years,Single,0,White,1,T1,N2,M0,III,17
-11094711,2013,Yes,1,12,60-64 years,Married,0,Other,1,T2,N1,M0,II,35
-46467232,2013,Yes,0,6,70-74 years,Single,0,White,0,T3,N0,M1,IV,80
-11094835,2013,Yes,1,8,55-59 years,Single (never married),1,White,0,T4,N3,M1,IV,999
-11103404,2013,Yes,0,22,70-74 years,Single,0,White,1,T2,N0,M0,I,13
-55006771,2013,Yes,1,22,70-74 years,Married,0,White,0,T2,N3,M0,III,22
-11118472,2013,No/Unknown,1,11,85+ years,Single,0,White,0,T4,N0,M0,III,79
-26585455,2013,No/Unknown,0,8,85+ years,Married,1,White,0,T2,N0,M0,II,66
-54881628,2013,Yes,1,17,70-74 years,Married,1,White,0,T4,N1,M0,IV,999
-54194434,2013,Yes,0,36,65-69 years,Married,0,White,1,T2,N0,M0,I,36
-54994957,2013,Yes,0,28,65-69 years,Single (never married),1,White,0,T3,N2,M1,IV,50
-46778943,2013,Yes,1,1,70-74 years,Single,1,White,0,T4,N2,M1,IV,55
-54100943,2014,Yes,0,42,70-74 years,Married,0,White,1,T2,N0,M0,I,16
-27109915,2014,No/Unknown,1,21,85+ years,Single,0,Black,0,T4,N2,M1,IV,41
-27135556,2014,Yes,1,9,60-64 years,Married,1,White,0,T4,N2,M1,IV,30
-46869157,2014,Yes,1,3,55-59 years,Married,0,White,1,T2,N2,M1,IV,24
-49798880,2014,No/Unknown,0,5,60-64 years,Married,1,White,1,T4,N2,M1,IV,48
-55065055,2014,Yes,1,12,55-59 years,Married,1,Black,0,T3,N2,M0,III,41
-25774704,2014,No/Unknown,0,4,65-69 years,Single,0,Black,0,T2,N0,M0,I,34
-50068986,2014,Yes,1,24,75-79 years,Single,0,White,0,T2,N2,M0,III,42
-55097735,2014,Yes,1,13,35-49 years,Single (never married),0,White,0,T4,N3,M1,IV,999
-27443661,2014,Yes,0,41,65-69 years,Married,0,White,1,T3,N0,M0,II,23
-27463085,2014,Yes,1,24,80-84 years,Single,0,White,0,T1,N0,M0,I,22
-27468287,2014,Yes,0,15,60-64 years,Married,0,White,0,T3,N1,M1,IV,999
-27514097,2014,Yes,0,9,65-69 years,Married,1,Black,0,T3,N3,M1,IV,33
-14183261,2014,Yes,0,2,60-64 years,Single (never married),0,White,1,T4,N3,M0,III,999
-11142864,2014,Yes,1,9,80-84 years,Married,0,White,1,T4,N2,M0,III,87
-50065650,2014,Yes,1,6,55-59 years,Married,1,White,0,T3,N2,M0,III,80
-50070570,2014,Yes,1,5,65-69 years,Married,1,White,0,T4,N3,M1,IV,999
-55107736,2014,Yes,0,37,60-64 years,Single (never married),0,White,1,T2,N0,M0,I,22
-47010480,2014,Yes,1,37,35-49 years,Married,0,White,1,T3,N2,M0,III,82
-55109153,2014,Yes,1,3,70-74 years,Unknown/Other,0,White,0,T4,N2,M1,IV,70
-46862443,2014,No/Unknown,0,26,60-64 years,Single,1,White,0,T2,N0,M0,II,999
-55128558,2014,Yes,1,9,70-74 years,Married,1,White,1,T4,N0,M1,IV,78
-46817335,2014,Yes,1,15,65-69 years,Married,1,White,1,T2,N1,M0,II,40
-55117048,2014,Yes,1,17,50-54 years,Single (never married),1,Black,0,T3,N0,M0,II,999
-46831900,2014,Yes,1,12,55-59 years,Married,1,White,0,T3,N2,M1,IV,999
-46821095,2014,Yes,1,24,60-64 years,Single,1,White,0,T1,N3,M0,III,19
-46836865,2014,Yes,1,1,70-74 years,Married,1,White,0,T4,N3,M1,IV,999
-46861480,2014,Yes,0,24,65-69 years,Single,1,White,0,T2,N1,M1,IV,34
-46834590,2014,Yes,1,11,85+ years,Single,0,White,0,T3,N2,M1,IV,999
-5754417,2014,Yes,1,38,65-69 years,Married,1,White,0,T1,N0,M0,I,999
-46849796,2014,No/Unknown,1,1,80-84 years,Single,0,White,0,T4,N2,M1,IV,100
-46843191,2014,Yes,0,6,75-79 years,Single,0,White,0,T4,N0,M1,IV,63
-55159300,2014,Yes,1,15,50-54 years,Single (never married),1,Black,0,T4,N0,M1,IV,30
-46858421,2014,Yes,0,13,65-69 years,Married,1,White,1,T4,N1,M0,IV,55
-46859923,2014,Yes,0,9,35-49 years,Married,0,White,1,T4,N3,M1,IV,90
-35833277,2014,No/Unknown,0,5,85+ years,Married,0,White,0,T2,N2,M1,IV,31
-50031150,2014,Yes,1,12,55-59 years,Single (never married),0,White,0,T4,N3,M0,III,74
-16584207,2014,Yes,1,18,55-59 years,Unknown/Other,0,White,1,T2,N0,M0,I,16
-16623216,2014,Yes,0,20,60-64 years,Married,1,White,1,T1,N1,M0,IV,50
-54732849,2014,Yes,1,6,70-74 years,Single,0,White,0,T1,N0,M0,I,15
-46529788,2014,Yes,1,3,65-69 years,Single,0,White,0,T2,N3,M0,III,40
-50038682,2014,Yes,1,19,55-59 years,Single,1,Black,0,T3,N3,M0,III,50
-35247334,2014,Yes,0,36,70-74 years,Married,0,White,0,T2,N0,M0,II,20
-35255211,2014,Yes,0,29,65-69 years,Single,0,White,1,T2,N0,M0,II,55
-46898667,2014,Yes,0,4,35-49 years,Single,1,White,0,T4,N2,M1,IV,120
-46380381,2014,Yes,1,6,50-54 years,Single,0,White,0,T3,N2,M1,IV,84
-35840228,2014,No/Unknown,0,0,70-74 years,Married,1,White,0,T1,N0,M1,IV,31
-46306686,2014,Yes,0,8,60-64 years,Married,1,White,1,T2,N2,M0,III,42
-35939882,2014,No/Unknown,0,1,80-84 years,Married,1,Other,0,T3,N2,M1,IV,90
-35909292,2014,Yes,0,57,70-74 years,Married,1,White,1,T2,N2,M0,III,21
-35850298,2014,No/Unknown,1,4,80-84 years,Single,1,White,0,T3,N0,M1,IV,100
-62768765,2014,No/Unknown,0,0,55-59 years,Single (never married),1,White,0,T2,N0,M1,IV,67
-35838948,2014,Yes,1,5,65-69 years,Married,1,White,0,T1,N0,M1,IV,20
-35856295,2014,Yes,0,2,80-84 years,Unknown/Other,1,White,0,T2,N3,M1,IV,50
-35863938,2014,Yes,0,4,65-69 years,Single,1,Other,0,T3,N0,M0,II,999
-35888309,2014,No/Unknown,0,19,75-79 years,Married,0,White,1,T2,N2,M0,III,33
-54110322,2014,Yes,1,11,70-74 years,Married,1,White,1,T4,N2,M0,III,999
-50064508,2014,No/Unknown,0,0,60-64 years,Married,1,White,1,T4,N3,M1,IV,22
-49681385,2014,No/Unknown,1,27,85+ years,Single (never married),1,White,0,T3,N0,M0,III,50
-46879663,2014,Yes,0,0,80-84 years,Married,1,White,0,T3,N2,M1,IV,100
-36166407,2014,Yes,1,43,85+ years,Single (never married),1,White,0,T2,N0,M1,IV,56
-35905092,2014,No/Unknown,1,3,75-79 years,Married,1,Other,0,T3,N0,M1,IV,22
-21958818,2014,No/Unknown,1,2,80-84 years,Married,1,White,0,T3,N0,M1,IV,32
-22139276,2014,Yes,0,10,65-69 years,Married,0,White,1,T3,N1,M0,III,75
-22141834,2014,Yes,1,57,60-64 years,Married,1,White,1,T2,N0,M1,IV,68
-46020850,2014,No/Unknown,0,0,80-84 years,Single,0,White,1,T3,N2,M1,IV,94
-62768090,2014,Yes,1,16,70-74 years,Married,1,White,1,T2,N2,M0,III,42
-46205114,2014,No/Unknown,0,0,75-79 years,Married,1,White,0,T2,N0,M0,I,32
-46903500,2014,No/Unknown,0,31,60-64 years,Single (never married),1,White,0,T3,N0,M0,II,72
-1321707,2014,No/Unknown,0,2,60-64 years,Married,1,Other,0,T4,N2,M1,IV,72
-50058208,2014,No/Unknown,1,2,80-84 years,Married,0,White,0,T2,N0,M1,IV,70
-50054768,2014,Yes,1,1,85+ years,Single,0,White,1,T1,N2,M0,III,18
-1341033,2014,No/Unknown,0,8,75-79 years,Married,1,Other,1,T1,N0,M0,I,15
-62810279,2014,Yes,0,9,55-59 years,Married,0,White,0,T4,N3,M1,IV,93
-5750780,2014,Yes,0,34,35-49 years,Married,1,White,1,T4,N2,M1,IV,60
-50071025,2014,Yes,1,6,65-69 years,Married,1,White,0,T3,N2,M1,IV,999
-46759942,2014,Yes,1,8,75-79 years,Single,0,White,0,T4,N0,M0,III,22
-50070193,2014,No/Unknown,0,0,60-64 years,Single (never married),1,White,1,T4,N3,M1,IV,98
-5754601,2014,Yes,0,32,65-69 years,Single,1,White,1,T2,N0,M0,I,15
-50079656,2014,Yes,1,13,35-49 years,Single (never married),1,Black,0,T3,N0,M0,II,55
-25838781,2014,No/Unknown,0,17,75-79 years,Single,0,White,0,T1,N0,M0,I,24
-11100433,2014,Yes,1,19,55-59 years,Single,1,White,1,T3,N0,M1,IV,41
-11139523,2014,No/Unknown,1,1,80-84 years,Single,0,White,0,T2,N0,M1,IV,55
-62795384,2014,Yes,0,19,60-64 years,Single (never married),1,Black,0,T4,N2,M1,IV,45
-34326581,2014,No/Unknown,0,4,85+ years,Single,1,White,0,T2,N0,M0,II,50
-11142368,2014,Yes,1,4,50-54 years,Single,1,White,0,T3,N2,M1,IV,10
-5758684,2014,Yes,1,23,65-69 years,Married,1,White,0,T4,N3,M1,IV,50
-46631878,2014,No/Unknown,0,1,80-84 years,Married,0,White,0,T4,N2,M1,IV,15
-46645720,2014,Yes,0,2,65-69 years,Single (never married),1,White,1,T4,N2,M1,IV,55
-46848206,2014,Yes,1,7,65-69 years,Single (never married),1,White,0,T4,N2,M1,IV,48
-46735897,2014,Yes,1,30,65-69 years,Married,0,White,1,T1,N1,M0,II,30
-50091995,2015,Yes,1,24,70-74 years,Single,1,Black,0,T2,N0,M0,I,40
-11155649,2015,Yes,1,9,50-54 years,Single,1,White,0,T2,N0,M1,IV,52
-5783987,2015,Yes,1,19,55-59 years,Single,1,White,1,T4,N2,M0,III,70
-1377837,2015,No/Unknown,0,0,80-84 years,Married,1,White,0,T2,N0,M1,IV,66
-35241028,2015,No/Unknown,0,21,75-79 years,Single (never married),1,White,0,T3,N2,M1,IV,40
-55211996,2015,Yes,1,9,75-79 years,Single,0,White,0,T4,N2,M0,III,75
-46757147,2015,No/Unknown,0,0,55-59 years,Unknown/Other,0,White,0,T4,N2,M1,IV,14
-50093496,2015,Yes,1,30,65-69 years,Married,0,White,0,T2,N1,M0,III,86
-27496345,2015,Yes,0,6,65-69 years,Single (never married),0,White,0,T4,N2,M1,IV,90
-27505731,2015,Yes,0,12,70-74 years,Single (never married),1,Black,0,T4,N0,M1,IV,69
-27506262,2015,Yes,0,2,65-69 years,Single (never married),1,Black,0,T4,N2,M1,IV,41
-27516586,2015,No/Unknown,0,12,35-49 years,Married,1,White,0,T2,N0,M0,I,20
-14203486,2015,No/Unknown,1,7,65-69 years,Unknown/Other,1,White,0,T4,N2,M0,III,25
-27530365,2015,No/Unknown,0,7,65-69 years,Married,1,White,1,T3,N0,M0,II,70
-27533117,2015,Yes,0,6,35-49 years,Single (never married),0,White,0,T2,N0,M1,IV,77
-27538398,2015,No/Unknown,0,0,60-64 years,Unknown/Other,0,Black,0,T3,N0,M1,IV,999
-14221835,2015,No/Unknown,0,0,65-69 years,Single,0,White,0,T4,N3,M1,IV,97
-46659310,2015,Yes,0,1,55-59 years,Single (never married),1,White,0,T3,N1,M0,III,17
-46877502,2015,Yes,1,23,55-59 years,Married,0,White,1,T4,N2,M0,III,75
-49443988,2015,Yes,1,17,70-74 years,Married,1,White,0,T1,N0,M0,I,16
-50126940,2015,Yes,1,32,60-64 years,Married,1,Black,1,T3,N0,M0,II,101
-55185568,2015,Yes,0,20,65-69 years,Married,1,White,0,T2,N2,M1,IV,36
-36131140,2015,Yes,1,11,35-49 years,Single (never married),1,White,1,T3,N2,M1,IV,999
-50131782,2015,No/Unknown,0,3,55-59 years,Unknown/Other,1,White,0,T3,N3,M1,IV,145
-55214952,2015,Yes,0,10,60-64 years,Married,1,White,1,T1,N1,M0,II,20
-46876737,2015,Yes,1,14,50-54 years,Married,0,White,0,T1,N2,M0,III,16
-55230095,2015,Yes,0,22,65-69 years,Married,1,White,0,T3,N0,M1,IV,999
-55287459,2015,Yes,0,13,55-59 years,Single,1,White,1,T3,N0,M0,III,34
-49987751,2015,Yes,1,17,60-64 years,Married,0,White,0,T2,N2,M1,IV,20
-36164961,2015,Yes,0,7,35-49 years,Married,0,Other,0,T2,N1,M1,IV,130
-16599599,2015,Yes,0,3,70-74 years,Single,0,White,0,T2,N1,M0,II,8
-46876177,2015,Yes,1,8,55-59 years,Single,1,White,0,T3,N3,M1,IV,29
-16605767,2015,No/Unknown,0,5,55-59 years,Single (never married),0,White,0,T2,N2,M0,IV,50
-16622153,2015,Yes,0,22,75-79 years,Married,1,White,1,T2,N3,M1,IV,62
-16639764,2015,Yes,0,24,75-79 years,Married,1,White,1,T3,N0,M0,III,999
-16640791,2015,No/Unknown,0,7,65-69 years,Married,0,White,1,T2,N2,M0,III,50
-46877326,2015,No/Unknown,0,8,55-59 years,Married,0,White,0,T3,N2,M0,III,80
-46880219,2015,No/Unknown,0,0,80-84 years,Married,0,White,0,T3,N0,M0,II,70
-46904674,2015,No/Unknown,1,8,70-74 years,Married,1,White,0,T3,N0,M0,II,30
-46935739,2015,No/Unknown,0,4,55-59 years,Married,1,White,0,T3,N0,M0,III,999
-46927666,2015,Yes,0,22,60-64 years,Married,1,White,0,T3,N0,M1,IV,999
-46910336,2015,Yes,0,15,55-59 years,Single (never married),1,White,1,T2,N2,M0,III,50
-36092230,2015,Yes,1,4,55-59 years,Married,1,White,0,T3,N2,M1,IV,56
-36054906,2015,Yes,0,13,60-64 years,Unknown/Other,1,Black,0,T2,N0,M1,IV,14
-36057832,2015,No/Unknown,0,0,55-59 years,Married,1,Other,1,T1,N3,M1,IV,27
-46328817,2015,Yes,1,11,50-54 years,Married,1,White,1,T1,N2,M0,III,11
-20297126,2015,No/Unknown,0,4,65-69 years,Single,1,White,0,T2,N1,M1,IV,999
-21544691,2015,No/Unknown,0,12,50-54 years,Single,0,White,0,T2,N0,M0,II,999
-36018322,2015,Yes,1,1,60-64 years,Single (never married),1,White,1,T3,N3,M1,IV,144
-36054221,2015,Yes,0,3,85+ years,Married,1,White,0,T3,N0,M1,IV,999
-5782106,2015,Yes,1,9,65-69 years,Married,1,White,1,T1,N2,M0,III,19
-36086956,2015,Yes,1,11,80-84 years,Married,1,White,0,T3,N2,M0,III,24
-36122127,2015,Yes,1,6,55-59 years,Single,1,White,0,T3,N0,M1,IV,999
-36146716,2015,No/Unknown,0,6,75-79 years,Married,1,White,0,T3,N2,M0,III,38
-36174117,2015,Yes,0,8,65-69 years,Married,1,Black,0,T4,N1,M1,IV,999
-5138550,2015,No/Unknown,0,0,80-84 years,Single (never married),0,White,0,T2,N2,M1,IV,999
-36198482,2015,Yes,1,32,35-49 years,Unknown/Other,1,White,0,T2,N1,M1,IV,999
-46950338,2015,Yes,1,23,75-79 years,Unknown/Other,1,White,0,T2,N0,M0,I,33
-46886393,2015,Yes,0,9,65-69 years,Married,1,White,1,T4,N2,M1,IV,51
-62181784,2015,Yes,0,0,65-69 years,Single,0,Black,0,T4,N2,M1,IV,999
-35727607,2015,Yes,1,38,65-69 years,Married,0,White,0,T4,N3,M0,III,44
-5807083,2015,Yes,0,20,50-54 years,Single (never married),1,White,0,T2,N0,M0,II,999
-22123369,2015,No/Unknown,0,2,85+ years,Single,1,White,0,T4,N0,M1,IV,999
-5801594,2015,Yes,0,13,75-79 years,Married,1,White,1,T3,N2,M1,IV,30
-22149015,2015,Yes,1,20,75-79 years,Married,0,Black,1,T1,N2,M0,III,22
-46890686,2015,Yes,1,14,50-54 years,Single,1,White,0,T3,N2,M1,IV,999
-50048332,2015,No/Unknown,1,0,80-84 years,Single,1,White,0,T2,N1,M1,IV,52
-46424602,2015,Yes,1,17,70-74 years,Married,0,White,0,T2,N0,M0,I,17
-50098227,2015,Yes,0,17,70-74 years,Married,0,White,1,T2,N1,M1,IV,40
-50105099,2015,Yes,0,10,75-79 years,Married,1,White,1,T2,N0,M1,IV,50
-1370038,2015,No/Unknown,1,1,80-84 years,Married,1,White,0,T1,N0,M1,IV,24
-11161217,2015,Yes,0,13,35-49 years,Single (never married),0,White,0,T4,N0,M1,IV,157
-5783614,2015,Yes,1,4,60-64 years,Single,0,White,0,T1,N2,M1,IV,30
-35545553,2015,Yes,0,5,75-79 years,Single,0,White,0,T2,N3,M1,IV,47
-1370155,2015,Yes,0,58,75-79 years,Married,1,White,0,T3,N2,M1,IV,97
-50109143,2015,Yes,1,9,70-74 years,Married,1,Black,0,T3,N0,M0,II,57
-62852611,2015,Yes,1,14,60-64 years,Married,1,White,0,T2,N2,M1,IV,999
-62851784,2015,Yes,1,31,65-69 years,Single (never married),1,Black,0,T4,N0,M0,III,35
-62879474,2015,Yes,1,10,65-69 years,Married,0,White,0,T3,N2,M0,III,83
-5808521,2015,Yes,0,18,80-84 years,Single,1,White,0,T2,N0,M1,IV,50
-46895441,2015,No/Unknown,1,7,65-69 years,Married,0,White,0,T1,N0,M0,I,24
-11155880,2015,Yes,0,8,65-69 years,Married,1,White,1,T3,N2,M0,IV,999
-50108587,2015,Yes,1,22,50-54 years,Single (never married),1,White,0,T3,N3,M0,III,130
-11155649,2015,Yes,1,9,50-54 years,Single (never married),1,White,0,T1,N0,M1,IV,12
-47000223,2016,Yes,0,13,65-69 years,Married,1,White,1,T3,N2,M0,III,60
-5826431,2016,Yes,1,22,65-69 years,Single (never married),0,White,0,T3,N2,M0,III,999
-36329545,2016,Yes,0,10,55-59 years,Married,0,White,1,T2,N2,M1,IV,35
-1404857,2016,No/Unknown,0,10,65-69 years,Married,1,Other,1,T1,N0,M0,I,23
-1444995,2016,Yes,1,5,65-69 years,Married,1,Other,1,T3,N3,M1,IV,70
-50185155,2016,No/Unknown,0,8,70-74 years,Married,1,Black,0,T1,N0,M0,II,999
-27572727,2016,No/Unknown,0,11,70-74 years,Married,0,White,0,T2,N0,M0,II,90
-14231331,2016,Yes,1,5,55-59 years,Single (never married),1,White,1,T4,N2,M1,IV,113
-27590386,2016,No/Unknown,0,1,80-84 years,Married,1,White,0,T3,N3,M1,IV,999
-27592260,2016,Yes,0,9,70-74 years,Single,1,White,1,T2,N0,M0,I,22
-27599545,2016,No/Unknown,0,13,65-69 years,Married,1,White,1,T3,N1,M0,IV,999
-27606343,2016,Yes,0,17,65-69 years,Unknown/Other,1,White,1,T3,N1,M0,IV,999
-27613302,2016,Yes,0,42,65-69 years,Married,1,White,0,T3,N1,M1,IV,999
-47017031,2016,Yes,0,17,50-54 years,Single,0,White,0,T2,N0,M0,II,50
-46974619,2016,Yes,1,13,60-64 years,Single,1,White,1,T2,N0,M0,I,30
-46864005,2016,Yes,0,19,60-64 years,Single,1,White,1,T1,N2,M0,III,21
-36334318,2016,Yes,1,9,65-69 years,Married,1,White,0,T2,N1,M1,IV,42
-36374485,2016,Yes,1,5,60-64 years,Single,1,White,1,T2,N2,M1,IV,53
-36333521,2016,Yes,1,9,75-79 years,Married,1,White,0,T3,N2,M0,IV,999
-36334697,2016,No/Unknown,0,0,70-74 years,Married,1,White,0,T4,N2,M1,IV,54
-50175507,2016,Yes,0,9,85+ years,Married,1,White,0,T2,N0,M1,IV,46
-55159017,2016,Yes,0,19,85+ years,Single,0,White,0,T2,N0,M0,II,40
-62870143,2016,Yes,0,0,35-49 years,Married,1,White,0,T4,N1,M1,IV,999
-46933485,2016,No/Unknown,0,9,75-79 years,Married,0,White,1,T1,N1,M0,II,15
-36287982,2016,Yes,1,9,60-64 years,Married,1,Black,0,T4,N0,M0,IV,99
-36239333,2016,No/Unknown,0,25,65-69 years,Married,1,White,0,T1,N0,M0,I,50
-55273317,2016,Yes,1,9,55-59 years,Single (never married),1,Black,0,T4,N3,M0,III,55
-49988909,2016,No/Unknown,1,20,70-74 years,Married,0,White,0,T1,N0,M0,I,13
-55271966,2016,No/Unknown,0,35,85+ years,Married,1,Other,1,T3,N0,M0,II,95
-49987879,2016,No/Unknown,1,2,50-54 years,Married,0,White,0,T4,N2,M1,IV,58
-55325641,2016,Yes,0,3,85+ years,Married,0,White,0,T3,N0,M0,II,33
-55334287,2016,Yes,1,19,65-69 years,Unknown/Other,1,White,1,T1,N2,M0,III,29
-50175480,2016,Yes,1,16,50-54 years,Single (never married),0,Black,1,T3,N2,M0,III,108
-55368054,2016,No/Unknown,1,17,85+ years,Married,1,White,0,T2,N0,M1,IV,58
-16665824,2016,No/Unknown,0,6,80-84 years,Single,0,White,0,T3,N0,M0,III,51
-16669868,2016,Yes,1,10,50-54 years,Married,1,White,0,T2,N0,M1,IV,35
-16682635,2016,No/Unknown,0,31,75-79 years,Married,1,White,1,T2,N0,M0,II,25
-46960484,2016,Yes,0,4,65-69 years,Married,1,White,1,T2,N1,M1,IV,57
-4566071,2016,Yes,1,12,75-79 years,Married,0,White,0,T4,N2,M0,III,78
-55361876,2016,No/Unknown,1,14,65-69 years,Single,1,White,0,T1,N2,M1,IV,9
-46925217,2016,Yes,0,8,60-64 years,Single (never married),0,White,1,T3,N1,M0,III,40
-53965135,2016,Yes,0,6,50-54 years,Married,0,White,0,T4,N2,M1,IV,999
-46937847,2016,No/Unknown,1,7,75-79 years,Married,0,White,0,T1,N0,M0,I,18
-10814024,2016,Yes,1,6,75-79 years,Married,1,White,1,T4,N2,M1,IV,28
-26933041,2016,Yes,0,9,85+ years,Married,1,White,0,T2,N0,M1,IV,48
-27604822,2016,Yes,1,17,55-59 years,Single,0,Other,0,T3,N0,M1,IV,50
-21513718,2016,Yes,0,5,60-64 years,Married,0,White,1,T2,N3,M1,IV,41
-55388872,2016,Yes,0,14,60-64 years,Married,1,White,0,T4,N0,M1,IV,999
-5816279,2016,Yes,1,14,60-64 years,Single,0,White,0,T2,N3,M0,III,55
-55324437,2016,Yes,1,31,65-69 years,Married,0,White,0,T3,N3,M1,IV,48
-5649888,2016,Yes,1,27,65-69 years,Single,1,White,1,T2,N0,M0,I,35
-27587304,2016,Yes,0,42,60-64 years,Single,0,White,1,T2,N0,M0,II,52
-27575694,2016,Yes,1,7,35-49 years,Single (never married),1,White,0,T2,N2,M1,IV,30
-36207069,2016,Yes,1,3,60-64 years,Single (never married),1,White,0,T4,N3,M1,IV,104
-36227956,2016,Yes,0,6,70-74 years,Married,1,White,0,T4,N1,M1,IV,68
-36283495,2016,Yes,1,4,65-69 years,Married,0,White,0,T4,N2,M1,IV,140
-36286733,2016,No/Unknown,0,8,85+ years,Married,1,White,0,T2,N2,M1,IV,34
-36289701,2016,Yes,0,3,35-49 years,Married,0,White,0,T4,N2,M1,IV,95
-11191096,2016,No/Unknown,0,0,85+ years,Married,1,White,1,T4,N3,M1,IV,103
-36390781,2016,No/Unknown,0,0,75-79 years,Single,1,White,1,T3,N1,M1,IV,30
-22139585,2016,Yes,0,16,65-69 years,Single,1,White,1,T3,N0,M0,II,26
-46945917,2016,Yes,1,6,70-74 years,Married,0,White,0,T2,N2,M1,IV,40
-62760555,2016,Yes,0,16,65-69 years,Married,0,Black,1,T2,N0,M0,I,16
-24418765,2016,Yes,0,20,70-74 years,Single,0,White,0,T4,N2,M1,IV,37
-24432558,2016,Yes,1,23,75-79 years,Married,1,White,0,T2,N3,M1,IV,999
-46930888,2016,Yes,0,7,55-59 years,Married,1,White,0,T2,N0,M0,II,50
-54956163,2016,Yes,0,10,70-74 years,Single,0,White,1,T2,N1,M0,II,43
-50165828,2016,Yes,0,11,60-64 years,Married,1,White,0,T1,N2,M1,IV,20
-50158516,2016,Yes,1,20,65-69 years,Married,1,White,1,T1,N0,M0,I,22
-16349177,2016,Yes,1,44,80-84 years,Single,0,White,0,T2,N2,M0,III,35
-26075377,2016,No/Unknown,0,2,80-84 years,Married,0,Other,0,T2,N0,M1,IV,42
-50160931,2016,Yes,1,8,70-74 years,Single,0,White,0,T4,N2,M1,IV,77
-62921118,2016,Yes,0,32,35-49 years,Married,0,Black,1,T2,N0,M0,I,25
-62979426,2016,Yes,1,13,65-69 years,Single,0,White,1,T2,N2,M0,III,31
-26913790,2016,No/Unknown,0,7,85+ years,Married,1,White,0,T2,N0,M0,II,999
-62965612,2016,No/Unknown,0,31,60-64 years,Unknown/Other,1,White,1,T1,N2,M0,III,25
-5816392,2016,Yes,1,3,70-74 years,Married,1,White,0,T3,N2,M1,IV,79
-36389926,2017,Yes,0,7,60-64 years,Married,0,Other,0,T4,N2,M1,IV,999
-5877107,2017,Yes,0,11,60-64 years,Married,1,White,1,T3,N2,M1,IV,22
-5877956,2017,Yes,0,8,70-74 years,Married,1,Black,1,T3,N3,M1,IV,999
-50196931,2017,No/Unknown,0,22,55-59 years,Married,1,Black,0,T3,N0,M1,IV,999
-5854937,2017,Yes,0,11,65-69 years,Married,1,White,0,T2,N2,M1,IV,35
-47004191,2017,No/Unknown,0,1,75-79 years,Unknown/Other,1,Black,1,T3,N3,M1,IV,80
-11227364,2017,Yes,0,12,70-74 years,Single (never married),0,White,0,T3,N2,M1,IV,120
-46455338,2017,Yes,0,11,60-64 years,Single (never married),1,Black,0,T2,N0,M0,II,40
-36408634,2017,Yes,1,10,75-79 years,Married,1,White,1,T4,N2,M0,IV,50
-36366995,2017,Yes,1,1,85+ years,Single,0,White,0,T1,N2,M1,IV,25
-62963841,2017,Yes,1,6,70-74 years,Single (never married),1,White,1,T2,N2,M0,III,20
-27647930,2017,Yes,0,2,85+ years,Single,1,Other,0,T2,N2,M1,IV,53
-1467954,2017,Yes,0,13,75-79 years,Married,1,Black,0,T2,N1,M0,IV,999
-15781992,2017,No/Unknown,0,1,70-74 years,Single,0,White,0,T1,N2,M1,IV,19
-27693255,2017,Yes,1,2,80-84 years,Married,0,White,0,T4,N1,M1,IV,40
-36369251,2017,Yes,0,2,60-64 years,Single,0,Black,0,T3,N2,M1,IV,43
-36447280,2017,Yes,1,7,65-69 years,Married,0,White,0,T2,N2,M1,IV,48
-1469557,2017,Yes,1,16,70-74 years,Married,1,Other,0,T3,N0,M0,II,78
-47013513,2017,Yes,1,8,35-49 years,Single,0,White,0,T4,N0,M1,IV,64
-46970536,2017,No/Unknown,1,8,75-79 years,Married,0,White,1,T4,N0,M0,III,91
-47011868,2017,Yes,1,28,60-64 years,Married,0,White,1,T4,N2,M1,IV,999
-1470997,2017,Yes,1,21,60-64 years,Single,1,Other,1,T4,N2,M1,IV,145
-34063249,2017,Yes,0,9,80-84 years,Married,1,White,1,T1,N1,M0,II,25
-46987768,2017,Yes,1,6,60-64 years,Married,0,White,0,T3,N2,M1,IV,103
-63002167,2017,Yes,0,12,70-74 years,Married,0,White,1,T2,N2,M0,III,45
-50236183,2017,No/Unknown,0,13,70-74 years,Married,1,Black,0,T1,N0,M1,IV,999
-704024,2017,Yes,1,12,60-64 years,Married,0,White,0,T2,N0,M0,II,20
-36454032,2017,No/Unknown,0,0,70-74 years,Married,0,White,0,T2,N2,M1,IV,54
-10664613,2017,Yes,1,40,70-74 years,Married,1,White,1,T2,N3,M0,III,43
-55444480,2017,Yes,1,0,70-74 years,Married,1,White,0,T2,N2,M1,IV,56
-34772884,2017,No/Unknown,0,0,85+ years,Single,0,White,0,T3,N2,M0,III,97
-46993597,2017,No/Unknown,0,3,75-79 years,Married,1,White,0,T3,N0,M1,IV,100
-21851846,2017,Yes,0,7,70-74 years,Single,1,White,0,T1,N0,M0,I,27
-24444091,2017,Yes,0,12,55-59 years,Single (never married),0,White,1,T1,N0,M0,I,17
-55445567,2017,Yes,0,8,70-74 years,Single,1,White,0,T2,N0,M1,IV,999
-47058261,2017,Yes,0,13,50-54 years,Married,0,White,1,T3,N3,M1,IV,72
-50226878,2017,Yes,0,16,75-79 years,Single,0,White,0,T1,N0,M0,I,12
-47017188,2017,No/Unknown,0,0,65-69 years,Married,0,White,0,T2,N0,M1,IV,36
-27659971,2017,Yes,0,11,85+ years,Married,1,White,0,T1,N0,M0,I,999
-55405221,2017,Yes,0,11,55-59 years,Single (never married),1,White,0,T3,N3,M1,IV,129
-54737008,2017,Yes,1,24,75-79 years,Married,0,White,1,T1,N1,M0,II,29
-27700597,2017,No/Unknown,0,4,60-64 years,Unknown/Other,0,White,1,T3,N1,M1,IV,93
-46991313,2017,Yes,0,13,70-74 years,Married,1,White,1,T2,N3,M0,IV,53
-35958524,2017,Yes,1,8,70-74 years,Single,0,White,1,T4,N2,M0,III,75
-47067962,2017,No/Unknown,0,12,70-74 years,Married,0,White,0,T3,N1,M0,III,25
-21686610,2017,No/Unknown,0,0,75-79 years,Single (never married),0,Black,1,T4,N3,M1,IV,147
-24460971,2017,Yes,1,1,70-74 years,Single,0,White,0,T4,N3,M1,IV,999
-16737947,2017,Yes,1,8,65-69 years,Married,1,White,0,T1,N1,M1,IV,999
-50215197,2017,Yes,0,8,60-64 years,Married,1,White,1,T4,N0,M1,IV,60
-1460390,2017,Yes,1,10,50-54 years,Single,0,Other,0,T4,N3,M1,IV,101
-20227407,2017,Yes,0,4,80-84 years,Married,1,White,0,T2,N0,M1,IV,39
-46032950,2017,Yes,1,8,75-79 years,Single,1,White,0,T3,N0,M0,II,69
-54811345,2017,No/Unknown,0,2,70-74 years,Single (never married),1,Black,1,T2,N1,M0,II,66
-11193353,2017,Yes,1,7,55-59 years,Married,1,White,0,T3,N2,M1,IV,100
-47071947,2017,No/Unknown,0,1,75-79 years,Married,1,White,0,T2,N0,M1,IV,50
-5359857,2017,Yes,0,4,80-84 years,Married,1,Black,0,T4,N2,M1,IV,77
-54179725,2017,Yes,0,4,70-74 years,Married,0,White,0,T1,N0,M0,I,50
-16729439,2017,No/Unknown,0,25,65-69 years,Married,1,Other,1,T1,N0,M0,I,15
-47004847,2017,Yes,0,34,70-74 years,Married,1,White,1,T3,N0,M0,III,999
-46876974,2017,No/Unknown,0,14,55-59 years,Single,1,White,0,T1,N0,M0,I,18
-62791300,2017,Yes,1,3,60-64 years,Single,1,White,1,T4,N3,M1,IV,77
-47005366,2017,Yes,0,14,60-64 years,Married,1,White,0,T2,N0,M0,II,24
-55405534,2017,Yes,1,12,65-69 years,Married,1,White,0,T3,N2,M1,IV,36
-63002328,2017,No/Unknown,1,5,70-74 years,Married,1,White,0,T2,N2,M0,III,56
-47044176,2017,Yes,0,7,55-59 years,Married,1,White,0,T2,N2,M1,IV,70
-50192275,2017,Yes,0,3,50-54 years,Single (never married),0,White,0,T3,N2,M1,IV,93
-36508114,2017,No/Unknown,0,2,85+ years,Single,1,White,0,T1,N0,M0,I,999
-36518797,2017,No/Unknown,0,6,75-79 years,Married,1,White,0,T1,N0,M0,I,24
-11279220,2018,Yes,1,25,75-79 years,Single,1,White,0,T1,N0,M0,I,20
-5907384,2018,No/Unknown,0,1,55-59 years,Single (never married),1,White,1,T1,N3,M1,IV,11
-47053572,2018,Yes,1,19,65-69 years,Married,1,White,1,T1,N3,M0,III,18
-22149437,2018,No/Unknown,0,20,65-69 years,Unknown/Other,1,Black,1,T3,N2,M1,IV,43
-47047741,2018,No/Unknown,1,7,60-64 years,Single,1,White,1,T3,N0,M0,II,64
-47096791,2018,Yes,0,2,70-74 years,Married,0,White,0,T4,N0,M0,III,55
-63030794,2018,No/Unknown,1,2,65-69 years,Single,0,White,0,T2,N2,M1,IV,31
-55518451,2018,Yes,1,11,55-59 years,Married,1,Black,1,T4,N3,M0,III,30
-50285442,2018,Yes,1,5,60-64 years,Unknown/Other,1,Black,0,T4,N2,M1,IV,71
-55487877,2018,Yes,0,11,70-74 years,Married,0,White,0,T4,N2,M1,IV,44
-23881168,2018,No/Unknown,0,6,80-84 years,Single,1,Other,0,T3,N2,M1,IV,46
-11259948,2018,Yes,1,14,55-59 years,Single,0,White,0,T2,N2,M0,III,999
-22141734,2018,Yes,0,12,75-79 years,Married,1,White,1,T1,N0,M0,I,23
-36635066,2018,Yes,0,6,65-69 years,Unknown/Other,1,White,0,T4,N0,M1,IV,154
-55098700,2018,No/Unknown,0,0,80-84 years,Married,1,White,0,T4,N2,M1,IV,91
-27742061,2018,Yes,1,24,75-79 years,Single,0,White,1,T3,N1,M0,III,35
-50253475,2018,Yes,0,0,80-84 years,Married,1,White,1,T3,N2,M1,IV,65
-27791788,2018,Yes,0,18,35-49 years,Single (never married),1,Black,0,T4,N2,M1,IV,52
-36602054,2018,No/Unknown,0,0,75-79 years,Single,1,White,0,T3,N1,M1,IV,64
-63048941,2018,Yes,1,12,55-59 years,Married,0,White,0,T4,N0,M1,IV,90
-5699783,2018,Yes,0,5,70-74 years,Single,0,White,0,T1,N3,M1,IV,25
-5973471,2018,Yes,0,33,80-84 years,Married,0,White,1,T2,N0,M0,I,25
-50258413,2018,Yes,0,17,65-69 years,Married,1,Black,1,T4,N2,M0,III,60
-16755516,2018,Yes,0,0,65-69 years,Married,1,White,0,T4,N2,M1,IV,999
-16142976,2018,Yes,1,2,70-74 years,Married,1,White,0,T4,N2,M1,IV,50
-47117021,2018,Yes,1,17,75-79 years,Single,1,White,0,T1,N2,M1,IV,18
-27818844,2018,Yes,1,5,65-69 years,Married,0,White,1,T4,N3,M1,IV,51
-55522509,2018,Yes,0,22,75-79 years,Married,1,White,0,T1,N0,M1,IV,25
-22282324,2018,Yes,1,12,70-74 years,Married,0,White,1,T4,N1,M1,IV,25
-5907199,2018,No/Unknown,1,1,85+ years,Married,1,White,0,T3,N2,M1,IV,51
-62825530,2018,Yes,0,15,65-69 years,Married,1,White,0,T2,N0,M0,I,27
-50235924,2018,Yes,1,5,70-74 years,Married,1,White,0,T1,N1,M0,II,28
-34446638,2018,Yes,0,7,60-64 years,Single (never married),0,White,0,T2,N3,M0,III,18
-16797478,2018,Yes,1,19,70-74 years,Married,1,Black,0,T4,N2,M1,IV,106
-62539270,2018,No/Unknown,0,3,75-79 years,Married,1,White,1,T2,N2,M0,III,35
-27786027,2018,No/Unknown,0,0,55-59 years,Married,1,White,1,T2,N0,M0,I,18
-36727856,2018,No/Unknown,0,17,35-49 years,Single (never married),0,Other,0,T4,N1,M0,III,110
-14254955,2018,No/Unknown,0,30,85+ years,Single,0,White,0,T1,N0,M0,I,26
-36775936,2018,Yes,1,6,70-74 years,Married,1,White,0,T2,N0,M0,I,999
-11257638,2018,No/Unknown,1,0,35-49 years,Married,0,White,1,T4,N3,M0,III,100
-63103699,2018,Yes,0,22,65-69 years,Married,1,White,1,T4,N2,M0,III,79
-46744770,2018,Yes,0,18,65-69 years,Single (never married),1,White,1,T2,N3,M1,IV,35
-55536922,2018,No/Unknown,0,13,85+ years,Married,0,White,0,T2,N0,M1,IV,35
-36725169,2018,Yes,0,27,70-74 years,Single,0,White,0,T2,N0,M1,IV,36
-47160404,2018,Yes,0,7,65-69 years,Single (never married),1,White,0,T4,N3,M1,IV,66
-27792640,2018,Yes,1,11,75-79 years,Single (never married),1,White,0,T1,N0,M0,I,11
-62644966,2018,No/Unknown,0,5,70-74 years,Married,0,White,0,T2,N0,M0,I,10
-36607504,2018,Yes,1,15,70-74 years,Single,0,Other,0,T2,N2,M1,IV,46
-47045287,2018,No/Unknown,0,0,70-74 years,Married,1,White,0,T2,N3,M1,IV,50
-50241142,2018,Yes,1,12,65-69 years,Married,1,White,1,T4,N3,M1,IV,100
-36254604,2018,Yes,1,10,85+ years,Single,1,White,0,T1,N0,M0,I,27
-55101808,2018,Yes,0,5,65-69 years,Single,1,White,1,T2,N0,M1,IV,14
-55582895,2018,No/Unknown,0,4,75-79 years,Married,1,White,1,T1,N2,M0,III,16
-11254542,2018,Yes,1,9,60-64 years,Single,1,White,1,T3,N1,M0,III,60
-1377311,2018,Yes,0,12,75-79 years,Married,0,White,1,T2,N2,M0,III,32
-16761278,2018,Yes,1,10,55-59 years,Single,1,White,1,T2,N1,M0,II,13
-54627387,2018,Yes,1,7,80-84 years,Single,0,Black,1,T4,N3,M1,IV,999
-34380253,2018,No/Unknown,0,0,80-84 years,Married,1,White,0,T4,N3,M1,IV,999
-47024370,2018,Yes,1,6,65-69 years,Married,0,White,0,T2,N2,M1,IV,31
-63098243,2018,No/Unknown,1,3,55-59 years,Unknown/Other,1,White,0,T2,N3,M1,IV,43
-22260102,2018,Yes,1,7,80-84 years,Married,1,White,0,T1,N0,M0,I,27
-36604918,2018,Yes,1,9,80-84 years,Single,0,White,1,T4,N3,M1,IV,82
-36604950,2018,No/Unknown,0,3,70-74 years,Single,0,Black,1,T3,N0,M0,II,38
-36651317,2018,No/Unknown,0,6,80-84 years,Single (never married),1,White,1,T1,N2,M0,III,27
-24502913,2019,Yes,1,9,70-74 years,Married,1,White,0,T4,N2,M1,IV,117
-22303397,2019,No/Unknown,0,17,55-59 years,Single,1,White,1,T2,N2,M0,III,19
-5810166,2019,Yes,0,9,80-84 years,Single,1,White,0,T1,N0,M1,IV,24
-62727897,2019,No/Unknown,1,2,60-64 years,Single,1,White,0,T4,N2,M0,III,59
-27896256,2019,No/Unknown,0,0,85+ years,Single,0,Other,0,T2,N0,M1,IV,990
-49491935,2019,Yes,0,11,75-79 years,Married,1,Black,0,T3,N2,M1,IV,20
-47045935,2019,Yes,1,5,65-69 years,Married,1,White,1,T2,N3,M0,III,45
-47070291,2019,No/Unknown,0,0,60-64 years,Married,0,White,1,T2,N2,M0,III,36
-11021845,2019,Yes,0,1,70-74 years,Single,0,White,0,T2,N2,M1,IV,38
-5927885,2019,Yes,0,6,55-59 years,Married,0,White,0,T4,N3,M1,IV,60
-16540153,2019,No/Unknown,0,0,70-74 years,Single (never married),1,White,1,T3,N3,M1,IV,25
-16837224,2019,Yes,1,9,35-49 years,Single (never married),1,Other,0,T4,N0,M1,IV,999
-63123477,2019,Yes,1,3,75-79 years,Married,1,White,0,T3,N2,M1,IV,30
-50323287,2019,Yes,0,3,55-59 years,Single (never married),1,White,0,T3,N3,M0,III,12
-63117975,2019,Yes,1,5,60-64 years,Married,0,White,0,T4,N3,M1,IV,80
-55667270,2019,Yes,1,10,70-74 years,Married,1,White,1,T3,N2,M1,IV,66
-63080093,2019,Yes,0,7,85+ years,Married,1,White,0,T2,N0,M1,IV,28
-62547014,2019,No/Unknown,0,0,65-69 years,Married,0,White,0,T3,N0,M0,II,53
-5944264,2019,Yes,0,6,70-74 years,Single,0,White,0,T2,N2,M1,IV,45
-36918088,2019,Yes,1,10,70-74 years,Married,1,White,0,T2,N2,M0,III,36
-16831321,2019,No/Unknown,1,12,65-69 years,Single,1,Black,1,T4,N2,M1,IV,80
-1534218,2019,No/Unknown,0,1,85+ years,Married,0,White,0,T4,N0,M1,IV,127
-16817266,2019,Yes,0,6,60-64 years,Married,1,White,1,T4,N1,M0,IV,65
-55594637,2019,No/Unknown,0,0,80-84 years,Married,0,Other,0,T2,N2,M0,III,999
-63077386,2019,Yes,1,11,65-69 years,Single,1,Black,0,T1,N3,M0,III,20
-63125361,2019,Yes,0,0,55-59 years,Single,0,White,0,T1,N2,M1,IV,25
-47075543,2019,Yes,1,8,85+ years,Married,1,White,0,T2,N3,M1,IV,999
-50326310,2019,Yes,1,11,60-64 years,Married,1,Black,1,T2,N2,M1,IV,31
-11271941,2019,Yes,0,12,70-74 years,Married,0,White,1,T2,N2,M0,III,36
-63185326,2019,No/Unknown,0,0,80-84 years,Unknown/Other,0,White,0,T4,N0,M1,IV,92
-16821305,2019,Yes,0,4,60-64 years,Single (never married),0,White,1,T4,N3,M1,IV,56
-36829646,2019,No/Unknown,0,8,65-69 years,Married,1,White,0,T3,N3,M1,IV,16
-9218920,2019,Yes,1,9,70-74 years,Married,1,Other,1,T4,N0,M0,III,18
-16854012,2019,No/Unknown,0,7,70-74 years,Married,1,Other,1,T2,N0,M0,I,36
-50274082,2019,No/Unknown,0,0,80-84 years,Single,0,White,0,T4,N3,M1,IV,75
-50307232,2019,Yes,1,12,60-64 years,Married,1,White,0,T4,N2,M1,IV,129
-14295618,2019,No/Unknown,1,2,60-64 years,Married,1,White,1,T2,N2,M1,IV,47
-47146599,2019,No/Unknown,0,0,70-74 years,Single,0,Black,1,T4,N3,M1,IV,52
-62836353,2019,Yes,0,12,65-69 years,Single (never married),0,Black,0,T1,N2,M1,IV,11
-5268785,2019,Yes,1,12,65-69 years,Single (never married),0,White,0,T1,N0,M0,I,55
-47094801,2019,Yes,0,2,65-69 years,Married,0,White,1,T2,N3,M1,IV,49
-63111618,2019,Yes,1,11,70-74 years,Single,0,White,0,T1,N2,M0,III,21
-50272501,2019,Yes,0,4,50-54 years,Married,1,White,1,T3,N2,M1,IV,34
-63151176,2019,Yes,0,4,70-74 years,Single,1,White,0,T3,N2,M0,III,66
-11276167,2019,Yes,1,0,75-79 years,Married,0,White,0,T4,N2,M1,IV,34
-15847841,2019,Yes,0,4,75-79 years,Married,1,White,1,T2,N2,M1,IV,31
-55723777,2020,Yes,0,0,70-74 years,Married,0,White,0,T2,N3,M1,IV,31
-47183565,2020,No/Unknown,0,1,60-64 years,Single,0,White,1,T1,N2,M0,III,11
-11296643,2020,No/Unknown,1,1,65-69 years,Single,0,White,0,T4,N3,M1,IV,999
-47176299,2020,Yes,0,1,80-84 years,Married,1,White,0,T3,N3,M1,IV,58
-5971165,2020,Yes,0,1,65-69 years,Unknown/Other,0,White,1,T4,N2,M0,III,999
-63197753,2020,Yes,0,4,85+ years,Married,1,White,0,T4,N2,M1,IV,80
-50333593,2020,Yes,1,3,75-79 years,Married,1,White,1,T4,N2,M1,IV,57
-11343940,2020,Yes,0,3,65-69 years,Married,1,White,1,T4,N3,M0,III,83
-63234346,2020,Yes,0,6,70-74 years,Married,1,White,0,T2,N2,M1,IV,44
-37096444,2020,No/Unknown,0,1,75-79 years,Married,1,White,0,T2,N2,M0,III,43
-55723777,2020,Yes,0,0,70-74 years,Married,0,White,0,T2,N3,M1,IV,35
-37069594,2020,No/Unknown,0,8,70-74 years,Single (never married),0,Black,0,T1,N2,M0,III,17
-63170095,2020,No/Unknown,0,0,75-79 years,Married,1,White,0,T4,N3,M1,IV,60
-16886740,2020,No/Unknown,0,3,80-84 years,Single,0,White,1,T4,N2,M0,III,90
-50322870,2020,Yes,0,1,70-74 years,Married,1,White,1,T4,N1,M0,III,999
-49911887,2020,No/Unknown,1,0,75-79 years,Married,0,White,1,T3,N3,M1,IV,63
-5978873,2020,No/Unknown,0,2,60-64 years,Married,1,Other,0,T3,N2,M1,IV,43
-27921004,2020,Yes,0,5,55-59 years,Single,1,Other,1,T4,N2,M1,IV,136
-34851053,2020,No/Unknown,0,1,75-79 years,Single (never married),0,White,0,T4,N0,M1,IV,130
-14305245,2020,No/Unknown,0,1,75-79 years,Single,0,White,0,T2,N3,M1,IV,41
-50375943,2020,No/Unknown,0,1,65-69 years,Single,0,White,0,T4,N2,M1,IV,120
-47147472,2020,Yes,1,3,80-84 years,Married,1,White,0,T4,N0,M1,IV,98
-37135796,2020,No/Unknown,0,0,80-84 years,Single,0,White,0,T4,N3,M0,III,142
-47137237,2020,Yes,1,7,70-74 years,Single,1,White,1,T2,N1,M1,IV,31
-1554470,2020,No/Unknown,0,2,60-64 years,Married,0,White,0,T4,N0,M1,IV,137
-47198212,2020,No/Unknown,0,4,75-79 years,Single,0,White,1,T1,N2,M0,III,999
-4502434,2020,Yes,0,4,60-64 years,Married,1,White,1,T2,N2,M1,IV,50
-50387650,2020,No/Unknown,0,0,60-64 years,Unknown/Other,1,Black,0,T3,N0,M1,IV,60
-50334135,2020,Yes,0,8,65-69 years,Single (never married),0,Black,0,T4,N2,M1,IV,30
-22341948,2020,No/Unknown,0,1,70-74 years,Married,0,Black,0,T4,N3,M1,IV,130
-36903214,2020,No/Unknown,1,8,80-84 years,Single,1,Other,0,T4,N2,M1,IV,53
-47145766,2020,No/Unknown,0,2,65-69 years,Married,0,White,1,T2,N2,M0,III,35
-1580877,2020,Yes,0,1,70-74 years,Married,1,White,0,T2,N3,M1,IV,28
-49854177,2020,No/Unknown,0,4,85+ years,Single,0,White,0,T2,N0,M1,IV,999
-62530257,2020,Yes,0,0,70-74 years,Single (never married),0,White,0,T4,N2,M1,IV,87
-55197717,2020,Yes,1,3,70-74 years,Single (never married),1,White,0,T4,N2,M0,III,70
+Patient ID,Year of diagnosis,Radiation recode,Survival months,Age,Marital Status,Sex_is_male,Race,Chemotherapy,Surgery,T,N,M,Grouped Stage,Tumor Size
+840290,2004,0,8,70-74 years,Married,0,White,1,0,T2,N0,M1,IV,25
+9040147,2004,1,19,75-79 years,Married,0,Other,1,0,T1,N0,M0,I,30
+16143672,2004,0,22,80-84 years,Married,1,White,1,0,T1,N0,M0,I,20
+16160962,2004,1,21,55-59 years,Single,0,White,1,1,T2,N0,M0,I,50
+32742347,2004,1,21,60-64 years,Married,0,White,1,0,T4,N2,M0,III,30
+34037829,2004,0,14,75-79 years,Married,1,White,0,0,T4,N0,M0,III,16
+34173615,2004,0,7,70-74 years,Married,1,White,1,0,T4,N2,M0,III,20
+34197029,2004,0,2,60-64 years,Unknown/Other,0,Black,0,0,T4,N2,M1,IV,50
+34253187,2004,1,1,35-49 years,Single,1,White,0,0,T4,N2,M1,IV,65
+34268289,2004,0,10,60-64 years,Married,1,White,0,0,T2,N2,M0,III,130
+34277701,2004,1,21,70-74 years,Married,0,White,1,0,T1,N0,M0,I,26
+34305353,2004,0,9,60-64 years,Single (never married),1,White,0,0,T2,N0,M0,II,20
+34351541,2004,1,8,70-74 years,Married,1,White,1,0,T1,N2,M1,IV,30
+34381991,2004,1,0,60-64 years,Married,1,White,0,0,T2,N2,M1,IV,65
+10787179,2004,0,7,65-69 years,Married,1,Black,1,1,T1,N1,M0,II,23
+10800789,2004,0,0,75-79 years,Married,1,White,1,0,T2,N0,M1,IV,50
+20035265,2004,1,31,55-59 years,Married,1,White,1,1,T1,N1,M0,II,18
+5042526,2004,1,7,85+ years,Married,1,White,0,0,T4,N2,M1,IV,50
+5152896,2004,0,22,80-84 years,Single,0,White,0,0,T1,N1,M0,II,20
+24087297,2004,0,4,80-84 years,Married,0,White,0,0,T4,N0,M1,IV,39
+46100946,2004,1,13,70-74 years,Single,0,White,0,1,T1,N2,M0,III,30
+46108715,2004,0,28,65-69 years,Married,1,White,0,0,T2,N0,M0,I,40
+46358849,2004,0,8,35-49 years,Single,1,White,1,0,T2,N2,M1,IV,30
+46360743,2004,1,28,50-54 years,Married,0,Black,1,0,T4,N0,M0,IV,135
+46362650,2004,1,4,70-74 years,Married,1,White,1,1,T4,N0,M1,IV,60
+46363333,2004,1,3,65-69 years,Single,0,White,1,0,T3,N2,M1,IV,83
+46370682,2004,1,18,50-54 years,Married,1,White,1,0,T4,N2,M0,III,60
+46371074,2004,1,35,55-59 years,Single,0,White,1,0,T2,N2,M0,III,40
+46389180,2004,1,1,60-64 years,Married,0,White,0,0,T1,N1,M1,IV,10
+46393690,2004,0,14,60-64 years,Married,0,White,1,0,T2,N2,M1,IV,50
+46396467,2004,1,5,80-84 years,Married,1,White,1,1,T1,N2,M0,III,15
+5385781,2004,0,0,75-79 years,Single,1,Black,0,0,T4,N0,M1,IV,30
+25855122,2004,1,6,55-59 years,Married,1,White,1,0,T2,N2,M1,IV,70
+26716911,2004,0,2,80-84 years,Single,0,White,0,0,T2,N0,M0,II,50
+26719992,2004,0,30,70-74 years,Single,0,White,0,1,T2,N2,M1,IV,30
+62012497,2004,0,1,65-69 years,Married,1,White,0,0,T2,N2,M1,IV,40
+62010191,2004,1,97,35-49 years,Married,0,White,1,1,T2,N2,M0,III,40
+53263519,2004,0,18,70-74 years,Single,1,Black,0,1,T2,N0,M0,I,40
+62204503,2004,1,11,55-59 years,Married,1,White,1,0,T1,N0,M1,IV,19
+62191007,2004,0,0,70-74 years,Married,1,White,0,0,T4,N2,M1,IV,85
+62055106,2004,1,14,35-49 years,Single,0,White,1,1,T1,N2,M0,III,30
+62209395,2004,0,22,65-69 years,Married,0,White,0,1,T1,N2,M0,III,25
+53021566,2004,0,30,65-69 years,Married,1,White,0,1,T3,N0,M0,III,40
+49648848,2004,0,29,70-74 years,Unknown/Other,0,White,1,0,T1,N2,M1,IV,29
+62220708,2004,1,4,80-84 years,Married,1,White,0,0,T3,N2,M0,III,40
+49647773,2004,0,56,80-84 years,Single,1,White,0,1,T2,N0,M0,I,48
+49613636,2004,0,3,70-74 years,Single (never married),0,White,1,0,T1,N2,M1,IV,30
+49390953,2004,1,11,75-79 years,Single,1,White,0,0,T4,N2,M0,III,35
+49385134,2004,0,4,75-79 years,Single,1,White,0,0,T1,N2,M1,IV,30
+49245754,2004,1,4,75-79 years,Married,1,White,1,0,T3,N2,M1,IV,64
+54221117,2004,1,17,60-64 years,Married,0,White,1,0,T2,N2,M0,III,29
+54218118,2004,0,12,65-69 years,Married,0,White,1,0,T4,N0,M0,III,60
+54207748,2004,0,57,75-79 years,Unknown/Other,0,White,0,0,T2,N0,M0,I,45
+54198252,2004,1,21,60-64 years,Married,1,White,1,0,T4,N3,M0,III,50
+54188240,2004,0,16,65-69 years,Single,1,White,1,1,T2,N0,M0,I,67
+54181816,2004,0,7,70-74 years,Single,0,Black,1,1,T2,N2,M0,III,37
+62297637,2004,1,19,35-49 years,Married,0,White,1,1,T1,N0,M0,I,15
+62227187,2004,0,0,75-79 years,Married,1,White,0,0,T2,N3,M1,IV,57
+62221052,2004,0,1,75-79 years,Single,1,White,0,0,T2,N2,M1,IV,60
+62220596,2004,0,5,60-64 years,Single,0,Black,1,0,T1,N0,M0,I,23
+62220245,2004,1,9,50-54 years,Married,0,White,1,1,T2,N2,M1,IV,20
+54328301,2005,1,32,50-54 years,Single,0,White,1,1,T4,N2,M0,III,55
+54324797,2005,1,6,70-74 years,Single (never married),0,Black,1,0,T3,N0,M0,II,55
+62301536,2005,1,5,55-59 years,Married,1,White,1,0,T4,N2,M1,IV,25
+54309932,2005,0,19,60-64 years,Single (never married),0,White,1,1,T2,N0,M0,I,24
+54296407,2005,0,12,75-79 years,Married,1,White,0,0,T4,N0,M0,IV,55
+54287060,2005,0,22,65-69 years,Married,0,White,1,1,T1,N0,M0,I,10
+54264188,2005,1,17,55-59 years,Married,1,White,1,1,T1,N2,M0,III,20
+54308969,2005,1,9,60-64 years,Single,0,White,1,0,T2,N3,M0,III,5
+54264135,2005,0,0,70-74 years,Married,1,White,0,0,T4,N2,M1,IV,16
+54413084,2005,0,46,55-59 years,Married,1,White,1,0,T2,N2,M1,IV,35
+53786224,2005,0,5,80-84 years,Married,1,White,0,0,T2,N1,M1,IV,55
+14039766,2005,0,12,75-79 years,Single,0,White,0,0,T2,N0,M0,I,40
+5419761,2005,0,29,60-64 years,Single (never married),0,White,1,0,T2,N0,M1,IV,32
+16159919,2005,1,9,65-69 years,Married,1,White,1,0,T2,N0,M0,II,60
+16173298,2005,0,12,70-74 years,Married,1,White,0,1,T2,N1,M0,II,40
+16185829,2005,0,7,55-59 years,Married,1,White,0,0,T2,N2,M1,IV,35
+16183527,2005,1,89,80-84 years,Married,0,White,1,1,T2,N0,M0,I,39
+34255714,2005,1,17,60-64 years,Married,1,White,1,0,T4,N2,M0,III,40
+34304818,2005,0,30,75-79 years,Married,1,White,1,0,T3,N3,M1,IV,42
+34495787,2005,0,19,80-84 years,Single,1,White,0,1,T2,N0,M0,II,15
+967743,2005,0,19,65-69 years,Married,0,Other,1,1,T4,N3,M1,IV,40
+10819570,2005,1,19,70-74 years,Single,0,White,1,0,T4,N0,M1,IV,50
+10842185,2005,0,20,75-79 years,Single,0,White,1,0,T2,N2,M1,IV,26
+10845368,2005,0,0,80-84 years,Married,1,White,0,0,T2,N0,M0,I,40
+4985110,2005,1,3,70-74 years,Single,0,White,1,0,T4,N0,M1,IV,45
+20047656,2005,0,3,80-84 years,Married,1,White,0,0,T4,N0,M0,III,50
+995928,2005,1,12,75-79 years,Single,0,White,0,0,T2,N0,M0,II,30
+21908802,2005,1,4,75-79 years,Single,1,White,1,0,T4,N2,M1,IV,49
+21914823,2005,0,0,65-69 years,Married,0,White,0,1,T2,N2,M0,III,32
+45998476,2005,1,12,60-64 years,Married,0,White,1,1,T3,N1,M0,III,80
+46149740,2005,0,2,65-69 years,Married,1,White,0,0,T4,N2,M1,IV,55
+24203387,2005,0,20,75-79 years,Married,0,White,1,1,T2,N0,M0,I,56
+46402088,2005,1,53,50-54 years,Married,1,White,1,1,T1,N2,M0,III,22
+46405739,2005,0,8,80-84 years,Single,0,White,0,0,T2,N1,M1,IV,48
+46405767,2005,0,7,65-69 years,Married,1,White,1,0,T4,N2,M1,IV,24
+46407764,2005,0,17,55-59 years,Unknown/Other,0,White,1,1,T2,N0,M0,I,15
+46426531,2005,1,33,50-54 years,Married,1,Black,1,1,T1,N0,M1,IV,22
+46429077,2005,1,16,70-74 years,Married,0,White,1,1,T4,N2,M0,III,20
+46429896,2005,0,18,50-54 years,Single,1,White,1,0,T4,N2,M0,III,140
+46432546,2005,1,7,75-79 years,Single,1,White,1,0,T2,N2,M0,III,54
+46436656,2005,1,4,60-64 years,Single,0,White,1,0,T2,N3,M0,III,34
+46437269,2005,1,9,60-64 years,Single,1,White,1,0,T4,N2,M1,IV,50
+49401156,2005,0,7,55-59 years,Single (never married),0,White,1,1,T2,N2,M1,IV,80
+49403734,2005,1,8,55-59 years,Married,1,Black,0,0,T2,N0,M1,IV,82
+46438938,2005,0,0,65-69 years,Married,1,White,0,0,T4,N2,M1,IV,35
+46440124,2005,1,2,50-54 years,Single (never married),1,White,1,0,T2,N1,M1,IV,40
+46446749,2005,0,15,25-29 years,Single (never married),0,Black,1,1,T2,N0,M0,II,70
+46447046,2005,0,0,75-79 years,Married,1,Black,0,0,T2,N3,M1,IV,50
+49505001,2005,1,49,35-49 years,Single,0,Black,1,1,T2,N2,M0,III,35
+5399039,2005,0,1,80-84 years,Unknown/Other,1,White,1,0,T4,N0,M1,IV,60
+5410168,2005,0,9,70-74 years,Married,1,White,1,0,T2,N2,M0,III,80
+26769463,2005,0,0,70-74 years,Married,1,Black,0,0,T2,N3,M1,IV,80
+26770525,2005,1,25,70-74 years,Married,0,Other,1,0,T2,N2,M0,III,38
+26802911,2005,0,0,60-64 years,Single (never married),1,White,0,0,T1,N2,M1,IV,16
+26818888,2005,0,1,70-74 years,Unknown/Other,0,White,0,0,T1,N2,M0,III,10
+26825124,2005,1,7,55-59 years,Single,1,White,1,0,T4,N2,M1,IV,80
+26837110,2005,0,2,70-74 years,Married,1,White,0,0,T4,N2,M1,IV,60
+5416178,2005,0,23,75-79 years,Married,1,White,1,0,T4,N0,M1,IV,40
+49720551,2006,1,17,60-64 years,Single (never married),1,Black,1,0,T2,N0,M0,I,60
+49725466,2006,1,1,70-74 years,Single,1,Black,0,0,T2,N3,M1,IV,90
+5439091,2006,1,28,80-84 years,Married,1,White,1,0,T2,N1,M0,II,62
+49765598,2006,1,56,35-49 years,Single,0,Black,1,0,T4,N1,M0,III,40
+49775091,2006,1,25,70-74 years,Single,0,Black,1,0,T2,N2,M0,III,70
+1020848,2006,0,1,60-64 years,Single,0,White,0,0,T4,N0,M1,IV,6
+5444575,2006,1,2,35-49 years,Married,1,White,1,0,T2,N2,M1,IV,85
+5456142,2006,0,37,60-64 years,Single,1,White,0,1,T2,N0,M0,I,39
+9060103,2006,1,5,70-74 years,Married,1,White,1,1,T2,N3,M0,III,65
+16198895,2006,0,1,85+ years,Married,1,White,0,0,T4,N0,M0,IV,80
+16207851,2006,1,8,35-49 years,Married,0,White,1,1,T2,N2,M1,IV,50
+16229401,2006,1,1,70-74 years,Married,1,White,0,0,T2,N1,M1,IV,33
+34506264,2006,1,6,75-79 years,Single,0,White,1,0,T2,N1,M0,II,30
+34520209,2006,1,8,65-69 years,Married,1,White,1,0,T4,N1,M0,IV,26
+34548930,2006,0,0,65-69 years,Single (never married),1,White,0,0,T2,N2,M1,IV,71
+34553885,2006,1,1,65-69 years,Married,1,White,1,0,T4,N2,M1,IV,90
+34565511,2006,1,9,70-74 years,Married,1,White,1,1,T2,N2,M1,IV,60
+34574815,2006,0,21,35-49 years,Married,0,White,1,1,T3,N2,M1,IV,70
+34585400,2006,0,25,70-74 years,Single,0,White,0,1,T1,N0,M0,I,9
+34588457,2006,1,10,75-79 years,Married,1,White,1,0,T4,N2,M0,III,40
+34602700,2006,0,4,75-79 years,Married,1,Other,0,0,T3,N0,M0,III,20
+34613571,2006,0,0,65-69 years,Single,0,White,0,1,T2,N1,M0,II,23
+34677211,2006,0,4,75-79 years,Single,0,White,1,0,T4,N2,M0,III,30
+34811089,2006,1,1,70-74 years,Married,1,White,1,0,T4,N3,M1,IV,121
+10876224,2006,1,7,65-69 years,Married,1,White,1,0,T4,N0,M1,IV,60
+10889990,2006,1,16,70-74 years,Married,0,White,0,0,T3,N0,M0,II,38
+20128053,2006,0,16,65-69 years,Married,0,White,0,1,T1,N0,M0,I,25
+21916457,2006,1,6,55-59 years,Married,0,Black,1,0,T4,N2,M0,III,40
+24219213,2006,1,39,75-79 years,Married,0,White,1,0,T4,N2,M0,III,39
+993921,2006,1,0,65-69 years,Married,1,White,0,0,T4,N2,M1,IV,140
+24230846,2006,1,28,65-69 years,Married,1,White,1,1,T2,N0,M0,I,46
+46408932,2006,0,1,80-84 years,Single,1,White,0,0,T4,N0,M1,IV,12
+46458036,2006,0,1,75-79 years,Single (never married),1,White,0,0,T2,N2,M0,III,55
+46463300,2006,1,6,80-84 years,Married,0,White,1,0,T4,N2,M1,IV,46
+46463930,2006,0,12,70-74 years,Single,0,White,1,0,T4,N2,M1,IV,109
+49415377,2006,0,21,70-74 years,Married,0,White,1,1,T4,N2,M0,III,65
+49414241,2006,1,12,80-84 years,Married,0,White,1,0,T2,N2,M0,III,61
+49514161,2006,1,91,50-54 years,Single,0,White,1,0,T3,N0,M0,III,75
+26373020,2006,0,3,80-84 years,Married,1,Black,1,0,T2,N0,M0,I,40
+1004804,2006,0,2,50-54 years,Single (never married),1,White,1,0,T2,N2,M0,III,50
+26871049,2006,0,3,75-79 years,Married,0,White,0,0,T1,N0,M0,I,27
+26877371,2006,1,1,60-64 years,Single,0,White,0,0,T2,N2,M1,IV,40
+62313404,2006,0,15,75-79 years,Married,0,White,0,0,T4,N0,M0,III,16
+62062867,2006,1,10,70-74 years,Single,0,White,1,1,T1,N2,M0,III,10
+54373953,2006,1,17,80-84 years,Single,0,White,0,0,T2,N0,M0,I,39
+53023039,2006,0,41,55-59 years,Married,1,White,1,1,T1,N0,M0,I,11
+54383502,2006,0,9,35-49 years,Single (never married),0,Black,1,0,T2,N0,M1,IV,42
+53120575,2006,0,41,65-69 years,Single,0,White,0,1,T1,N1,M0,II,19
+53696358,2006,1,11,70-74 years,Married,1,White,1,1,T1,N2,M0,IV,12
+54368576,2006,1,10,75-79 years,Married,1,White,1,0,T2,N3,M0,III,18
+54380102,2006,0,14,70-74 years,Married,1,White,1,0,T1,N2,M1,IV,12
+54417366,2006,0,3,55-59 years,Single (never married),1,White,1,0,T4,N2,M1,IV,10
+62310436,2006,0,18,75-79 years,Unknown/Other,0,White,1,0,T4,N0,M0,III,57
+62310248,2006,0,5,70-74 years,Married,1,White,1,0,T4,N3,M1,IV,90
+62047304,2006,1,20,70-74 years,Single,0,White,1,0,T4,N2,M0,III,125
+54408337,2006,1,5,75-79 years,Single,0,Black,1,1,T1,N2,M1,IV,15
+54408059,2006,1,1,70-74 years,Married,1,White,0,0,T4,N2,M1,IV,90
+62391553,2006,0,7,50-54 years,Married,1,White,0,1,T4,N2,M1,IV,25
+62315325,2006,0,14,70-74 years,Single,1,White,1,1,T2,N2,M0,III,23
+62358131,2006,0,11,70-74 years,Married,1,White,1,0,T4,N2,M1,IV,90
+54398245,2006,1,49,70-74 years,Married,1,White,1,0,T4,N2,M1,IV,18
+62391561,2006,0,4,75-79 years,Married,1,White,0,1,T2,N2,M0,III,90
+54465641,2007,1,13,60-64 years,Married,0,White,1,0,T2,N0,M1,IV,78
+54606783,2007,0,21,75-79 years,Married,1,White,1,1,T1,N1,M0,II,14
+54475404,2007,0,6,60-64 years,Single (never married),1,White,0,0,T2,N3,M0,III,62
+54489116,2007,0,44,60-64 years,Married,1,White,1,1,T2,N0,M0,I,32
+54497828,2007,0,96,35-49 years,Single (never married),1,Black,1,0,T2,N1,M1,IV,60
+62053002,2007,0,14,75-79 years,Single,0,Black,0,0,T4,N2,M1,IV,62
+62042977,2007,1,7,85+ years,Single,1,White,0,0,T2,N3,M0,III,42
+54482492,2007,0,78,80-84 years,Married,1,White,0,1,T1,N0,M0,I,7
+54475178,2007,1,7,60-64 years,Married,1,White,1,0,T1,N0,M1,IV,17
+54542217,2007,1,16,60-64 years,Single,0,White,1,1,T1,N2,M0,III,24
+62440406,2007,1,9,55-59 years,Married,1,Black,1,0,T4,N0,M0,III,106
+54465688,2007,0,7,70-74 years,Married,0,White,1,0,T1,N2,M0,III,20
+54526320,2007,1,10,50-54 years,Single,0,White,0,0,T2,N2,M0,III,44
+54619840,2007,0,0,55-59 years,Single (never married),1,White,0,0,T4,N1,M1,IV,50
+62349706,2007,1,17,50-54 years,Single,1,Black,1,0,T4,N2,M1,IV,70
+54516404,2007,0,21,60-64 years,Married,0,White,1,0,T4,N0,M1,IV,22
+54501212,2007,1,22,75-79 years,Single,0,White,1,0,T2,N0,M0,I,41
+62357244,2007,1,1,50-54 years,Married,1,White,0,0,T4,N2,M1,IV,64
+54533774,2007,1,44,35-49 years,Married,0,White,1,1,T2,N0,M1,IV,60
+62423616,2007,0,13,50-54 years,Married,0,White,1,0,T2,N2,M1,IV,58
+49777148,2007,0,76,70-74 years,Married,0,White,0,1,T1,N0,M0,I,14
+49775121,2007,0,15,70-74 years,Single,1,White,0,0,T2,N0,M0,I,80
+226863,2007,0,1,80-84 years,Single,0,White,0,0,T2,N1,M1,IV,29
+5472134,2007,0,66,85+ years,Single,0,White,0,1,T2,N0,M0,I,45
+5474941,2007,0,4,80-84 years,Unknown/Other,1,White,0,1,T1,N0,M0,I,25
+15966918,2007,1,4,70-74 years,Married,1,White,1,1,T4,N2,M0,III,40
+9072389,2007,1,24,60-64 years,Married,1,White,1,1,T1,N3,M0,III,1
+5492224,2007,0,18,80-84 years,Married,1,White,0,1,T1,N0,M0,I,29
+16227338,2007,0,18,65-69 years,Married,0,White,1,1,T3,N0,M0,II,12
+16246319,2007,0,5,80-84 years,Single,1,White,0,0,T2,N0,M0,II,40
+16238231,2007,0,3,70-74 years,Single,0,White,1,1,T4,N2,M0,III,30
+16271988,2007,1,9,55-59 years,Married,1,White,1,0,T4,N2,M1,IV,80
+34645735,2007,0,11,35-49 years,Married,0,White,1,0,T2,N2,M1,IV,73
+34676070,2007,1,6,75-79 years,Married,0,White,1,1,T1,N2,M1,IV,10
+34694247,2007,0,14,80-84 years,Single,1,White,1,0,T1,N1,M0,II,27
+34716747,2007,1,8,60-64 years,Single,1,White,1,1,T4,N3,M1,IV,18
+34721967,2007,0,8,60-64 years,Married,1,White,1,0,T2,N2,M1,IV,90
+34722697,2007,0,9,75-79 years,Married,1,White,1,0,T4,N3,M1,IV,80
+53365559,2007,0,1,75-79 years,Married,0,White,1,0,T4,N3,M1,IV,126
+34765114,2007,1,102,60-64 years,Married,0,White,1,1,T1,N2,M0,III,20
+34785288,2007,0,10,75-79 years,Married,1,White,1,0,T4,N2,M0,III,50
+34798076,2007,0,4,80-84 years,Single,1,White,1,0,T2,N2,M0,III,39
+10893055,2007,1,53,75-79 years,Married,0,White,1,0,T2,N3,M0,III,45
+10910568,2007,1,29,80-84 years,Married,1,White,1,1,T2,N2,M0,III,30
+10911224,2007,1,5,60-64 years,Married,1,White,1,0,T2,N0,M1,IV,10
+10911263,2007,0,12,70-74 years,Single,1,White,0,1,T3,N1,M0,III,65
+10916900,2007,1,8,75-79 years,Single (never married),1,White,1,0,T2,N2,M0,III,67
+20121839,2007,1,4,75-79 years,Married,1,White,1,0,T1,N2,M1,IV,9
+20141343,2007,0,8,60-64 years,Married,1,White,0,1,T2,N2,M0,III,41
+21737787,2007,1,11,65-69 years,Married,1,White,1,1,T4,N2,M1,IV,44
+54112234,2007,0,2,70-74 years,Married,0,White,0,1,T3,N0,M0,II,28
+21838308,2007,1,13,60-64 years,Single (never married),0,White,1,0,T2,N0,M1,IV,70
+24090748,2007,0,8,70-74 years,Single,0,White,1,0,T1,N2,M0,III,30
+24233721,2007,1,5,60-64 years,Single (never married),1,Black,0,0,T1,N0,M0,I,20
+49515519,2007,1,2,50-54 years,Single (never married),0,White,1,0,T2,N2,M1,IV,60
+46455352,2007,0,27,60-64 years,Married,0,White,1,1,T2,N2,M0,III,35
+46491870,2007,1,0,70-74 years,Married,0,White,0,0,T2,N2,M1,IV,63
+46494164,2007,1,7,50-54 years,Married,0,White,1,0,T4,N2,M1,IV,59
+46500577,2007,1,3,35-49 years,Married,1,White,1,0,T2,N2,M1,IV,120
+46504753,2007,1,0,55-59 years,Married,1,White,0,0,T2,N2,M1,IV,60
+46506606,2007,0,4,85+ years,Married,1,White,1,0,T4,N2,M1,IV,28
+46511634,2007,1,6,55-59 years,Married,0,White,1,0,T4,N2,M1,IV,40
+46511834,2007,0,7,65-69 years,Married,1,White,0,1,T3,N2,M0,IV,60
+46517314,2007,1,11,35-49 years,Married,0,White,1,0,T4,N2,M1,IV,70
+26454246,2007,1,24,65-69 years,Single,1,White,1,1,T1,N0,M0,I,20
+46519956,2007,0,119,75-79 years,Single,0,White,0,1,T2,N0,M0,I,40
+46523964,2007,0,0,70-74 years,Single,1,White,1,0,T2,N2,M0,III,47
+46525256,2007,0,13,75-79 years,Married,1,White,1,0,T4,N2,M1,IV,67
+46525390,2007,1,79,50-54 years,Married,1,White,1,0,T4,N2,M0,III,57
+46527910,2007,1,2,50-54 years,Single (never married),1,White,0,0,T4,N0,M1,IV,59
+46531744,2007,1,1,70-74 years,Married,0,White,1,0,T2,N2,M0,III,54
+46541043,2007,0,3,65-69 years,Unknown/Other,1,White,0,1,T1,N0,M0,I,15
+46569354,2007,1,11,65-69 years,Married,1,White,1,0,T2,N2,M1,IV,102
+49589622,2007,0,0,80-84 years,Single,0,White,1,0,T4,N2,M0,III,53
+26858868,2007,1,27,70-74 years,Single (never married),1,White,1,1,T1,N0,M0,I,15
+26940200,2007,1,74,65-69 years,Married,0,White,1,0,T1,N2,M0,III,10
+26941762,2007,0,7,55-59 years,Unknown/Other,1,Black,1,1,T4,N2,M1,IV,52
+26965206,2007,1,45,60-64 years,Married,1,White,1,0,T2,N0,M1,IV,40
+26978041,2007,1,7,50-54 years,Married,1,Other,1,0,T4,N2,M1,IV,70
+54474892,2008,0,14,80-84 years,Married,1,White,1,1,T2,N1,M1,IV,25
+27056301,2008,1,14,50-54 years,Married,0,White,1,1,T2,N1,M0,III,52
+54496607,2008,0,7,80-84 years,Married,1,White,0,1,T2,N0,M0,I,24
+14101744,2008,0,7,75-79 years,Single,0,White,1,0,T2,N0,M1,IV,41
+49783616,2008,0,6,65-69 years,Married,1,White,1,0,T4,N2,M1,IV,90
+49810607,2008,1,13,80-84 years,Single,0,Black,1,0,T2,N0,M1,IV,84
+31967754,2008,1,8,65-69 years,Single,0,White,1,1,T2,N0,M1,IV,35
+49803342,2008,0,0,60-64 years,Single,0,White,0,1,T2,N0,M0,I,40
+54536896,2008,0,1,70-74 years,Single,1,White,0,0,T2,N2,M0,III,59
+54538917,2008,0,12,65-69 years,Married,0,White,0,1,T1,N1,M0,II,9
+9090563,2008,0,13,75-79 years,Married,1,White,1,0,T2,N2,M0,III,70
+32647972,2008,0,1,65-69 years,Married,1,White,0,0,T4,N2,M0,III,22
+54548202,2008,0,31,75-79 years,Married,0,White,0,1,T1,N0,M1,IV,20
+54556944,2008,0,16,70-74 years,Married,1,White,0,0,T2,N0,M0,I,15
+54578467,2008,0,1,35-49 years,Single (never married),1,White,0,1,T3,N2,M1,IV,80
+54581661,2008,1,8,50-54 years,Married,1,White,1,0,T1,N0,M1,IV,7
+5511314,2008,0,4,75-79 years,Married,0,White,1,0,T4,N0,M1,IV,80
+54594311,2008,0,7,65-69 years,Married,1,White,1,0,T2,N2,M0,III,28
+54600156,2008,1,24,60-64 years,Single,0,White,1,1,T2,N2,M0,III,15
+54600515,2008,0,7,35-49 years,Single (never married),0,White,1,0,T4,N3,M1,IV,86
+54609691,2008,1,7,65-69 years,Single,0,White,1,0,T1,N2,M0,III,15
+54615658,2008,0,21,70-74 years,Single,1,White,1,0,T4,N0,M0,III,22
+33986878,2008,0,0,80-84 years,Single (never married),1,White,0,0,T4,N1,M1,IV,25
+5520618,2008,1,2,70-74 years,Married,1,White,1,0,T4,N2,M1,IV,121
+1096881,2008,1,12,50-54 years,Single (never married),1,Black,1,0,T4,N2,M1,IV,39
+34818904,2008,0,7,55-59 years,Single,1,White,0,0,T4,N1,M0,III,15
+34841305,2008,1,9,80-84 years,Single,1,White,1,0,T4,N2,M1,IV,37
+34845059,2008,0,5,80-84 years,Married,1,White,0,0,T2,N0,M0,I,55
+34863687,2008,0,1,55-59 years,Married,1,White,0,0,T2,N2,M1,IV,90
+34887276,2008,1,41,50-54 years,Married,0,White,1,0,T4,N2,M0,III,40
+34963383,2008,0,15,65-69 years,Married,1,White,1,0,T2,N2,M0,III,47
+35049722,2008,1,1,65-69 years,Married,1,Other,0,0,T4,N3,M1,IV,70
+1107360,2008,1,11,55-59 years,Married,0,Black,1,0,T2,N0,M1,IV,36
+10887437,2008,1,8,70-74 years,Married,1,Black,1,1,T2,N1,M0,II,33
+10954877,2008,0,130,50-54 years,Single (never married),1,Black,0,1,T2,N0,M0,I,44
+10934120,2008,0,0,75-79 years,Married,0,White,0,0,T4,N2,M1,IV,30
+21979767,2008,1,10,60-64 years,Single,1,Black,1,0,T2,N2,M1,IV,73
+21993920,2008,1,14,60-64 years,Married,1,White,1,0,T4,N1,M1,IV,52
+46228511,2008,0,10,65-69 years,Single,0,White,0,1,T1,N0,M0,I,23
+23870346,2008,1,34,65-69 years,Married,0,Other,1,1,T1,N0,M0,I,21
+46441802,2008,0,51,75-79 years,Married,1,White,1,1,T2,N0,M0,I,38
+54288946,2008,1,7,70-74 years,Married,0,White,1,0,T1,N2,M0,III,23
+46532393,2008,0,14,60-64 years,Married,1,White,1,0,T2,N0,M1,IV,62
+46545650,2008,0,52,60-64 years,Married,1,White,1,0,T2,N1,M0,II,56
+46546517,2008,1,12,60-64 years,Single,0,White,1,0,T2,N1,M0,II,60
+46557147,2008,0,0,75-79 years,Married,0,White,0,0,T4,N2,M0,III,96
+46561912,2008,0,2,75-79 years,Married,1,White,0,0,T4,N0,M1,IV,25
+46567887,2008,0,20,50-54 years,Single (never married),1,White,1,1,T2,N1,M0,II,20
+46574524,2008,1,1,50-54 years,Married,1,White,1,0,T4,N3,M1,IV,140
+46576142,2008,0,70,65-69 years,Married,0,White,1,1,T2,N0,M0,I,18
+62526736,2008,0,37,65-69 years,Married,1,White,1,1,T2,N1,M0,II,50
+62421132,2008,0,1,65-69 years,Married,1,White,0,0,T4,N3,M1,IV,30
+62396030,2008,0,4,80-84 years,Single,1,White,0,1,T2,N1,M0,II,10
+62526269,2008,1,2,65-69 years,Single (never married),1,White,1,0,T1,N3,M1,IV,25
+62887180,2008,1,34,55-59 years,Single (never married),1,White,1,1,T2,N0,M0,I,42
+62436725,2008,0,9,60-64 years,Married,0,White,1,0,T4,N0,M0,III,78
+62474679,2008,1,21,60-64 years,Married,0,White,0,0,T1,N0,M0,I,25
+62418083,2008,0,39,70-74 years,Married,0,White,1,1,T1,N2,M0,III,16
+62406020,2008,0,1,70-74 years,Single (never married),1,Black,0,0,T4,N0,M0,III,115
+62494321,2009,1,1,50-54 years,Single (never married),0,White,0,0,T4,N3,M1,IV,120
+62625375,2009,1,13,35-49 years,Single (never married),0,Black,1,0,T3,N2,M1,IV,66
+62484011,2009,1,18,70-74 years,Married,1,White,1,0,T4,N2,M1,IV,56
+62495778,2009,0,1,75-79 years,Single,0,White,0,0,T3,N1,M1,IV,200
+54625405,2009,0,59,80-84 years,Single,1,White,0,1,T1,N0,M0,I,13
+27058943,2009,1,31,35-49 years,Married,0,White,1,0,T3,N1,M0,II,10
+27082292,2009,1,42,65-69 years,Married,0,White,1,0,T4,N2,M0,III,78
+27088590,2009,0,6,65-69 years,Married,1,White,1,0,T4,N2,M0,III,23
+27103038,2009,0,8,55-59 years,Married,0,Other,0,1,T1,N2,M1,IV,28
+27106310,2009,1,21,80-84 years,Single,0,Black,0,0,T4,N2,M0,III,50
+27126238,2009,1,23,60-64 years,Married,0,White,1,0,T1,N2,M0,III,29
+27173157,2009,0,0,70-74 years,Married,1,White,0,0,T4,N3,M1,IV,35
+14100161,2009,1,8,65-69 years,Single,0,White,1,1,T1,N3,M0,III,20
+49785930,2009,0,10,50-54 years,Married,1,White,1,0,T2,N2,M0,III,32
+9095488,2009,0,11,60-64 years,Married,0,White,1,1,T1,N1,M0,II,21
+49849767,2009,0,36,70-74 years,Single,0,White,0,1,T1,N0,M0,I,12
+49852902,2009,0,0,65-69 years,Unknown/Other,1,White,0,0,T2,N0,M1,IV,90
+49823543,2009,1,1,75-79 years,Married,1,Black,0,0,T4,N3,M1,IV,127
+16362551,2009,1,8,65-69 years,Married,0,White,1,1,T1,N1,M0,II,28
+5554428,2009,0,23,70-74 years,Single,0,White,1,0,T2,N0,M0,I,27
+16369033,2009,0,0,85+ years,Married,1,White,0,1,T4,N2,M1,IV,91
+5568713,2009,1,4,65-69 years,Single,1,White,0,0,T1,N2,M1,IV,17
+5574915,2009,0,2,80-84 years,Unknown/Other,0,White,1,0,T2,N3,M0,III,35
+54638936,2009,1,3,55-59 years,Married,1,White,1,0,T4,N0,M1,IV,44
+54632479,2009,1,51,65-69 years,Married,1,White,1,1,T1,N2,M0,III,20
+53382243,2009,1,21,65-69 years,Single (never married),0,White,1,0,T4,N2,M1,IV,94
+54676409,2009,0,11,50-54 years,Single (never married),0,White,0,0,T1,N1,M1,IV,15
+54646301,2009,1,16,65-69 years,Married,0,White,1,0,T4,N3,M0,III,11
+54664696,2009,0,2,75-79 years,Single,1,White,0,0,T4,N2,M1,IV,56
+54683438,2009,1,10,70-74 years,Married,1,White,0,1,T2,N0,M1,IV,12
+54692100,2009,1,12,85+ years,Single (never married),1,White,1,1,T2,N2,M0,III,30
+34957652,2009,0,0,65-69 years,Married,1,White,0,0,T4,N3,M1,IV,30
+34987677,2009,1,9,70-74 years,Married,1,White,1,0,T4,N0,M1,IV,90
+34999741,2009,0,18,65-69 years,Married,0,White,1,0,T1,N1,M1,IV,13
+35057241,2009,1,8,35-49 years,Single (never married),0,White,1,0,T3,N2,M1,IV,23
+35068097,2009,1,10,60-64 years,Married,1,White,1,0,T2,N0,M1,IV,60
+35091336,2009,0,3,75-79 years,Married,1,White,1,0,T4,N1,M1,IV,44
+35102890,2009,0,89,65-69 years,Married,1,White,1,0,T2,N0,M0,I,10
+35128852,2009,0,5,80-84 years,Married,1,White,0,1,T2,N0,M0,I,40
+35145610,2009,1,65,65-69 years,Single,0,White,1,0,T1,N3,M0,III,18
+35146301,2009,0,11,65-69 years,Married,1,White,1,1,T3,N0,M0,II,45
+35154967,2009,0,2,35-49 years,Single (never married),1,White,1,1,T4,N2,M1,IV,90
+35196296,2009,0,10,80-84 years,Single,1,White,0,1,T1,N0,M0,I,25
+20159458,2009,0,11,65-69 years,Married,1,White,1,0,T4,N2,M0,III,46
+1115215,2009,0,9,65-69 years,Married,1,White,1,1,T2,N0,M0,I,25
+1126184,2009,0,13,50-54 years,Single (never married),0,Black,1,1,T4,N2,M1,IV,68
+54809099,2009,0,19,85+ years,Single,0,White,0,0,T1,N0,M0,I,13
+10962744,2009,1,37,70-74 years,Married,0,White,0,1,T4,N2,M0,III,25
+10963913,2009,0,14,70-74 years,Married,1,White,1,1,T2,N3,M0,III,50
+10976242,2009,0,7,65-69 years,Married,0,White,1,1,T1,N1,M0,III,80
+10978036,2009,0,2,55-59 years,Married,1,White,1,0,T4,N3,M1,IV,67
+10979786,2009,1,4,65-69 years,Married,0,White,0,0,T1,N2,M1,IV,24
+10982959,2009,1,4,60-64 years,Married,1,Black,1,0,T4,N3,M1,IV,40
+21981504,2009,0,28,75-79 years,Married,0,White,1,0,T4,N0,M0,III,27
+5353792,2009,0,6,85+ years,Single,1,White,0,0,T2,N0,M1,IV,70
+26691045,2009,1,5,75-79 years,Married,1,White,1,0,T4,N1,M1,IV,68
+46575619,2009,1,1,65-69 years,Single,0,White,0,0,T1,N2,M1,IV,14
+46589568,2009,1,14,70-74 years,Single,1,White,1,1,T3,N2,M0,III,32
+46608655,2009,0,9,60-64 years,Single,1,White,1,0,T2,N2,M1,IV,50
+46615239,2009,1,3,75-79 years,Single,1,White,1,0,T4,N0,M1,IV,72
+46616907,2009,1,1,70-74 years,Single,0,White,0,0,T4,N2,M1,IV,54
+46631377,2009,0,4,35-49 years,Single (never married),0,White,1,1,T4,N2,M0,III,62
+27137101,2010,0,0,85+ years,Married,1,White,0,0,T3,N2,M0,III,30
+27138422,2010,1,15,50-54 years,Single (never married),1,White,1,0,T4,N3,M1,IV,32
+27155859,2010,0,0,60-64 years,Single,1,White,0,0,T4,N2,M1,IV,115
+14128117,2010,1,4,80-84 years,Single,0,White,1,0,T1,N3,M0,III,30
+8885495,2010,0,5,80-84 years,Married,0,White,0,0,T3,N0,M0,II,23
+32620487,2010,0,0,75-79 years,Single,0,White,0,0,T4,N2,M1,IV,100
+54622226,2010,0,14,55-59 years,Single (never married),1,White,0,0,T1,N0,M0,I,13
+33295746,2010,0,7,65-69 years,Single,1,White,1,0,T2,N0,M1,IV,32
+1045424,2010,1,16,70-74 years,Single,0,Other,1,1,T3,N1,M0,III,41
+5521799,2010,1,84,75-79 years,Married,1,White,1,1,T1,N2,M0,III,9
+49898444,2010,0,11,70-74 years,Single,1,White,1,1,T2,N1,M0,II,25
+16381968,2010,0,0,75-79 years,Married,0,White,0,0,T3,N2,M1,IV,135
+49912080,2010,0,2,75-79 years,Single (never married),0,Black,0,0,T4,N1,M1,IV,65
+34712550,2010,0,8,55-59 years,Married,1,White,1,0,T2,N2,M1,IV,31
+5596697,2010,0,25,65-69 years,Married,1,White,1,1,T2,N2,M0,III,13
+5599330,2010,1,6,65-69 years,Single,0,White,1,1,T4,N0,M0,III,105
+54719322,2010,0,15,60-64 years,Unknown/Other,0,Black,1,0,T1,N2,M1,IV,18
+34912957,2010,0,6,85+ years,Single (never married),0,White,0,0,T3,N2,M0,III,31
+5601801,2010,0,2,85+ years,Married,1,White,0,0,T3,N0,M1,IV,40
+5603332,2010,0,23,80-84 years,Married,0,White,0,1,T1,N0,M0,I,12
+54725337,2010,0,23,55-59 years,Single,0,White,1,1,T1,N0,M0,I,28
+55477962,2010,0,112,60-64 years,Single (never married),1,White,0,1,T2,N1,M0,II,14
+62518326,2010,1,103,65-69 years,Single (never married),1,Black,1,0,T1,N3,M1,IV,19
+54758819,2010,1,47,75-79 years,Single (never married),1,White,1,0,T2,N0,M0,II,25
+5605848,2010,1,5,50-54 years,Married,1,White,1,0,T1,N2,M1,IV,18
+62530119,2010,1,4,65-69 years,Single,1,White,1,0,T3,N3,M1,IV,47
+53994298,2010,1,7,70-74 years,Single,1,White,1,0,T3,N0,M1,IV,30
+62531388,2010,1,4,60-64 years,Married,0,White,0,0,T3,N2,M0,IV,33
+62540753,2010,0,11,85+ years,Single,0,White,0,0,T1,N0,M0,I,30
+62546395,2010,0,0,70-74 years,Married,1,White,0,1,T2,N1,M1,IV,20
+62551543,2010,0,18,70-74 years,Married,0,White,1,1,T2,N2,M1,IV,35
+62556679,2010,0,0,70-74 years,Married,1,Black,0,1,T1,N0,M0,I,11
+62566269,2010,1,11,60-64 years,Married,0,White,1,1,T2,N3,M0,III,45
+62566484,2010,0,14,70-74 years,Married,1,Black,1,0,T3,N3,M1,IV,80
+35182191,2010,1,36,65-69 years,Single (never married),0,Other,1,0,T4,N2,M0,III,102
+62573034,2010,1,16,50-54 years,Single,0,White,1,0,T1,N2,M0,III,28
+35185502,2010,0,2,70-74 years,Married,0,White,0,0,T1,N0,M0,I,13
+5623150,2010,0,47,70-74 years,Unknown/Other,0,White,0,1,T2,N0,M0,I,32
+35235278,2010,0,26,65-69 years,Single,0,White,1,1,T2,N2,M0,III,24
+35240092,2010,0,9,75-79 years,Married,0,White,1,0,T2,N0,M1,IV,55
+35293303,2010,0,1,65-69 years,Married,1,White,1,0,T3,N2,M1,IV,19
+54740638,2010,1,7,75-79 years,Married,1,White,0,1,T1,N2,M0,III,25
+54748132,2010,0,12,60-64 years,Married,0,White,1,0,T4,N2,M1,IV,63
+62265354,2010,1,10,65-69 years,Single,1,White,1,1,T1,N2,M1,IV,28
+21736340,2010,0,18,65-69 years,Married,0,White,0,1,T1,N0,M0,I,8
+10990854,2010,1,2,65-69 years,Married,0,White,0,0,T2,N0,M1,IV,66
+54825010,2010,1,20,65-69 years,Married,0,White,1,1,T3,N2,M0,III,72
+54821192,2010,0,19,60-64 years,Single (never married),0,Black,1,1,T1,N2,M0,III,26
+10992623,2010,0,7,70-74 years,Married,0,White,0,0,T2,N0,M0,I,45
+22015804,2010,1,12,80-84 years,Married,0,White,0,1,T1,N0,M0,I,17
+10993541,2010,0,9,70-74 years,Single,0,White,1,0,T1,N2,M1,IV,8
+10994051,2010,1,8,60-64 years,Single (never married),1,White,1,0,T4,N0,M1,IV,46
+54863226,2010,1,19,75-79 years,Single,0,White,1,1,T4,N0,M0,III,24
+46401616,2010,1,11,55-59 years,Married,1,White,1,0,T1,N0,M1,IV,29
+24300276,2010,1,27,80-84 years,Single,0,White,1,1,T3,N3,M1,IV,17
+46429044,2010,1,20,75-79 years,Married,1,White,1,1,T1,N1,M0,II,15
+46649163,2010,0,17,75-79 years,Married,1,White,1,1,T4,N0,M1,IV,118
+46628814,2010,0,2,65-69 years,Single,0,White,0,0,T4,N2,M1,IV,59
+46641885,2010,1,2,50-54 years,Married,0,White,1,0,T4,N3,M1,IV,90
+49615651,2010,1,36,70-74 years,Married,1,White,1,0,T2,N2,M1,IV,31
+26851497,2010,1,13,70-74 years,Married,1,Black,1,0,T2,N0,M0,I,30
+46651084,2010,1,4,70-74 years,Married,1,Black,0,0,T4,N2,M0,III,53
+46652310,2010,1,13,50-54 years,Single (never married),0,White,1,1,T2,N1,M0,II,23
+46666871,2010,0,4,65-69 years,Married,1,White,1,0,T3,N2,M1,IV,71
+46670559,2010,1,9,55-59 years,Single,0,White,1,0,T2,N3,M1,IV,15
+5417004,2010,0,8,80-84 years,Married,1,Black,0,0,T3,N0,M0,III,24
+46762385,2010,0,7,70-74 years,Single,0,White,1,1,T2,N3,M1,IV,56
+46629033,2010,1,22,60-64 years,Married,0,White,1,0,T2,N0,M0,II,20
+54793660,2011,0,4,75-79 years,Married,1,White,0,0,T3,N2,M0,III,87
+27259089,2011,0,20,70-74 years,Married,1,White,1,1,T1,N1,M0,II,30
+27273051,2011,1,13,70-74 years,Married,0,White,1,0,T2,N0,M0,I,49
+27276079,2011,0,50,55-59 years,Married,1,Black,1,0,T1,N3,M0,III,2
+32364278,2011,0,13,60-64 years,Married,1,White,0,1,T1,N1,M0,II,28
+32774449,2011,0,0,75-79 years,Single (never married),1,White,0,0,T4,N3,M1,IV,17
+9121957,2011,1,3,80-84 years,Married,1,Other,1,0,T4,N2,M1,IV,43
+33312921,2011,1,13,55-59 years,Married,1,White,1,0,T1,N2,M0,III,30
+10042591,2011,0,11,75-79 years,Single,0,White,1,0,T1,N1,M0,II,30
+49896383,2011,0,7,70-74 years,Married,0,White,0,1,T4,N2,M0,III,21
+49935748,2011,1,39,70-74 years,Married,1,White,1,1,T1,N2,M0,III,10
+16417531,2011,0,20,65-69 years,Single,0,White,1,0,T1,N1,M1,IV,26
+49959402,2011,1,71,80-84 years,Single,0,White,0,0,T1,N0,M0,I,20
+49942785,2011,1,7,65-69 years,Married,1,White,1,0,T2,N0,M1,IV,37
+35090673,2011,1,6,70-74 years,Unknown/Other,0,White,1,0,T3,N1,M0,III,25
+62597753,2011,0,59,70-74 years,Married,0,White,1,1,T1,N0,M0,I,20
+35137116,2011,1,11,70-74 years,Married,1,White,1,0,T2,N2,M0,III,15
+62569366,2011,0,0,65-69 years,Married,1,White,0,1,T2,N0,M0,I,40
+62635515,2011,0,2,60-64 years,Single,0,White,0,1,T3,N0,M1,IV,50
+35286091,2011,0,3,65-69 years,Married,1,White,0,1,T3,N2,M0,III,113
+4661874,2011,1,8,65-69 years,Single,0,White,1,0,T3,N2,M0,III,75
+35304583,2011,1,3,75-79 years,Married,1,White,1,0,T4,N2,M1,IV,83
+35363722,2011,0,6,70-74 years,Single (never married),1,White,1,0,T4,N2,M1,IV,80
+35384593,2011,0,6,75-79 years,Single,0,White,0,0,T1,N1,M1,IV,25
+5628393,2011,1,23,65-69 years,Married,0,White,1,1,T2,N0,M0,I,35
+35384656,2011,0,1,75-79 years,Single,1,White,0,0,T1,N0,M0,I,30
+35394939,2011,0,0,55-59 years,Single (never married),1,White,0,0,T3,N3,M1,IV,100
+35421551,2011,0,11,60-64 years,Single,0,White,0,0,T1,N0,M0,I,13
+35440476,2011,0,1,80-84 years,Single (never married),1,White,0,0,T4,N2,M0,III,100
+35455800,2011,0,7,60-64 years,Married,0,White,1,0,T3,N0,M1,IV,76
+35502696,2011,1,6,65-69 years,Married,1,White,1,0,T3,N2,M0,III,50
+35509304,2011,0,9,70-74 years,Married,1,White,0,0,T3,N0,M0,III,30
+5630561,2011,1,37,50-54 years,Married,1,White,1,1,T2,N1,M1,IV,20
+35554992,2011,0,1,70-74 years,Married,0,White,0,0,T3,N2,M1,IV,35
+35642740,2011,0,5,65-69 years,Married,1,White,0,0,T4,N2,M0,III,103
+5643878,2011,0,1,75-79 years,Married,0,White,0,0,T2,N1,M1,IV,68
+5644473,2011,0,0,65-69 years,Single,0,White,0,1,T4,N2,M1,IV,62
+35748641,2011,1,18,55-59 years,Single,1,White,1,0,T4,N1,M1,IV,111
+835073,2011,1,16,75-79 years,Married,1,White,1,0,T3,N0,M0,III,42
+22044423,2011,0,25,70-74 years,Married,1,White,1,1,T1,N0,M0,I,21
+62673531,2011,1,2,65-69 years,Single,1,White,1,1,T4,N2,M1,IV,104
+22048304,2011,0,8,60-64 years,Single,0,White,1,1,T4,N3,M1,IV,76
+11021002,2011,0,2,65-69 years,Married,0,White,1,1,T3,N2,M1,IV,110
+11022187,2011,0,1,85+ years,Single,0,Other,0,0,T2,N2,M1,IV,42
+11036840,2011,0,8,60-64 years,Single,0,White,1,1,T3,N3,M1,IV,84
+46195686,2011,1,33,70-74 years,Married,1,White,0,1,T2,N1,M0,II,15
+11038653,2011,1,7,55-59 years,Single,1,White,1,1,T2,N3,M1,IV,58
+23874721,2011,1,12,60-64 years,Married,1,Other,1,0,T1,N2,M0,III,20
+11038326,2011,1,7,65-69 years,Single,0,White,1,0,T4,N1,M0,III,44
+11041240,2011,1,15,60-64 years,Married,1,Other,1,0,T1,N2,M0,III,25
+11042136,2011,1,0,55-59 years,Single,1,White,0,1,T4,N3,M1,IV,110
+25713169,2011,0,9,75-79 years,Married,1,Black,1,1,T3,N0,M1,IV,21
+46722443,2011,0,9,70-74 years,Married,1,White,1,1,T4,N3,M1,IV,90
+46692067,2011,0,2,55-59 years,Single,1,Black,0,0,T4,N2,M0,III,65
+46711302,2011,0,56,70-74 years,Single,0,White,1,1,T1,N0,M0,I,30
+26600201,2011,0,5,70-74 years,Single,0,White,1,0,T3,N2,M1,IV,27
+54964352,2011,0,15,55-59 years,Single,1,White,1,0,T3,N0,M1,IV,91
+46675992,2011,0,3,80-84 years,Single,0,White,0,0,T1,N0,M0,I,24
+46696964,2011,1,23,55-59 years,Unknown/Other,1,White,1,0,T4,N3,M1,IV,80
+46706487,2011,0,2,60-64 years,Married,1,White,0,0,T1,N2,M1,IV,25
+46708154,2011,0,2,55-59 years,Married,0,White,0,0,T4,N2,M1,IV,46
+46715785,2011,0,20,65-69 years,Married,1,White,1,1,T3,N1,M0,III,35
+46716500,2011,1,4,60-64 years,Married,1,White,0,0,T4,N0,M1,IV,87
+46722090,2011,0,20,80-84 years,Single,0,White,0,0,T4,N0,M1,IV,23
+46750658,2011,0,42,60-64 years,Single,1,White,0,1,T3,N1,M0,III,30
+62666299,2012,1,10,55-59 years,Married,0,White,1,1,T2,N2,M0,III,65
+27319658,2012,0,3,70-74 years,Single,0,White,1,0,T3,N3,M0,III,85
+14163310,2012,0,46,70-74 years,Married,1,White,1,1,T2,N3,M0,III,23
+8968823,2012,0,8,75-79 years,Married,0,Other,1,0,T2,N2,M1,IV,37
+9135189,2012,1,47,60-64 years,Married,1,Other,1,1,T3,N2,M0,III,96
+16282348,2012,1,12,80-84 years,Single,1,White,0,0,T3,N0,M0,III,44
+49989698,2012,1,26,75-79 years,Single (never married),1,Black,1,0,T3,N2,M0,III,57
+62657728,2012,0,18,75-79 years,Married,1,White,1,0,T1,N0,M0,I,28
+46750152,2012,1,20,55-59 years,Single (never married),1,White,1,1,T3,N3,M1,IV,42
+16491454,2012,0,1,85+ years,Single,0,White,1,0,T1,N2,M1,IV,25
+49953284,2012,0,13,65-69 years,Single,1,Black,1,0,T2,N2,M1,IV,33
+49993692,2012,0,7,35-49 years,Married,0,White,1,1,T3,N1,M0,III,105
+46753997,2012,1,97,50-54 years,Single,0,White,1,1,T2,N0,M0,I,35
+52834527,2012,0,54,75-79 years,Single,0,White,1,1,T1,N0,M0,I,12
+49992799,2012,0,1,70-74 years,Single,1,Black,1,0,T3,N2,M0,III,98
+53442111,2012,1,9,65-69 years,Unknown/Other,0,White,1,0,T1,N2,M0,III,18
+54641923,2012,0,24,65-69 years,Married,0,White,1,1,T1,N0,M0,I,20
+62644575,2012,1,63,70-74 years,Single (never married),0,White,1,1,T2,N1,M0,II,30
+35472495,2012,1,42,65-69 years,Single,0,Black,1,0,T2,N3,M1,IV,60
+35489159,2012,1,55,60-64 years,Single (never married),0,White,1,1,T4,N0,M0,III,40
+62647978,2012,1,16,65-69 years,Married,1,White,1,1,T4,N2,M0,III,37
+35556431,2012,0,20,55-59 years,Unknown/Other,1,White,1,1,T2,N0,M0,I,29
+35559540,2012,1,6,80-84 years,Married,0,White,1,0,T3,N0,M1,IV,45
+35596095,2012,0,7,75-79 years,Married,0,White,0,0,T1,N2,M0,III,74
+62646664,2012,1,0,60-64 years,Single,1,White,0,0,T4,N2,M1,IV,25
+35607874,2012,0,10,75-79 years,Single,0,White,1,1,T2,N0,M0,I,35
+35644388,2012,1,30,55-59 years,Married,1,White,1,1,T2,N1,M1,IV,50
+35663107,2012,0,4,35-49 years,Single (never married),0,Black,0,0,T4,N3,M1,IV,80
+10921530,2012,1,2,75-79 years,Married,1,White,1,0,T3,N2,M0,III,40
+35684846,2012,0,2,80-84 years,Married,0,White,0,0,T2,N2,M0,III,20
+20149265,2012,0,56,75-79 years,Married,1,White,1,1,T4,N0,M0,III,16
+35732017,2012,1,5,60-64 years,Married,0,Other,0,0,T2,N3,M1,IV,34
+20222127,2012,0,18,65-69 years,Married,1,White,0,1,T1,N0,M0,I,50
+5657898,2012,0,5,50-54 years,Married,0,White,1,0,T3,N2,M0,III,40
+5661197,2012,1,45,70-74 years,Single,1,White,1,0,T1,N3,M1,IV,19
+5671609,2012,1,10,35-49 years,Single (never married),1,White,1,1,T2,N2,M0,III,60
+5675734,2012,0,21,65-69 years,Married,0,White,1,0,T3,N2,M1,IV,14
+5678524,2012,1,15,65-69 years,Married,1,White,1,0,T2,N0,M1,IV,60
+1262375,2012,1,1,70-74 years,Married,1,White,0,0,T4,N2,M1,IV,94
+5680058,2012,0,14,80-84 years,Married,1,White,1,1,T2,N2,M0,III,30
+62672934,2012,1,24,35-49 years,Single (never married),1,Black,1,0,T3,N2,M0,III,55
+22072661,2012,1,5,65-69 years,Single (never married),1,Black,1,1,T3,N3,M1,IV,60
+22074453,2012,1,1,80-84 years,Married,1,White,1,0,T2,N2,M1,IV,43
+22087313,2012,0,1,65-69 years,Single,1,White,0,0,T2,N3,M1,IV,39
+5683337,2012,1,52,55-59 years,Married,1,White,1,1,T2,N0,M0,II,55
+5693544,2012,0,1,70-74 years,Single,1,White,0,0,T2,N2,M1,IV,40
+46257534,2012,0,14,75-79 years,Single,0,White,0,1,T1,N0,M0,I,11
+23875474,2012,1,0,75-79 years,Married,1,Other,0,0,T2,N3,M1,IV,39
+11078494,2012,0,5,70-74 years,Married,1,White,0,0,T2,N2,M1,IV,40
+11087658,2012,1,14,80-84 years,Married,1,White,1,0,T2,N0,M0,I,32
+26329823,2012,0,1,85+ years,Single,0,White,0,0,T4,N3,M1,IV,60
+46515898,2012,0,31,55-59 years,Single,0,White,1,0,T1,N0,M0,I,15
+54929350,2012,1,37,50-54 years,Single,0,White,1,1,T4,N2,M0,III,90
+54918632,2012,1,6,65-69 years,Married,1,White,1,1,T3,N1,M1,IV,39
+46723723,2012,0,10,80-84 years,Single (never married),0,White,1,1,T2,N0,M1,IV,40
+46731752,2012,1,1,65-69 years,Single,0,Black,0,0,T4,N2,M1,IV,63
+46738948,2012,0,3,70-74 years,Married,1,White,1,0,T4,N2,M1,IV,18
+46740179,2012,1,8,65-69 years,Single,0,White,1,1,T2,N2,M1,IV,25
+46746589,2012,1,69,60-64 years,Married,1,White,1,0,T2,N3,M0,III,50
+46780395,2012,1,11,60-64 years,Single (never married),1,Black,1,1,T2,N0,M1,IV,39
+55047035,2013,1,30,55-59 years,Married,1,White,1,0,T1,N0,M1,IV,15
+46795357,2013,0,3,65-69 years,Married,1,White,0,1,T2,N2,M1,IV,25
+55042887,2013,0,16,60-64 years,Married,1,White,1,1,T4,N0,M0,III,6
+55037495,2013,0,0,65-69 years,Married,1,White,0,0,T4,N1,M1,IV,60
+55037189,2013,0,41,80-84 years,Married,1,White,1,1,T1,N0,M0,I,22
+55058647,2013,1,18,65-69 years,Married,1,White,1,0,T4,N1,M0,III,60
+55075664,2013,0,24,75-79 years,Married,1,White,1,1,T1,N1,M1,IV,26
+49780763,2013,0,0,70-74 years,Married,1,White,0,1,T3,N3,M1,IV,75
+27378125,2013,0,1,85+ years,Single (never married),1,White,0,0,T4,N2,M1,IV,36
+27379227,2013,0,3,85+ years,Single,0,White,0,0,T2,N0,M0,I,34
+27395712,2013,0,14,70-74 years,Single (never married),0,Other,0,1,T2,N1,M1,IV,75
+55088067,2013,0,32,70-74 years,Unknown/Other,0,White,1,0,T4,N0,M0,III,31
+14173776,2013,1,16,80-84 years,Married,0,White,1,1,T1,N1,M0,III,9
+46798127,2013,1,0,65-69 years,Single,1,White,1,0,T3,N2,M1,IV,75
+46803142,2013,1,25,60-64 years,Married,1,White,1,0,T1,N1,M0,II,20
+46800768,2013,1,14,55-59 years,Married,0,White,1,1,T1,N3,M0,III,12
+46802784,2013,0,6,75-79 years,Married,1,White,1,1,T2,N2,M0,III,64
+46800208,2013,1,7,85+ years,Single (never married),0,White,0,0,T3,N0,M0,III,50
+33493379,2013,0,5,75-79 years,Single (never married),0,White,1,0,T3,N2,M1,IV,17
+46834452,2013,0,7,75-79 years,Single,0,White,1,0,T4,N0,M1,IV,52
+9142884,2013,0,1,55-59 years,Married,1,Other,0,1,T3,N2,M1,IV,78
+9151977,2013,0,4,75-79 years,Married,1,Other,1,0,T2,N2,M1,IV,40
+46819079,2013,0,3,70-74 years,Married,0,White,1,1,T3,N3,M1,IV,35
+54586913,2013,0,7,65-69 years,Single (never married),1,White,1,0,T4,N3,M1,IV,64
+49978759,2013,0,21,70-74 years,Married,0,White,1,1,T1,N0,M0,I,28
+34642565,2013,1,7,65-69 years,Single,0,White,0,0,T4,N2,M1,IV,29
+49981384,2013,0,2,75-79 years,Married,0,White,0,0,T2,N3,M0,III,38
+16538819,2013,0,35,60-64 years,Married,1,White,0,1,T1,N0,M0,I,18
+34662888,2013,0,10,75-79 years,Single,0,White,0,1,T2,N2,M0,III,31
+16546803,2013,1,31,65-69 years,Married,0,White,1,0,T1,N3,M0,III,23
+10819321,2013,1,28,70-74 years,Married,1,White,1,1,T3,N2,M0,III,11
+50005962,2013,0,11,60-64 years,Single,1,Black,1,0,T1,N0,M1,IV,30
+50025730,2013,0,16,70-74 years,Single,0,White,1,1,T2,N1,M0,II,32
+50018001,2013,0,9,70-74 years,Single,0,White,1,1,T4,N3,M1,IV,55
+50007506,2013,1,28,60-64 years,Married,1,Black,1,0,T3,N2,M0,III,92
+35670582,2013,1,3,65-69 years,Married,1,White,1,0,T3,N0,M1,IV,77
+50009955,2013,1,2,70-74 years,Married,1,White,1,0,T4,N3,M1,IV,73
+35855124,2013,0,0,60-64 years,Married,1,White,0,0,T1,N2,M1,IV,21
+62015749,2013,0,14,75-79 years,Single,0,White,1,0,T4,N3,M1,IV,35
+35779666,2013,0,15,75-79 years,Married,1,White,0,1,T2,N1,M0,II,38
+62715732,2013,1,5,65-69 years,Single,1,White,1,1,T1,N2,M1,IV,14
+35810215,2013,0,1,80-84 years,Single (never married),1,White,0,0,T2,N0,M1,IV,31
+20246588,2013,1,11,65-69 years,Married,1,White,1,1,T1,N2,M0,III,23
+20246658,2013,0,29,60-64 years,Single (never married),0,White,1,0,T1,N0,M0,I,15
+20254855,2013,0,0,65-69 years,Married,0,White,0,0,T4,N0,M0,III,70
+55006867,2013,1,14,65-69 years,Married,1,White,1,0,T1,N2,M0,III,28
+54873988,2013,1,25,80-84 years,Married,0,White,1,1,T2,N2,M0,III,60
+62703271,2013,1,9,75-79 years,Married,1,White,1,1,T2,N1,M0,II,15
+62724428,2013,1,13,60-64 years,Unknown/Other,0,White,1,0,T4,N3,M1,IV,81
+62206901,2013,1,1,60-64 years,Married,0,White,1,0,T2,N2,M1,IV,49
+62725777,2013,1,3,75-79 years,Married,0,White,1,0,T4,N2,M1,IV,77
+1275557,2013,1,26,75-79 years,Married,1,White,1,1,T4,N2,M0,III,43
+5708961,2013,0,22,60-64 years,Married,1,White,1,1,T3,N1,M0,III,130
+5712293,2013,0,2,70-74 years,Married,1,White,1,0,T1,N2,M1,IV,24
+62736549,2013,0,2,60-64 years,Single,0,White,1,0,T2,N2,M0,III,37
+5714050,2013,0,15,65-69 years,Married,1,White,1,0,T3,N2,M1,IV,61
+11053948,2013,0,13,65-69 years,Married,1,White,1,1,T2,N0,M0,I,40
+62729099,2013,0,10,60-64 years,Married,0,White,0,1,T2,N2,M1,IV,40
+50037050,2013,0,10,35-49 years,Single,0,White,1,1,T4,N2,M1,IV,60
+5722010,2013,0,22,75-79 years,Single (never married),0,Black,0,1,T3,N2,M0,IV,35
+5727354,2013,0,7,80-84 years,Single,0,White,0,1,T3,N0,M0,II,55
+46783203,2013,0,6,65-69 years,Single (never married),0,White,0,1,T1,N1,M0,II,28
+49393763,2013,0,2,75-79 years,Married,1,White,0,0,T1,N0,M0,I,25
+46789406,2013,0,29,70-74 years,Single,0,White,1,1,T1,N1,M0,II,22
+25737908,2013,1,8,80-84 years,Single,0,White,1,1,T1,N2,M0,III,17
+11094711,2013,1,12,60-64 years,Married,0,Other,1,1,T2,N1,M0,II,35
+46467232,2013,0,6,70-74 years,Single,0,White,1,0,T3,N0,M1,IV,80
+11103404,2013,0,22,70-74 years,Single,0,White,1,1,T2,N0,M0,I,13
+55006771,2013,1,22,70-74 years,Married,0,White,1,0,T2,N3,M0,III,22
+11118472,2013,1,11,85+ years,Single,0,White,0,0,T4,N0,M0,III,79
+26585455,2013,0,8,85+ years,Married,1,White,0,0,T2,N0,M0,II,66
+54194434,2013,0,36,65-69 years,Married,0,White,1,1,T2,N0,M0,I,36
+54994957,2013,0,28,65-69 years,Single (never married),1,White,1,0,T3,N2,M1,IV,50
+46778943,2013,1,1,70-74 years,Single,1,White,1,0,T4,N2,M1,IV,55
+54100943,2014,0,42,70-74 years,Married,0,White,1,1,T2,N0,M0,I,16
+27109915,2014,1,21,85+ years,Single,0,Black,0,0,T4,N2,M1,IV,41
+27135556,2014,1,9,60-64 years,Married,1,White,1,0,T4,N2,M1,IV,30
+46869157,2014,1,3,55-59 years,Married,0,White,1,1,T2,N2,M1,IV,24
+49798880,2014,0,5,60-64 years,Married,1,White,0,1,T4,N2,M1,IV,48
+55065055,2014,1,12,55-59 years,Married,1,Black,1,0,T3,N2,M0,III,41
+25774704,2014,0,4,65-69 years,Single,0,Black,0,0,T2,N0,M0,I,34
+50068986,2014,1,24,75-79 years,Single,0,White,1,0,T2,N2,M0,III,42
+27443661,2014,0,41,65-69 years,Married,0,White,1,1,T3,N0,M0,II,23
+27463085,2014,1,24,80-84 years,Single,0,White,1,0,T1,N0,M0,I,22
+27514097,2014,0,9,65-69 years,Married,1,Black,1,0,T3,N3,M1,IV,33
+11142864,2014,1,9,80-84 years,Married,0,White,1,1,T4,N2,M0,III,87
+50065650,2014,1,6,55-59 years,Married,1,White,1,0,T3,N2,M0,III,80
+55107736,2014,0,37,60-64 years,Single (never married),0,White,1,1,T2,N0,M0,I,22
+47010480,2014,1,37,35-49 years,Married,0,White,1,1,T3,N2,M0,III,82
+55109153,2014,1,3,70-74 years,Unknown/Other,0,White,1,0,T4,N2,M1,IV,70
+55128558,2014,1,9,70-74 years,Married,1,White,1,1,T4,N0,M1,IV,78
+46817335,2014,1,15,65-69 years,Married,1,White,1,1,T2,N1,M0,II,40
+46821095,2014,1,24,60-64 years,Single,1,White,1,0,T1,N3,M0,III,19
+46861480,2014,0,24,65-69 years,Single,1,White,1,0,T2,N1,M1,IV,34
+46849796,2014,1,1,80-84 years,Single,0,White,0,0,T4,N2,M1,IV,100
+46843191,2014,0,6,75-79 years,Single,0,White,1,0,T4,N0,M1,IV,63
+55159300,2014,1,15,50-54 years,Single (never married),1,Black,1,0,T4,N0,M1,IV,30
+46858421,2014,0,13,65-69 years,Married,1,White,1,1,T4,N1,M0,IV,55
+46859923,2014,0,9,35-49 years,Married,0,White,1,1,T4,N3,M1,IV,90
+35833277,2014,0,5,85+ years,Married,0,White,0,0,T2,N2,M1,IV,31
+50031150,2014,1,12,55-59 years,Single (never married),0,White,1,0,T4,N3,M0,III,74
+16584207,2014,1,18,55-59 years,Unknown/Other,0,White,1,1,T2,N0,M0,I,16
+16623216,2014,0,20,60-64 years,Married,1,White,1,1,T1,N1,M0,IV,50
+54732849,2014,1,6,70-74 years,Single,0,White,1,0,T1,N0,M0,I,15
+46529788,2014,1,3,65-69 years,Single,0,White,1,0,T2,N3,M0,III,40
+50038682,2014,1,19,55-59 years,Single,1,Black,1,0,T3,N3,M0,III,50
+35247334,2014,0,36,70-74 years,Married,0,White,1,0,T2,N0,M0,II,20
+35255211,2014,0,29,65-69 years,Single,0,White,1,1,T2,N0,M0,II,55
+46898667,2014,0,4,35-49 years,Single,1,White,1,0,T4,N2,M1,IV,120
+46380381,2014,1,6,50-54 years,Single,0,White,1,0,T3,N2,M1,IV,84
+35840228,2014,0,0,70-74 years,Married,1,White,0,0,T1,N0,M1,IV,31
+46306686,2014,0,8,60-64 years,Married,1,White,1,1,T2,N2,M0,III,42
+35939882,2014,0,1,80-84 years,Married,1,Other,0,0,T3,N2,M1,IV,90
+35909292,2014,0,57,70-74 years,Married,1,White,1,1,T2,N2,M0,III,21
+35850298,2014,1,4,80-84 years,Single,1,White,0,0,T3,N0,M1,IV,100
+62768765,2014,0,0,55-59 years,Single (never married),1,White,0,0,T2,N0,M1,IV,67
+35838948,2014,1,5,65-69 years,Married,1,White,1,0,T1,N0,M1,IV,20
+35856295,2014,0,2,80-84 years,Unknown/Other,1,White,1,0,T2,N3,M1,IV,50
+35888309,2014,0,19,75-79 years,Married,0,White,0,1,T2,N2,M0,III,33
+50064508,2014,0,0,60-64 years,Married,1,White,0,1,T4,N3,M1,IV,22
+49681385,2014,1,27,85+ years,Single (never married),1,White,0,0,T3,N0,M0,III,50
+46879663,2014,0,0,80-84 years,Married,1,White,1,0,T3,N2,M1,IV,100
+36166407,2014,1,43,85+ years,Single (never married),1,White,1,0,T2,N0,M1,IV,56
+35905092,2014,1,3,75-79 years,Married,1,Other,0,0,T3,N0,M1,IV,22
+21958818,2014,1,2,80-84 years,Married,1,White,0,0,T3,N0,M1,IV,32
+22139276,2014,0,10,65-69 years,Married,0,White,1,1,T3,N1,M0,III,75
+22141834,2014,1,57,60-64 years,Married,1,White,1,1,T2,N0,M1,IV,68
+46020850,2014,0,0,80-84 years,Single,0,White,0,1,T3,N2,M1,IV,94
+62768090,2014,1,16,70-74 years,Married,1,White,1,1,T2,N2,M0,III,42
+46205114,2014,0,0,75-79 years,Married,1,White,0,0,T2,N0,M0,I,32
+46903500,2014,0,31,60-64 years,Single (never married),1,White,0,0,T3,N0,M0,II,72
+1321707,2014,0,2,60-64 years,Married,1,Other,0,0,T4,N2,M1,IV,72
+50058208,2014,1,2,80-84 years,Married,0,White,0,0,T2,N0,M1,IV,70
+50054768,2014,1,1,85+ years,Single,0,White,1,1,T1,N2,M0,III,18
+1341033,2014,0,8,75-79 years,Married,1,Other,0,1,T1,N0,M0,I,15
+62810279,2014,0,9,55-59 years,Married,0,White,1,0,T4,N3,M1,IV,93
+5750780,2014,0,34,35-49 years,Married,1,White,1,1,T4,N2,M1,IV,60
+46759942,2014,1,8,75-79 years,Single,0,White,1,0,T4,N0,M0,III,22
+50070193,2014,0,0,60-64 years,Single (never married),1,White,0,1,T4,N3,M1,IV,98
+5754601,2014,0,32,65-69 years,Single,1,White,1,1,T2,N0,M0,I,15
+50079656,2014,1,13,35-49 years,Single (never married),1,Black,1,0,T3,N0,M0,II,55
+25838781,2014,0,17,75-79 years,Single,0,White,0,0,T1,N0,M0,I,24
+11100433,2014,1,19,55-59 years,Single,1,White,1,1,T3,N0,M1,IV,41
+11139523,2014,1,1,80-84 years,Single,0,White,0,0,T2,N0,M1,IV,55
+62795384,2014,0,19,60-64 years,Single (never married),1,Black,1,0,T4,N2,M1,IV,45
+34326581,2014,0,4,85+ years,Single,1,White,0,0,T2,N0,M0,II,50
+11142368,2014,1,4,50-54 years,Single,1,White,1,0,T3,N2,M1,IV,10
+5758684,2014,1,23,65-69 years,Married,1,White,1,0,T4,N3,M1,IV,50
+46631878,2014,0,1,80-84 years,Married,0,White,0,0,T4,N2,M1,IV,15
+46645720,2014,0,2,65-69 years,Single (never married),1,White,1,1,T4,N2,M1,IV,55
+46848206,2014,1,7,65-69 years,Single (never married),1,White,1,0,T4,N2,M1,IV,48
+46735897,2014,1,30,65-69 years,Married,0,White,1,1,T1,N1,M0,II,30
+50091995,2015,1,24,70-74 years,Single,1,Black,1,0,T2,N0,M0,I,40
+11155649,2015,1,9,50-54 years,Single,1,White,1,0,T2,N0,M1,IV,52
+5783987,2015,1,19,55-59 years,Single,1,White,1,1,T4,N2,M0,III,70
+1377837,2015,0,0,80-84 years,Married,1,White,0,0,T2,N0,M1,IV,66
+35241028,2015,0,21,75-79 years,Single (never married),1,White,0,0,T3,N2,M1,IV,40
+55211996,2015,1,9,75-79 years,Single,0,White,1,0,T4,N2,M0,III,75
+46757147,2015,0,0,55-59 years,Unknown/Other,0,White,0,0,T4,N2,M1,IV,14
+50093496,2015,1,30,65-69 years,Married,0,White,1,0,T2,N1,M0,III,86
+27496345,2015,0,6,65-69 years,Single (never married),0,White,1,0,T4,N2,M1,IV,90
+27505731,2015,0,12,70-74 years,Single (never married),1,Black,1,0,T4,N0,M1,IV,69
+27506262,2015,0,2,65-69 years,Single (never married),1,Black,1,0,T4,N2,M1,IV,41
+27516586,2015,0,12,35-49 years,Married,1,White,0,0,T2,N0,M0,I,20
+14203486,2015,1,7,65-69 years,Unknown/Other,1,White,0,0,T4,N2,M0,III,25
+27530365,2015,0,7,65-69 years,Married,1,White,0,1,T3,N0,M0,II,70
+27533117,2015,0,6,35-49 years,Single (never married),0,White,1,0,T2,N0,M1,IV,77
+14221835,2015,0,0,65-69 years,Single,0,White,0,0,T4,N3,M1,IV,97
+46659310,2015,0,1,55-59 years,Single (never married),1,White,1,0,T3,N1,M0,III,17
+46877502,2015,1,23,55-59 years,Married,0,White,1,1,T4,N2,M0,III,75
+49443988,2015,1,17,70-74 years,Married,1,White,1,0,T1,N0,M0,I,16
+50126940,2015,1,32,60-64 years,Married,1,Black,1,1,T3,N0,M0,II,101
+55185568,2015,0,20,65-69 years,Married,1,White,1,0,T2,N2,M1,IV,36
+50131782,2015,0,3,55-59 years,Unknown/Other,1,White,0,0,T3,N3,M1,IV,145
+55214952,2015,0,10,60-64 years,Married,1,White,1,1,T1,N1,M0,II,20
+46876737,2015,1,14,50-54 years,Married,0,White,1,0,T1,N2,M0,III,16
+55287459,2015,0,13,55-59 years,Single,1,White,1,1,T3,N0,M0,III,34
+49987751,2015,1,17,60-64 years,Married,0,White,1,0,T2,N2,M1,IV,20
+36164961,2015,0,7,35-49 years,Married,0,Other,1,0,T2,N1,M1,IV,130
+16599599,2015,0,3,70-74 years,Single,0,White,1,0,T2,N1,M0,II,8
+46876177,2015,1,8,55-59 years,Single,1,White,1,0,T3,N3,M1,IV,29
+16605767,2015,0,5,55-59 years,Single (never married),0,White,0,0,T2,N2,M0,IV,50
+16622153,2015,0,22,75-79 years,Married,1,White,1,1,T2,N3,M1,IV,62
+16640791,2015,0,7,65-69 years,Married,0,White,0,1,T2,N2,M0,III,50
+46877326,2015,0,8,55-59 years,Married,0,White,0,0,T3,N2,M0,III,80
+46880219,2015,0,0,80-84 years,Married,0,White,0,0,T3,N0,M0,II,70
+46904674,2015,1,8,70-74 years,Married,1,White,0,0,T3,N0,M0,II,30
+46910336,2015,0,15,55-59 years,Single (never married),1,White,1,1,T2,N2,M0,III,50
+36092230,2015,1,4,55-59 years,Married,1,White,1,0,T3,N2,M1,IV,56
+36054906,2015,0,13,60-64 years,Unknown/Other,1,Black,1,0,T2,N0,M1,IV,14
+36057832,2015,0,0,55-59 years,Married,1,Other,0,1,T1,N3,M1,IV,27
+46328817,2015,1,11,50-54 years,Married,1,White,1,1,T1,N2,M0,III,11
+36018322,2015,1,1,60-64 years,Single (never married),1,White,1,1,T3,N3,M1,IV,144
+5782106,2015,1,9,65-69 years,Married,1,White,1,1,T1,N2,M0,III,19
+36086956,2015,1,11,80-84 years,Married,1,White,1,0,T3,N2,M0,III,24
+36146716,2015,0,6,75-79 years,Married,1,White,0,0,T3,N2,M0,III,38
+46950338,2015,1,23,75-79 years,Unknown/Other,1,White,1,0,T2,N0,M0,I,33
+46886393,2015,0,9,65-69 years,Married,1,White,1,1,T4,N2,M1,IV,51
+35727607,2015,1,38,65-69 years,Married,0,White,1,0,T4,N3,M0,III,44
+5801594,2015,0,13,75-79 years,Married,1,White,1,1,T3,N2,M1,IV,30
+22149015,2015,1,20,75-79 years,Married,0,Black,1,1,T1,N2,M0,III,22
+50048332,2015,1,0,80-84 years,Single,1,White,0,0,T2,N1,M1,IV,52
+46424602,2015,1,17,70-74 years,Married,0,White,1,0,T2,N0,M0,I,17
+50098227,2015,0,17,70-74 years,Married,0,White,1,1,T2,N1,M1,IV,40
+50105099,2015,0,10,75-79 years,Married,1,White,1,1,T2,N0,M1,IV,50
+1370038,2015,1,1,80-84 years,Married,1,White,0,0,T1,N0,M1,IV,24
+11161217,2015,0,13,35-49 years,Single (never married),0,White,1,0,T4,N0,M1,IV,157
+5783614,2015,1,4,60-64 years,Single,0,White,1,0,T1,N2,M1,IV,30
+35545553,2015,0,5,75-79 years,Single,0,White,1,0,T2,N3,M1,IV,47
+1370155,2015,0,58,75-79 years,Married,1,White,1,0,T3,N2,M1,IV,97
+50109143,2015,1,9,70-74 years,Married,1,Black,1,0,T3,N0,M0,II,57
+62851784,2015,1,31,65-69 years,Single (never married),1,Black,1,0,T4,N0,M0,III,35
+62879474,2015,1,10,65-69 years,Married,0,White,1,0,T3,N2,M0,III,83
+5808521,2015,0,18,80-84 years,Single,1,White,1,0,T2,N0,M1,IV,50
+46895441,2015,1,7,65-69 years,Married,0,White,0,0,T1,N0,M0,I,24
+50108587,2015,1,22,50-54 years,Single (never married),1,White,1,0,T3,N3,M0,III,130
+11155649,2015,1,9,50-54 years,Single (never married),1,White,1,0,T1,N0,M1,IV,12
+47000223,2016,0,13,65-69 years,Married,1,White,1,1,T3,N2,M0,III,60
+36329545,2016,0,10,55-59 years,Married,0,White,1,1,T2,N2,M1,IV,35
+1404857,2016,0,10,65-69 years,Married,1,Other,0,1,T1,N0,M0,I,23
+1444995,2016,1,5,65-69 years,Married,1,Other,1,1,T3,N3,M1,IV,70
+27572727,2016,0,11,70-74 years,Married,0,White,0,0,T2,N0,M0,II,90
+14231331,2016,1,5,55-59 years,Single (never married),1,White,1,1,T4,N2,M1,IV,113
+27592260,2016,0,9,70-74 years,Single,1,White,1,1,T2,N0,M0,I,22
+47017031,2016,0,17,50-54 years,Single,0,White,1,0,T2,N0,M0,II,50
+46974619,2016,1,13,60-64 years,Single,1,White,1,1,T2,N0,M0,I,30
+46864005,2016,0,19,60-64 years,Single,1,White,1,1,T1,N2,M0,III,21
+36334318,2016,1,9,65-69 years,Married,1,White,1,0,T2,N1,M1,IV,42
+36374485,2016,1,5,60-64 years,Single,1,White,1,1,T2,N2,M1,IV,53
+36334697,2016,0,0,70-74 years,Married,1,White,0,0,T4,N2,M1,IV,54
+50175507,2016,0,9,85+ years,Married,1,White,1,0,T2,N0,M1,IV,46
+55159017,2016,0,19,85+ years,Single,0,White,1,0,T2,N0,M0,II,40
+46933485,2016,0,9,75-79 years,Married,0,White,0,1,T1,N1,M0,II,15
+36287982,2016,1,9,60-64 years,Married,1,Black,1,0,T4,N0,M0,IV,99
+36239333,2016,0,25,65-69 years,Married,1,White,0,0,T1,N0,M0,I,50
+55273317,2016,1,9,55-59 years,Single (never married),1,Black,1,0,T4,N3,M0,III,55
+49988909,2016,1,20,70-74 years,Married,0,White,0,0,T1,N0,M0,I,13
+55271966,2016,0,35,85+ years,Married,1,Other,0,1,T3,N0,M0,II,95
+49987879,2016,1,2,50-54 years,Married,0,White,0,0,T4,N2,M1,IV,58
+55325641,2016,0,3,85+ years,Married,0,White,1,0,T3,N0,M0,II,33
+55334287,2016,1,19,65-69 years,Unknown/Other,1,White,1,1,T1,N2,M0,III,29
+50175480,2016,1,16,50-54 years,Single (never married),0,Black,1,1,T3,N2,M0,III,108
+55368054,2016,1,17,85+ years,Married,1,White,0,0,T2,N0,M1,IV,58
+16665824,2016,0,6,80-84 years,Single,0,White,0,0,T3,N0,M0,III,51
+16669868,2016,1,10,50-54 years,Married,1,White,1,0,T2,N0,M1,IV,35
+16682635,2016,0,31,75-79 years,Married,1,White,0,1,T2,N0,M0,II,25
+46960484,2016,0,4,65-69 years,Married,1,White,1,1,T2,N1,M1,IV,57
+4566071,2016,1,12,75-79 years,Married,0,White,1,0,T4,N2,M0,III,78
+55361876,2016,1,14,65-69 years,Single,1,White,0,0,T1,N2,M1,IV,9
+46925217,2016,0,8,60-64 years,Single (never married),0,White,1,1,T3,N1,M0,III,40
+46937847,2016,1,7,75-79 years,Married,0,White,0,0,T1,N0,M0,I,18
+10814024,2016,1,6,75-79 years,Married,1,White,1,1,T4,N2,M1,IV,28
+26933041,2016,0,9,85+ years,Married,1,White,1,0,T2,N0,M1,IV,48
+27604822,2016,1,17,55-59 years,Single,0,Other,1,0,T3,N0,M1,IV,50
+21513718,2016,0,5,60-64 years,Married,0,White,1,1,T2,N3,M1,IV,41
+5816279,2016,1,14,60-64 years,Single,0,White,1,0,T2,N3,M0,III,55
+55324437,2016,1,31,65-69 years,Married,0,White,1,0,T3,N3,M1,IV,48
+5649888,2016,1,27,65-69 years,Single,1,White,1,1,T2,N0,M0,I,35
+27587304,2016,0,42,60-64 years,Single,0,White,1,1,T2,N0,M0,II,52
+27575694,2016,1,7,35-49 years,Single (never married),1,White,1,0,T2,N2,M1,IV,30
+36207069,2016,1,3,60-64 years,Single (never married),1,White,1,0,T4,N3,M1,IV,104
+36227956,2016,0,6,70-74 years,Married,1,White,1,0,T4,N1,M1,IV,68
+36283495,2016,1,4,65-69 years,Married,0,White,1,0,T4,N2,M1,IV,140
+36286733,2016,0,8,85+ years,Married,1,White,0,0,T2,N2,M1,IV,34
+36289701,2016,0,3,35-49 years,Married,0,White,1,0,T4,N2,M1,IV,95
+11191096,2016,0,0,85+ years,Married,1,White,0,1,T4,N3,M1,IV,103
+36390781,2016,0,0,75-79 years,Single,1,White,0,1,T3,N1,M1,IV,30
+22139585,2016,0,16,65-69 years,Single,1,White,1,1,T3,N0,M0,II,26
+46945917,2016,1,6,70-74 years,Married,0,White,1,0,T2,N2,M1,IV,40
+62760555,2016,0,16,65-69 years,Married,0,Black,1,1,T2,N0,M0,I,16
+24418765,2016,0,20,70-74 years,Single,0,White,1,0,T4,N2,M1,IV,37
+46930888,2016,0,7,55-59 years,Married,1,White,1,0,T2,N0,M0,II,50
+54956163,2016,0,10,70-74 years,Single,0,White,1,1,T2,N1,M0,II,43
+50165828,2016,0,11,60-64 years,Married,1,White,1,0,T1,N2,M1,IV,20
+50158516,2016,1,20,65-69 years,Married,1,White,1,1,T1,N0,M0,I,22
+16349177,2016,1,44,80-84 years,Single,0,White,1,0,T2,N2,M0,III,35
+26075377,2016,0,2,80-84 years,Married,0,Other,0,0,T2,N0,M1,IV,42
+50160931,2016,1,8,70-74 years,Single,0,White,1,0,T4,N2,M1,IV,77
+62921118,2016,0,32,35-49 years,Married,0,Black,1,1,T2,N0,M0,I,25
+62979426,2016,1,13,65-69 years,Single,0,White,1,1,T2,N2,M0,III,31
+62965612,2016,0,31,60-64 years,Unknown/Other,1,White,0,1,T1,N2,M0,III,25
+5816392,2016,1,3,70-74 years,Married,1,White,1,0,T3,N2,M1,IV,79
+5877107,2017,0,11,60-64 years,Married,1,White,1,1,T3,N2,M1,IV,22
+5854937,2017,0,11,65-69 years,Married,1,White,1,0,T2,N2,M1,IV,35
+47004191,2017,0,1,75-79 years,Unknown/Other,1,Black,0,1,T3,N3,M1,IV,80
+11227364,2017,0,12,70-74 years,Single (never married),0,White,1,0,T3,N2,M1,IV,120
+46455338,2017,0,11,60-64 years,Single (never married),1,Black,1,0,T2,N0,M0,II,40
+36408634,2017,1,10,75-79 years,Married,1,White,1,1,T4,N2,M0,IV,50
+36366995,2017,1,1,85+ years,Single,0,White,1,0,T1,N2,M1,IV,25
+62963841,2017,1,6,70-74 years,Single (never married),1,White,1,1,T2,N2,M0,III,20
+27647930,2017,0,2,85+ years,Single,1,Other,1,0,T2,N2,M1,IV,53
+15781992,2017,0,1,70-74 years,Single,0,White,0,0,T1,N2,M1,IV,19
+27693255,2017,1,2,80-84 years,Married,0,White,1,0,T4,N1,M1,IV,40
+36369251,2017,0,2,60-64 years,Single,0,Black,1,0,T3,N2,M1,IV,43
+36447280,2017,1,7,65-69 years,Married,0,White,1,0,T2,N2,M1,IV,48
+1469557,2017,1,16,70-74 years,Married,1,Other,1,0,T3,N0,M0,II,78
+47013513,2017,1,8,35-49 years,Single,0,White,1,0,T4,N0,M1,IV,64
+46970536,2017,1,8,75-79 years,Married,0,White,0,1,T4,N0,M0,III,91
+1470997,2017,1,21,60-64 years,Single,1,Other,1,1,T4,N2,M1,IV,145
+34063249,2017,0,9,80-84 years,Married,1,White,1,1,T1,N1,M0,II,25
+46987768,2017,1,6,60-64 years,Married,0,White,1,0,T3,N2,M1,IV,103
+63002167,2017,0,12,70-74 years,Married,0,White,1,1,T2,N2,M0,III,45
+704024,2017,1,12,60-64 years,Married,0,White,1,0,T2,N0,M0,II,20
+36454032,2017,0,0,70-74 years,Married,0,White,0,0,T2,N2,M1,IV,54
+10664613,2017,1,40,70-74 years,Married,1,White,1,1,T2,N3,M0,III,43
+55444480,2017,1,0,70-74 years,Married,1,White,1,0,T2,N2,M1,IV,56
+34772884,2017,0,0,85+ years,Single,0,White,0,0,T3,N2,M0,III,97
+46993597,2017,0,3,75-79 years,Married,1,White,0,0,T3,N0,M1,IV,100
+21851846,2017,0,7,70-74 years,Single,1,White,1,0,T1,N0,M0,I,27
+24444091,2017,0,12,55-59 years,Single (never married),0,White,1,1,T1,N0,M0,I,17
+47058261,2017,0,13,50-54 years,Married,0,White,1,1,T3,N3,M1,IV,72
+50226878,2017,0,16,75-79 years,Single,0,White,1,0,T1,N0,M0,I,12
+47017188,2017,0,0,65-69 years,Married,0,White,0,0,T2,N0,M1,IV,36
+55405221,2017,0,11,55-59 years,Single (never married),1,White,1,0,T3,N3,M1,IV,129
+54737008,2017,1,24,75-79 years,Married,0,White,1,1,T1,N1,M0,II,29
+27700597,2017,0,4,60-64 years,Unknown/Other,0,White,0,1,T3,N1,M1,IV,93
+46991313,2017,0,13,70-74 years,Married,1,White,1,1,T2,N3,M0,IV,53
+35958524,2017,1,8,70-74 years,Single,0,White,1,1,T4,N2,M0,III,75
+47067962,2017,0,12,70-74 years,Married,0,White,0,0,T3,N1,M0,III,25
+21686610,2017,0,0,75-79 years,Single (never married),0,Black,0,1,T4,N3,M1,IV,147
+50215197,2017,0,8,60-64 years,Married,1,White,1,1,T4,N0,M1,IV,60
+1460390,2017,1,10,50-54 years,Single,0,Other,1,0,T4,N3,M1,IV,101
+20227407,2017,0,4,80-84 years,Married,1,White,1,0,T2,N0,M1,IV,39
+46032950,2017,1,8,75-79 years,Single,1,White,1,0,T3,N0,M0,II,69
+54811345,2017,0,2,70-74 years,Single (never married),1,Black,0,1,T2,N1,M0,II,66
+11193353,2017,1,7,55-59 years,Married,1,White,1,0,T3,N2,M1,IV,100
+47071947,2017,0,1,75-79 years,Married,1,White,0,0,T2,N0,M1,IV,50
+5359857,2017,0,4,80-84 years,Married,1,Black,1,0,T4,N2,M1,IV,77
+54179725,2017,0,4,70-74 years,Married,0,White,1,0,T1,N0,M0,I,50
+16729439,2017,0,25,65-69 years,Married,1,Other,0,1,T1,N0,M0,I,15
+46876974,2017,0,14,55-59 years,Single,1,White,0,0,T1,N0,M0,I,18
+62791300,2017,1,3,60-64 years,Single,1,White,1,1,T4,N3,M1,IV,77
+47005366,2017,0,14,60-64 years,Married,1,White,1,0,T2,N0,M0,II,24
+55405534,2017,1,12,65-69 years,Married,1,White,1,0,T3,N2,M1,IV,36
+63002328,2017,1,5,70-74 years,Married,1,White,0,0,T2,N2,M0,III,56
+47044176,2017,0,7,55-59 years,Married,1,White,1,0,T2,N2,M1,IV,70
+50192275,2017,0,3,50-54 years,Single (never married),0,White,1,0,T3,N2,M1,IV,93
+36518797,2017,0,6,75-79 years,Married,1,White,0,0,T1,N0,M0,I,24
+11279220,2018,1,25,75-79 years,Single,1,White,1,0,T1,N0,M0,I,20
+5907384,2018,0,1,55-59 years,Single (never married),1,White,0,1,T1,N3,M1,IV,11
+47053572,2018,1,19,65-69 years,Married,1,White,1,1,T1,N3,M0,III,18
+22149437,2018,0,20,65-69 years,Unknown/Other,1,Black,0,1,T3,N2,M1,IV,43
+47047741,2018,1,7,60-64 years,Single,1,White,0,1,T3,N0,M0,II,64
+47096791,2018,0,2,70-74 years,Married,0,White,1,0,T4,N0,M0,III,55
+63030794,2018,1,2,65-69 years,Single,0,White,0,0,T2,N2,M1,IV,31
+55518451,2018,1,11,55-59 years,Married,1,Black,1,1,T4,N3,M0,III,30
+50285442,2018,1,5,60-64 years,Unknown/Other,1,Black,1,0,T4,N2,M1,IV,71
+55487877,2018,0,11,70-74 years,Married,0,White,1,0,T4,N2,M1,IV,44
+23881168,2018,0,6,80-84 years,Single,1,Other,0,0,T3,N2,M1,IV,46
+22141734,2018,0,12,75-79 years,Married,1,White,1,1,T1,N0,M0,I,23
+36635066,2018,0,6,65-69 years,Unknown/Other,1,White,1,0,T4,N0,M1,IV,154
+55098700,2018,0,0,80-84 years,Married,1,White,0,0,T4,N2,M1,IV,91
+27742061,2018,1,24,75-79 years,Single,0,White,1,1,T3,N1,M0,III,35
+50253475,2018,0,0,80-84 years,Married,1,White,1,1,T3,N2,M1,IV,65
+27791788,2018,0,18,35-49 years,Single (never married),1,Black,1,0,T4,N2,M1,IV,52
+36602054,2018,0,0,75-79 years,Single,1,White,0,0,T3,N1,M1,IV,64
+63048941,2018,1,12,55-59 years,Married,0,White,1,0,T4,N0,M1,IV,90
+5699783,2018,0,5,70-74 years,Single,0,White,1,0,T1,N3,M1,IV,25
+5973471,2018,0,33,80-84 years,Married,0,White,1,1,T2,N0,M0,I,25
+50258413,2018,0,17,65-69 years,Married,1,Black,1,1,T4,N2,M0,III,60
+16142976,2018,1,2,70-74 years,Married,1,White,1,0,T4,N2,M1,IV,50
+47117021,2018,1,17,75-79 years,Single,1,White,1,0,T1,N2,M1,IV,18
+27818844,2018,1,5,65-69 years,Married,0,White,1,1,T4,N3,M1,IV,51
+55522509,2018,0,22,75-79 years,Married,1,White,1,0,T1,N0,M1,IV,25
+22282324,2018,1,12,70-74 years,Married,0,White,1,1,T4,N1,M1,IV,25
+5907199,2018,1,1,85+ years,Married,1,White,0,0,T3,N2,M1,IV,51
+62825530,2018,0,15,65-69 years,Married,1,White,1,0,T2,N0,M0,I,27
+50235924,2018,1,5,70-74 years,Married,1,White,1,0,T1,N1,M0,II,28
+34446638,2018,0,7,60-64 years,Single (never married),0,White,1,0,T2,N3,M0,III,18
+16797478,2018,1,19,70-74 years,Married,1,Black,1,0,T4,N2,M1,IV,106
+62539270,2018,0,3,75-79 years,Married,1,White,0,1,T2,N2,M0,III,35
+27786027,2018,0,0,55-59 years,Married,1,White,0,1,T2,N0,M0,I,18
+36727856,2018,0,17,35-49 years,Single (never married),0,Other,0,0,T4,N1,M0,III,110
+14254955,2018,0,30,85+ years,Single,0,White,0,0,T1,N0,M0,I,26
+11257638,2018,1,0,35-49 years,Married,0,White,0,1,T4,N3,M0,III,100
+63103699,2018,0,22,65-69 years,Married,1,White,1,1,T4,N2,M0,III,79
+46744770,2018,0,18,65-69 years,Single (never married),1,White,1,1,T2,N3,M1,IV,35
+55536922,2018,0,13,85+ years,Married,0,White,0,0,T2,N0,M1,IV,35
+36725169,2018,0,27,70-74 years,Single,0,White,1,0,T2,N0,M1,IV,36
+47160404,2018,0,7,65-69 years,Single (never married),1,White,1,0,T4,N3,M1,IV,66
+27792640,2018,1,11,75-79 years,Single (never married),1,White,1,0,T1,N0,M0,I,11
+62644966,2018,0,5,70-74 years,Married,0,White,0,0,T2,N0,M0,I,10
+36607504,2018,1,15,70-74 years,Single,0,Other,1,0,T2,N2,M1,IV,46
+47045287,2018,0,0,70-74 years,Married,1,White,0,0,T2,N3,M1,IV,50
+50241142,2018,1,12,65-69 years,Married,1,White,1,1,T4,N3,M1,IV,100
+36254604,2018,1,10,85+ years,Single,1,White,1,0,T1,N0,M0,I,27
+55101808,2018,0,5,65-69 years,Single,1,White,1,1,T2,N0,M1,IV,14
+55582895,2018,0,4,75-79 years,Married,1,White,0,1,T1,N2,M0,III,16
+11254542,2018,1,9,60-64 years,Single,1,White,1,1,T3,N1,M0,III,60
+1377311,2018,0,12,75-79 years,Married,0,White,1,1,T2,N2,M0,III,32
+16761278,2018,1,10,55-59 years,Single,1,White,1,1,T2,N1,M0,II,13
+47024370,2018,1,6,65-69 years,Married,0,White,1,0,T2,N2,M1,IV,31
+63098243,2018,1,3,55-59 years,Unknown/Other,1,White,0,0,T2,N3,M1,IV,43
+22260102,2018,1,7,80-84 years,Married,1,White,1,0,T1,N0,M0,I,27
+36604918,2018,1,9,80-84 years,Single,0,White,1,1,T4,N3,M1,IV,82
+36604950,2018,0,3,70-74 years,Single,0,Black,0,1,T3,N0,M0,II,38
+36651317,2018,0,6,80-84 years,Single (never married),1,White,0,1,T1,N2,M0,III,27
+24502913,2019,1,9,70-74 years,Married,1,White,1,0,T4,N2,M1,IV,117
+22303397,2019,0,17,55-59 years,Single,1,White,0,1,T2,N2,M0,III,19
+5810166,2019,0,9,80-84 years,Single,1,White,1,0,T1,N0,M1,IV,24
+62727897,2019,1,2,60-64 years,Single,1,White,0,0,T4,N2,M0,III,59
+49491935,2019,0,11,75-79 years,Married,1,Black,1,0,T3,N2,M1,IV,20
+47045935,2019,1,5,65-69 years,Married,1,White,1,1,T2,N3,M0,III,45
+47070291,2019,0,0,60-64 years,Married,0,White,0,1,T2,N2,M0,III,36
+11021845,2019,0,1,70-74 years,Single,0,White,1,0,T2,N2,M1,IV,38
+5927885,2019,0,6,55-59 years,Married,0,White,1,0,T4,N3,M1,IV,60
+16540153,2019,0,0,70-74 years,Single (never married),1,White,0,1,T3,N3,M1,IV,25
+63123477,2019,1,3,75-79 years,Married,1,White,1,0,T3,N2,M1,IV,30
+50323287,2019,0,3,55-59 years,Single (never married),1,White,1,0,T3,N3,M0,III,12
+63117975,2019,1,5,60-64 years,Married,0,White,1,0,T4,N3,M1,IV,80
+55667270,2019,1,10,70-74 years,Married,1,White,1,1,T3,N2,M1,IV,66
+63080093,2019,0,7,85+ years,Married,1,White,1,0,T2,N0,M1,IV,28
+62547014,2019,0,0,65-69 years,Married,0,White,0,0,T3,N0,M0,II,53
+5944264,2019,0,6,70-74 years,Single,0,White,1,0,T2,N2,M1,IV,45
+36918088,2019,1,10,70-74 years,Married,1,White,1,0,T2,N2,M0,III,36
+16831321,2019,1,12,65-69 years,Single,1,Black,0,1,T4,N2,M1,IV,80
+1534218,2019,0,1,85+ years,Married,0,White,0,0,T4,N0,M1,IV,127
+16817266,2019,0,6,60-64 years,Married,1,White,1,1,T4,N1,M0,IV,65
+63077386,2019,1,11,65-69 years,Single,1,Black,1,0,T1,N3,M0,III,20
+63125361,2019,0,0,55-59 years,Single,0,White,1,0,T1,N2,M1,IV,25
+50326310,2019,1,11,60-64 years,Married,1,Black,1,1,T2,N2,M1,IV,31
+11271941,2019,0,12,70-74 years,Married,0,White,1,1,T2,N2,M0,III,36
+63185326,2019,0,0,80-84 years,Unknown/Other,0,White,0,0,T4,N0,M1,IV,92
+16821305,2019,0,4,60-64 years,Single (never married),0,White,1,1,T4,N3,M1,IV,56
+36829646,2019,0,8,65-69 years,Married,1,White,0,0,T3,N3,M1,IV,16
+9218920,2019,1,9,70-74 years,Married,1,Other,1,1,T4,N0,M0,III,18
+16854012,2019,0,7,70-74 years,Married,1,Other,0,1,T2,N0,M0,I,36
+50274082,2019,0,0,80-84 years,Single,0,White,0,0,T4,N3,M1,IV,75
+50307232,2019,1,12,60-64 years,Married,1,White,1,0,T4,N2,M1,IV,129
+14295618,2019,1,2,60-64 years,Married,1,White,0,1,T2,N2,M1,IV,47
+47146599,2019,0,0,70-74 years,Single,0,Black,0,1,T4,N3,M1,IV,52
+62836353,2019,0,12,65-69 years,Single (never married),0,Black,1,0,T1,N2,M1,IV,11
+5268785,2019,1,12,65-69 years,Single (never married),0,White,1,0,T1,N0,M0,I,55
+47094801,2019,0,2,65-69 years,Married,0,White,1,1,T2,N3,M1,IV,49
+63111618,2019,1,11,70-74 years,Single,0,White,1,0,T1,N2,M0,III,21
+50272501,2019,0,4,50-54 years,Married,1,White,1,1,T3,N2,M1,IV,34
+63151176,2019,0,4,70-74 years,Single,1,White,1,0,T3,N2,M0,III,66
+11276167,2019,1,0,75-79 years,Married,0,White,1,0,T4,N2,M1,IV,34
+15847841,2019,0,4,75-79 years,Married,1,White,1,1,T2,N2,M1,IV,31
+55723777,2020,0,0,70-74 years,Married,0,White,1,0,T2,N3,M1,IV,31
+47183565,2020,0,1,60-64 years,Single,0,White,0,1,T1,N2,M0,III,11
+47176299,2020,0,1,80-84 years,Married,1,White,1,0,T3,N3,M1,IV,58
+63197753,2020,0,4,85+ years,Married,1,White,1,0,T4,N2,M1,IV,80
+50333593,2020,1,3,75-79 years,Married,1,White,1,1,T4,N2,M1,IV,57
+11343940,2020,0,3,65-69 years,Married,1,White,1,1,T4,N3,M0,III,83
+63234346,2020,0,6,70-74 years,Married,1,White,1,0,T2,N2,M1,IV,44
+37096444,2020,0,1,75-79 years,Married,1,White,0,0,T2,N2,M0,III,43
+55723777,2020,0,0,70-74 years,Married,0,White,1,0,T2,N3,M1,IV,35
+37069594,2020,0,8,70-74 years,Single (never married),0,Black,0,0,T1,N2,M0,III,17
+63170095,2020,0,0,75-79 years,Married,1,White,0,0,T4,N3,M1,IV,60
+16886740,2020,0,3,80-84 years,Single,0,White,0,1,T4,N2,M0,III,90
+49911887,2020,1,0,75-79 years,Married,0,White,0,1,T3,N3,M1,IV,63
+5978873,2020,0,2,60-64 years,Married,1,Other,0,0,T3,N2,M1,IV,43
+27921004,2020,0,5,55-59 years,Single,1,Other,1,1,T4,N2,M1,IV,136
+34851053,2020,0,1,75-79 years,Single (never married),0,White,0,0,T4,N0,M1,IV,130
+14305245,2020,0,1,75-79 years,Single,0,White,0,0,T2,N3,M1,IV,41
+50375943,2020,0,1,65-69 years,Single,0,White,0,0,T4,N2,M1,IV,120
+47147472,2020,1,3,80-84 years,Married,1,White,1,0,T4,N0,M1,IV,98
+37135796,2020,0,0,80-84 years,Single,0,White,0,0,T4,N3,M0,III,142
+47137237,2020,1,7,70-74 years,Single,1,White,1,1,T2,N1,M1,IV,31
+1554470,2020,0,2,60-64 years,Married,0,White,0,0,T4,N0,M1,IV,137
+4502434,2020,0,4,60-64 years,Married,1,White,1,1,T2,N2,M1,IV,50
+50387650,2020,0,0,60-64 years,Unknown/Other,1,Black,0,0,T3,N0,M1,IV,60
+50334135,2020,0,8,65-69 years,Single (never married),0,Black,1,0,T4,N2,M1,IV,30
+22341948,2020,0,1,70-74 years,Married,0,Black,0,0,T4,N3,M1,IV,130
+36903214,2020,1,8,80-84 years,Single,1,Other,0,0,T4,N2,M1,IV,53
+47145766,2020,0,2,65-69 years,Married,0,White,0,1,T2,N2,M0,III,35
+1580877,2020,0,1,70-74 years,Married,1,White,1,0,T2,N3,M1,IV,28
+62530257,2020,0,0,70-74 years,Single (never married),0,White,1,0,T4,N2,M1,IV,87
+55197717,2020,1,3,70-74 years,Single (never married),1,White,1,0,T4,N2,M0,III,70
