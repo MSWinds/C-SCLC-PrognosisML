@@ -1,0 +1,83 @@
+[System]
+Output filename=G:\My Drive\CGU\2023FALL\IST347 - ML\Project\LCRA_SEER\session_meta.csv
+Matrix filename=G:\My Drive\CGU\2023FALL\IST347 - ML\Project\LCRA_SEER\session_meta.slm
+Database name=Incidence - SEER Research Data, 17 Registries, Nov 2022 Sub (2000-2020) - Linked To County Attributes - Time Dependent (1990-2021) Income/Rurality, 1969-2021 Counties
+Title1=Lung Cancer
+Title2={Age at Diagnosis.Age recode with <1 year olds} != '00 years','01-04 years','05-09 years','10-14 years','15-19 years','Unknown'
+Title3={Race, Sex, Year Dx.Year of diagnosis} = '2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','2020'
+Title4={Cause of Death (COD) and Follow-up.SEER cause-specific death classification} = 'Dead (attributable to this cancer dx)'
+
+[Session Options]
+Type=Case Listing
+
+[Export Options]
+GZipped=false
+Variable format=labels
+File format=DOS/Windows
+Field delimiter=comma
+Missing character=space
+Fields with delimiter in quotes=true
+Remove thousands separators=true
+Variable names included=true
+Column Variables as Stats=false
+
+[Variables]
+Var1Name=Patient ID
+Var1DisplayType=Formatted
+Var2Name=Age recode with <1 year olds
+Var2DisplayType=Formatted
+Var3Name=Marital status at diagnosis
+Var3DisplayType=Formatted
+Var4Name=Year of diagnosis
+Var4DisplayType=Formatted
+Var5Name=Sex
+Var5DisplayType=Formatted
+Var6Name=Race recode (W, B, AI, API)
+Var6DisplayType=Formatted
+Var7Name=Derived AJCC T, 6th ed (2004-2015)
+Var7DisplayType=Formatted
+Var8Name=Derived AJCC N, 6th ed (2004-2015)
+Var8DisplayType=Formatted
+Var9Name=Derived AJCC M, 6th ed (2004-2015)
+Var9DisplayType=Formatted
+Var10Name=Derived AJCC Stage Group, 6th ed (2004-2015)
+Var10DisplayType=Formatted
+Var11Name=Derived AJCC T, 7th ed (2010-2015)
+Var11DisplayType=Formatted
+Var12Name=Derived AJCC N, 7th ed (2010-2015)
+Var12DisplayType=Formatted
+Var13Name=Derived AJCC M, 7th ed (2010-2015)
+Var13DisplayType=Formatted
+Var14Name=Derived AJCC Stage Group, 7th ed (2010-2015)
+Var14DisplayType=Formatted
+Var15Name=Derived SEER Combined T (2016-2017)
+Var15DisplayType=Formatted
+Var16Name=Derived SEER Combined N (2016-2017)
+Var16DisplayType=Formatted
+Var17Name=Derived SEER Combined M (2016-2017)
+Var17DisplayType=Formatted
+Var18Name=Derived SEER Cmb Stg Grp (2016-2017)
+Var18DisplayType=Formatted
+Var19Name=Derived EOD 2018 T (2018+)
+Var19DisplayType=Formatted
+Var20Name=Derived EOD 2018 N (2018+)
+Var20DisplayType=Formatted
+Var21Name=Derived EOD 2018 M (2018+)
+Var21DisplayType=Formatted
+Var22Name=Derived EOD 2018 Stage Group (2018+)
+Var22DisplayType=Formatted
+Var23Name=Chemotherapy recode (yes, no/unk)
+Var23DisplayType=Formatted
+Var24Name=Radiation recode
+Var24DisplayType=Formatted
+Var25Name=RX Summ--Scope Reg LN Sur (2003+)
+Var25DisplayType=Formatted
+Var26Name=CS tumor size (2004-2015)
+Var26DisplayType=Formatted
+Var27Name=Tumor Size Summary (2016+)
+Var27DisplayType=Formatted
+Var28Name=Survival months
+Var28DisplayType=Formatted
+Var29Name=Histologic Type ICD-O-3
+Var29DisplayType=Formatted
+
