@@ -28,4 +28,4 @@ Combined Small Cell Lung Cancer (C-SCLC), a rare variant subtype of lung cancer,
 
 **Disclaimer**
 
-This project is for research and analysis purposes only.  Do not use the results for making clinical decisions. 
+This project is for research and analysis purposes only.  Do not use the results for making clinical decisions. Data cannot be shared due to privacy issues, please create an account with SEER to access the data 
